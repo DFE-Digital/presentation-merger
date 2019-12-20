@@ -4,7 +4,9 @@
   "description": "Quickly get started with ES6 with Jest unit-testing",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "keywords": [
     "init template",
@@ -18,7 +20,25 @@
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@types/jest": "^24.0.24",
+    "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
-    "jest": "^24.9.0"
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^3.1.0",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
