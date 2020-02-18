@@ -1,7 +1,7 @@
 {
-  "name": "init-es6-jest",
+  "name": "@dfe-digital/presentation-merger",
   "version": "0.0.1",
-  "description": "Quickly get started with ES6 with Jest unit-testing",
+  "description": "Merge multiple presenation documents together into a single document",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,12 +9,13 @@
     "lint:fix": "eslint --fix ."
   },
   "keywords": [
-    "init template",
-    "template",
-    "es6",
-    "jest"
+    "OPD",
+    "PPT",
+    "PowerPoint",
+    "Presentation",
+    "govuk"
   ],
-  "author": "Kyle Welsby <kyle@mekyle.com> (https://mekyle.com)",
+  "author": "DfE Digital <curriculum-materials@digital.education.gov.uk> (https://education.gov.uk)",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -40,5 +41,13 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DFE-Digital/presentation-merger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DFE-Digital/presentation-merger/issues"
+  },
+  "homepage": "https://github.com/DFE-Digital/presentation-merger#README"
 }
