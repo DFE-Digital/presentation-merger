@@ -43,6 +43,7 @@
     ]
   },
   "dependencies": {
+    "commander": "^4.1.1",
     "decompress": "^4.2.0",
     "jszip": "^3.2.2",
     "shvl": "^2.0.0",
