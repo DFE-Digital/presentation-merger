@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intergration Merges two documents together into one document 1`] = `
+"<manifest:manifest
+  xmlns:manifest=\\"urn:oasis:names:tc:opendocument:xmlns:manifest:1.0\\"
+  manifest:version=\\"1.2\\"
+>
+  <manifest:file-entry
+    manifest:full-path=\\"/\\"
+    manifest:media-type=\\"application/vnd.oasis.opendocument.presentation\\"
+    manifest:version=\\"1.2\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"content.xml\\"
+    manifest:media-type=\\"text/xml\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation0/Thumbnails/thumbnail.png\\"
+    manifest:media-type=\\"image/png\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation0/Pictures/100000000000032000000258E080B12F.jpg\\"
+    manifest:media-type=\\"image/jpeg\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation0/Pictures/100002010000028200000040779DD47E.png\\"
+    manifest:media-type=\\"image/png\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation0/Pictures/1000000000000040000000400142E835.png\\"
+    manifest:media-type=\\"image/png\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation1/Thumbnails/thumbnail.png\\"
+    manifest:media-type=\\"image/png\\"
+  />
+  <manifest:file-entry
+    manifest:full-path=\\"Presentation1/Pictures/1000000000000040000000400142E835.png\\"
+    manifest:media-type=\\"image/png\\"
+  />
+</manifest:manifest>
+"
+`;

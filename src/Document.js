@@ -3,7 +3,7 @@ import JSZip from "jszip";
 import decompress from "decompress";
 import EventEmitter from "events";
 import { toJson, toXml } from "xml2json";
-import format from "xml-formatter";
+import { format } from "prettier";
 
 import Presentation from "../src/Presentation";
 
@@ -12,20 +12,21 @@ export default class Document extends EventEmitter {
     super({ captureRejections: true });
     this.slides = [];
     this.files = [];
-    this.manifest = [
+    this.manifestFiles = [
       {
-        type: "application/vnd.oasis.opendocument.presentation",
-        path: '/'
+        mimeType: "application/vnd.oasis.opendocument.presentation",
+        path: "/",
+        version: "1.2"
       },
       {
-        type: "text/xml",
+        mimeType: "text/xml",
         path: "content.xml"
       }
     ];
     this.counter = 0;
     this.doc = {
-      'office:document-content': {}
-    }
+      "office:document-content": {}
+    };
   }
 
   async mergeFile(file) {
@@ -43,13 +44,13 @@ export default class Document extends EventEmitter {
         );
         file.path = `Presentation${this.counter}/${file.path}`;
         this.files.push(file);
-        this.manifest.push({
-          type: file.type,
+        this.manifestFiles.push({
+          mimeType: manifestFile["manifest:media-type"],
           path: file.path
-        })
+        });
       }
     });
-    this.counter++;
+    this.counter = this.counter + 1;
   }
 
   merge(pres) {
@@ -60,9 +61,11 @@ export default class Document extends EventEmitter {
     }
     this.slides = this.slides.concat(pres.slides);
     let slides = this.slides.map(slidesDocument => slidesDocument.content);
-    let styles = this.slides.map(slidesDocument => slidesDocument.styles).flat();
+    let styles = this.slides
+      .map(slidesDocument => slidesDocument.styles)
+      .flat();
 
-    Object.assign(this.doc['office:document-content'], pres.namespaces)
+    Object.assign(this.doc["office:document-content"], pres.namespaces);
     set(
       this.doc,
       [
@@ -86,21 +89,9 @@ export default class Document extends EventEmitter {
     this.files.forEach(file => {
       zip.file(file.path, file.data);
     });
-    zip.file("memetype", "application/vnd.oasis.opendocument.presentation");
-    zip.file("content.xml", format(toXml(this.doc)));
-    
-    let paths = {
-      'manifest:manifest': {
-        'manifest:file-entry': []
-      }
-    }
-    this.manifest.forEach((manifestItem) => {
-      paths["manifest:manifest"]["manifest:file-entry"].push({
-        "manifest:full-path": manifestItem.path,
-        "manifest:media-type": manifestItem.type
-      });
-    })
-    zip.file("META-INF/manifest.xml", format(toXml(paths)));
+    zip.file("mimetype", "application/vnd.oasis.opendocument.presentation");
+    zip.file("content.xml", this.toFormattedXML(this.doc));
+    zip.file("META-INF/manifest.xml", this.toFormattedXML(this.manifest));
     let promise = new Promise((resolve, reject) => {
       zip
         .generateNodeStream({
@@ -122,5 +113,36 @@ export default class Document extends EventEmitter {
         });
     });
     return promise;
+  }
+
+  get manifest() {
+    let output = {
+      "manifest:manifest": {
+        "xmlns:manifest": "urn:oasis:names:tc:opendocument:xmlns:manifest:1.0",
+        "manifest:version": "1.2",
+        "manifest:file-entry": []
+      }
+    };
+    output["manifest:manifest"]["manifest:file-entry"] = this.manifestFiles.map(
+      file => {
+        let out = {
+          "manifest:full-path": file.path,
+          "manifest:media-type": file.mimeType
+        };
+        if (file.version) {
+          out["manifest:version"] = file.version;
+        }
+        return out;
+      }
+    );
+    return output;
+  }
+
+  toFormattedXML(object) {
+    return format(toXml(object), {
+      xmlSelfClosingSpace: true,
+      xmlWhitespaceSensitivity: "ignore",
+      parser: "xml"
+    });
   }
 }

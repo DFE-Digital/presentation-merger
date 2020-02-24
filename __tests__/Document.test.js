@@ -14,6 +14,10 @@ const fixture2 = JSON.parse(
 );
 
 describe("Document", () => {
+  let subject
+  beforeEach(() => {
+    subject = new Document()
+  })
   describe(".mergeFile", () => {
     it("prepares files to merge", async () => {
       let doc = new Document();
@@ -83,4 +87,12 @@ describe("Document", () => {
       });
     });
   });
+
+  describe('manifest', () => {
+    it('returns the correct formatting for mimetype', async () => {
+      expect(subject.manifest).toMatchSnapshot()
+      await subject.mergeFile(path.join(__dirname, '__fixtures__/file1.odp'))
+      expect(subject.manifest).toMatchSnapshot();
+    })
+  })
 });

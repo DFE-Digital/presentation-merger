@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document manifest returns the correct formatting for mimetype 1`] = `
+Array [
+  Object {
+    "manifest:full-path": "/",
+    "manifest:media-type": "application/vnd.oasis.opendocument.presentation",
+    "manifest:version": "1.2",
+  },
+  Object {
+    "manifest:full-path": "content.xml",
+    "manifest:media-type": "text/xml",
+  },
+]
+`;
+
+exports[`Document manifest returns the correct formatting for mimetype 2`] = `
+Array [
+  Object {
+    "manifest:full-path": "/",
+    "manifest:media-type": "application/vnd.oasis.opendocument.presentation",
+    "manifest:version": "1.2",
+  },
+  Object {
+    "manifest:full-path": "content.xml",
+    "manifest:media-type": "text/xml",
+  },
+  Object {
+    "manifest:full-path": "Presentation0/Thumbnails/thumbnail.png",
+    "manifest:media-type": "image/png",
+  },
+  Object {
+    "manifest:full-path": "Presentation0/Pictures/100000000000032000000258E080B12F.jpg",
+    "manifest:media-type": "image/jpeg",
+  },
+  Object {
+    "manifest:full-path": "Presentation0/Pictures/100002010000028200000040779DD47E.png",
+    "manifest:media-type": "image/png",
+  },
+  Object {
+    "manifest:full-path": "Presentation0/Pictures/1000000000000040000000400142E835.png",
+    "manifest:media-type": "image/png",
+  },
+]
+`;
