@@ -16,13 +16,7 @@ async function mergeFiles(files, outPath) {
   });
 }
 
-let tmpOutDir = path.join(__dirname, "../out");
-
 describe("Intergration", () => {
-  beforeAll(() => {
-    fs.rmdirSync(tmpOutDir, { recursive: true });
-  });
-
   it("Merges two documents together into one document", async () => {
     const filePath = path.join(__dirname, "__fixtures__/output.odp");
 
@@ -34,7 +28,15 @@ describe("Intergration", () => {
       filePath
     );
 
-    const files = await decompress(filePath, tmpOutDir);
+    let f1 = await decompress(path.join(__dirname, "__fixtures__/file1.odp"));
+    let f2 = await decompress(path.join(__dirname, "__fixtures__/file2.odp"));
+    let file1 = f1.find(f => f.path ==="styles.xml")
+    fs.writeFileSync(path.join(__dirname, '../styles1.xml'), file1.data)
+
+    let file2 = f2.find(f => f.path === "styles.xml");
+    fs.writeFileSync(path.join(__dirname, "../styles2.xml"), file2.data);
+
+    const files = await decompress(filePath);
 
     expect(files).toContainEqual(
       expect.objectContaining({

@@ -5,7 +5,7 @@ import { get } from "shvl";
 import Slide from "../src/Slide";
 
 const fixture = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "__fixtures__/example.json"))
+  fs.readFileSync(path.join(__dirname, "__fixtures__/file1.json"))
 );
 
 const slidesFixture = get(fixture, [
@@ -42,11 +42,7 @@ describe("Slide", () => {
     it("returns the ids for the slide", () => {
       const slide = new Slide(slidesFixture[0], fixture);
       let actual = slide.styleIDs;
-
-      expect(actual).toContain("a776");
-      expect(actual).toContain("a779");
-      expect(actual).toContain("a786");
-      expect(actual).toContain("a818");
+      expect(actual).toMatchSnapshot();
     });
   });
 
@@ -55,11 +51,15 @@ describe("Slide", () => {
       const slide = new Slide(slidesFixture[0], fixture);
       let actual = slide.styles;
 
-      expect(actual).toContainEqual(
-        expect.objectContaining({
-          "style:name": "a776"
-        })
-      );
+      expect(actual).toMatchSnapshot()
+    });
+  });
+
+  describe(".masterStyleIDs", () => {
+    it("finds all the parent id's that are required to bring across from the master Styles.xml document", () => {
+      const slide = new Slide(slidesFixture[0], fixture);
+      let subject = slide.masterStyleIDs;
+      expect(subject).toMatchSnapshot();
     });
   });
 });

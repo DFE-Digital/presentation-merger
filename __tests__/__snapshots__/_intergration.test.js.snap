@@ -15,6 +15,10 @@ exports[`Intergration Merges two documents together into one document 1`] = `
     manifest:media-type=\\"text/xml\\"
   />
   <manifest:file-entry
+    manifest:full-path=\\"styles.xml\\"
+    manifest:media-type=\\"text/xml\\"
+  />
+  <manifest:file-entry
     manifest:full-path=\\"Presentation0/Thumbnails/thumbnail.png\\"
     manifest:media-type=\\"image/png\\"
   />

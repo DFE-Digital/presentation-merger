@@ -1,4 +1,4 @@
-import { get } from "shvl";
+import { get } from 'shvl';
 
 /**
  * A presentation slide representation
@@ -29,15 +29,17 @@ export default class Slide {
    */
   get styleIDs() {
     let ids = [];
-    ids.push(this.originalContent["draw:style-name"]);
-    ["draw:frame", "draw:custom-shape", "draw:connector"].forEach(key => {
+    ids.push(this.originalContent['draw:style-name']);
+    ['draw:frame', 'draw:custom-shape', 'draw:connector'].forEach(key => {
       if (this.originalContent[key]) {
         if (Array.isArray(this.originalContent[key])) {
           this.originalContent[key].forEach(item => {
-            ids.push(item["draw:style-name"]);
+            if (item['draw:style-name']) {
+              ids.push(item['draw:style-name']);
+            }
           });
         } else {
-          ids.push(this.originalContent[key]["draw:style-name"]);
+          ids.push(this.originalContent[key]['draw:style-name']);
         }
       }
     });
@@ -54,12 +56,50 @@ export default class Slide {
   get styles() {
     const documentStyles =
       get(this.originalPresentation, [
-        "office:document-content",
-        "office:automatic-styles",
-        "style:style"
+        'office:document-content',
+        'office:automatic-styles',
+        'style:style',
       ]) || [];
     return documentStyles.filter(item => {
-      return this.styleIDs.includes(item["style:name"]);
+      return this.styleIDs.includes(item['style:name']);
     });
+  }
+
+  get masterStyleIDs() {
+    let ids = {};
+    const documentStyles =
+      get(this.originalPresentation, [
+        'office:document-content',
+        'office:automatic-styles',
+        'style:style',
+      ]) || [];
+    documentStyles.forEach(style => {
+      let keys = Object.keys(style);
+      keys.forEach(key => {
+        if (key.endsWith('style-name') || key.endsWith(':name')) {
+          if (!ids[key]) {
+            ids[key] = new Set();
+          } else {
+            ids[key].add(style[key]);
+          }
+        }
+      });
+    });
+    return ids;
+  }
+
+  get pageLayoutID() {
+    return get(
+      this.originalContent,
+      'presentation:presentation-page-layout-name'
+    );
+  }
+
+  get masterPageName() {
+    return get(this.originalContent, 'draw:master-page-name');
+  }
+
+  get presentationLayoutPageName() {
+    return this.originalContent['presentation:presentation-page-layout-name'];
   }
 }
