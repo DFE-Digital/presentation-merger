@@ -15,21 +15,36 @@ const fixture2 = JSON.parse(
   fs.readFileSync(path.join(__dirname, '__fixtures__/file2.json'))
 );
 
+async function readFixture(filename) {
+  const files = await decompress(
+    path.join(__dirname, '__fixtures__/' + filename)
+  );
+  const masterStylesFile = files.find(f => f.path === 'styles.xml');
+  const contentFile = files.find(f => f.path === 'content.xml');
+  const presentation = new Presentation(JSON.parse(toJson(contentFile.data)));
+  const style = new Style(
+    JSON.parse(toJson(masterStylesFile.data)),
+    presentation
+  );
+  const subject = new Document();
+  return {
+    presentation,
+    style,
+    subject,
+  };
+}
+
 describe('Document', () => {
   let subject;
   let style;
   let presentation;
   beforeEach(async () => {
-    const files = await decompress(
-      path.join(__dirname, '__fixtures__/file1.odp')
-    );
-    const masterStylesFile = files.find(f => f.path === 'styles.xml');
-    const contentFile = files.find(f => f.path === 'content.xml');
-    presentation = new Presentation(JSON.parse(toJson(contentFile.data)));
-    style = new Style(JSON.parse(toJson(masterStylesFile.data)), presentation);
-    subject = new Document();
+    let obj = await readFixture('file1.odp');
+    presentation = obj.presentation;
+    style = obj.style;
+    subject = obj.subject;
   });
-  
+
   describe('.mergeFile', () => {
     it('prepares files to merge', async () => {
       let doc = new Document();
@@ -109,9 +124,34 @@ describe('Document', () => {
   });
 
   describe('mergeStyles', () => {
+    beforeEach(async () => {
+      let obj1 = await readFixture('file1.odp');
+      subject.mergeStyles(obj1.style, obj1.presentation);
+      let obj2 = await readFixture('file2.odp');
+      subject.mergeStyles(obj2.style, obj2.presentation);
+    });
+
     it('merges style content from the presentation into the document style', () => {
       subject.mergeStyles(style, presentation);
       expect(subject.stylesDoc).toMatchSnapshot();
     });
+
+    describe('master-page', () => {
+      let actual
+      beforeEach(() => {
+        let key = 'office:document-styles.office:master-styles.style:master-page';
+        actual = get(subject.stylesDoc, key);
+      })
+
+      it('contains the master style names', () => {
+        let actualNames = actual.map(i => i['style:name'])
+        expect(actualNames).toMatchSnapshot()
+      });
+  
+      it('contains the master frames', () => {
+        let actualNames = actual.map(i => i['draw:frame'])
+        expect(actualNames).toMatchSnapshot()
+      })
+    })
   });
 });
