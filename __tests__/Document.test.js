@@ -46,34 +46,32 @@ describe('Document', () => {
   });
 
   describe('.mergeFile', () => {
+    let file = path.join(__dirname, '__fixtures__/out1.odp');
+    afterEach(() => {
+      fs.unlinkSync(file);
+    });
     it('prepares files to merge', async () => {
       let doc = new Document();
       await doc.mergeFile(path.join(__dirname, '__fixtures__/file1.odp'));
       await doc.mergeFile(path.join(__dirname, '__fixtures__/file2.odp'));
-      let stream = fs.createWriteStream(
-        path.join(__dirname, '__fixtures__/out1.odp'),
-        { flags: 'w' }
-      );
+      let stream = fs.createWriteStream(file, { flags: 'w' });
       doc.pipe(stream);
       return new Promise(done => {
         doc.on('end', async () => {
-          const files = await decompress(
-            path.join(__dirname, '__fixtures__/out1.odp'),
-            'out'
-          );
+          const files = await decompress(file);
           let filePaths = files.map(f => f.path);
 
           expect(filePaths).toContainEqual('content.xml');
           expect(filePaths).toContainEqual(
-            'Presentation0/Pictures/100000000000032000000258E080B12F.jpg'
+            'Presentation0-Pictures/100000000000032000000258E080B12F.jpg'
           );
 
           expect(filePaths).toContainEqual(
-            'Presentation0/Pictures/100002010000028200000040779DD47E.png'
+            'Presentation0-Pictures/100002010000028200000040779DD47E.png'
           );
 
           expect(filePaths).toContainEqual(
-            'Presentation0/Pictures/1000000000000040000000400142E835.png'
+            'Presentation0-Pictures/1000000000000040000000400142E835.png'
           );
           done();
         });
@@ -137,22 +135,23 @@ describe('Document', () => {
     });
 
     describe('master-page', () => {
-      let actual
+      let actual;
       beforeEach(() => {
-        let key = 'office:document-styles.office:master-styles.style:master-page';
+        let key =
+          'office:document-styles.office:master-styles.style:master-page';
         actual = get(subject.stylesDoc, key);
-      })
+      });
 
       it('contains the master style names', () => {
-        let actualNames = actual.map(i => i['style:name'])
-        expect(actualNames).toMatchSnapshot()
+        let actualNames = actual.map(i => i['style:name']);
+        expect(actualNames).toMatchSnapshot();
       });
-  
+
       it('contains the master frames', () => {
-        let actualNames = actual.map(i => i['draw:frame'])
-        expect(actualNames).toMatchSnapshot()
-      })
-    })
+        let actualNames = actual.map(i => i['draw:frame']);
+        expect(actualNames).toMatchSnapshot();
+      });
+    });
 
     describe('office:automatic-styles.style:style', () => {
       let actual;

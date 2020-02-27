@@ -6,16 +6,15 @@ export default class Presentation {
   }
 
   get namespaces() {
-    let keys = Object.keys(this.presentation["office:document-content"]).filter(
-      key => {
-        return key.startsWith("xmlns:");
+    let out = {};
+    for (let [key, value] of Object.entries(
+      this.presentation['office:document-content']
+    )) {
+      if (key.startsWith('xmlns:')) {
+        out[key] = value;
       }
-    );
-    let set = {}
-    keys.forEach((key) => {
-      set[key]= this.presentation['office:document-content'][key]
-    })
-    return set
+    }
+    return out;
   }
 
   get slides() {

@@ -1,10 +1,21 @@
 import { get } from 'shvl';
 
 export default class Style {
-  constructor(stylesData, presentation) {
+  constructor(stylesData, presentation, manifest) {
+    this.manifest = manifest || [];
     this.data = stylesData;
+    this.moveImageReferences();
     this.presentation = presentation;
     this.doc;
+    this.styleIDs = new Set();
+  }
+
+  moveImageReferences() {
+    let str = JSON.stringify(this.data);
+    this.manifest.forEach(i => {
+      str = str.replace(new RegExp(i.pathPrevious, 'gi'), i.path);
+    });
+    this.data = JSON.parse(str);
   }
 
   get namespaces() {
@@ -19,66 +30,12 @@ export default class Style {
     return out;
   }
 
-  get masterPagesOriginal() {
-    let data =
-      get(
-        this.data,
-        'office:document-styles.office:master-styles.style:master-page'
-      ) || [];
+  extractArray(key) {
+    let data = get(this.data, key) || [];
     if (!Array.isArray(data)) {
       return [data];
     } else {
       return data;
     }
-  }
-
-  get masterPages() {
-    return this.presentation.slides.flatMap(slide => {
-      return this.masterPagesOriginal.filter(
-        d => d['style:name'] === slide.masterPageName
-      );
-    });
-  }
-
-  get presentationPageLayoutsSource() {
-    let data =
-      get(
-        this.data,
-        'office:document-styles.office:styles.style:presentation-page-layout'
-      ) || [];
-    if (!Array.isArray(data)) {
-      return [data];
-    } else {
-      return data;
-    }
-  }
-
-  /**
-   * @todo modify the image file references
-   */
-  get presentationPageLayouts() {
-    return this.presentation.slides.flatMap(slide => {
-      return this.presentationPageLayoutsSource.filter(
-        d => d['style:name'] === slide.presentationLayoutPageName
-      );
-    });
-  }
-
-  get stylesOriginal() {
-    return (
-      get(this.data, 'office:document-styles.office:styles.style:style') || []
-    );
-  }
-
-  /**
-   * @todo this doesnt seem quite right.
-   */
-  get styles() {
-    return this.presentation.slides.flatMap(slide => {
-      console.log(slide.styles);
-      return this.stylesOriginal.filter(d =>
-        slide.styleIDs.includes(d['style:name'])
-      );
-    });
   }
 }

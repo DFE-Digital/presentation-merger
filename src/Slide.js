@@ -7,9 +7,22 @@ import { get } from 'shvl';
  * @params {Object} presentation - The entire presentation
  */
 export default class Slide {
-  constructor(content, presentation) {
+  constructor(content, presentation, manifest) {
+    this.manifest = manifest || [];
+
     this.originalContent = content;
+    this.moveImageReferences();
+
     this.originalPresentation = presentation;
+  }
+
+  moveImageReferences() {
+    let str = JSON.stringify(this.originalContent);
+    this.manifest.forEach(i => {
+      str = str.replace(new RegExp(i.pathPrevious, 'gi'), i.path);
+    });
+
+    this.originalContent = JSON.parse(str);
   }
 
   /**
@@ -86,20 +99,5 @@ export default class Slide {
       });
     });
     return ids;
-  }
-
-  get pageLayoutID() {
-    return get(
-      this.originalContent,
-      'presentation:presentation-page-layout-name'
-    );
-  }
-
-  get masterPageName() {
-    return get(this.originalContent, 'draw:master-page-name');
-  }
-
-  get presentationLayoutPageName() {
-    return this.originalContent['presentation:presentation-page-layout-name'];
   }
 }
