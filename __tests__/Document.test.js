@@ -153,5 +153,17 @@ describe('Document', () => {
         expect(actualNames).toMatchSnapshot()
       })
     })
+
+    describe('office:automatic-styles.style:style', () => {
+      let actual;
+      beforeEach(() => {
+        let key = 'office:document-styles.office:automatic-styles.style:style';
+        actual = get(subject.stylesDoc, key);
+      });
+
+      it('contains the automatic-styles from both files', () => {
+        expect(actual).toMatchSnapshot();
+      });
+    });
   });
 });

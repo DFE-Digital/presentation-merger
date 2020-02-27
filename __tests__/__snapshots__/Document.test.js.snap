@@ -310,3 +310,30 @@ Object {
   },
 }
 `;
+
+exports[`Document mergeStyles office:automatic-styles.style:style contains the automatic-styles from both files 1`] = `
+Array [
+  Object {
+    "style:drawing-page-properties": Object {
+      "draw:background-size": "border",
+      "draw:fill": "none",
+      "draw:fill-color": "#ccccff",
+      "draw:fill-image-height": "1cm",
+      "draw:fill-image-width": "1cm",
+    },
+    "style:family": "drawing-page",
+    "style:name": "Mdp1",
+  },
+  Object {
+    "style:drawing-page-properties": Object {
+      "draw:background-size": "border",
+      "draw:fill": "solid",
+      "draw:fill-color": "#333366",
+      "draw:fill-image-height": "1cm",
+      "draw:fill-image-width": "1cm",
+    },
+    "style:family": "drawing-page",
+    "style:name": "Mdp1",
+  },
+]
+`;

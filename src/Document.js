@@ -12,6 +12,7 @@ export default class Document extends EventEmitter {
     super({ captureRejections: true });
     this.slides = [];
     this.styles = new Set();
+    this.masterStyles = new Set();
     this.layouts = new Set();
     this.masterPages = new Set();
     this.presentationPageLayouts = new Set();
@@ -182,6 +183,14 @@ export default class Document extends EventEmitter {
       'office:document-styles.office:styles.style:presentation-page-layout',
       Array.from(this.presentationPageLayouts)
     );
+    style.styles.forEach((i) => {
+      this.masterStyles.add(i)
+    })
+    set(
+      this.stylesDoc,
+      'office:document-styles.office:automatic-styles.style:style',
+      Array.from(this.masterStyles)
+    )
   }
 
   mergeManifest(files) {
