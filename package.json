@@ -8,6 +8,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },
+  "bin": {
+    "presentation-merger": "./bin/presentation-merger.js"
+  },
   "keywords": [
     "OPD",
     "PPT",
@@ -20,6 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.8.6",
     "@types/jest": "^24.0.24",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
@@ -44,7 +48,9 @@
   },
   "dependencies": {
     "@prettier/plugin-xml": "^0.7.2",
+    "chalk": "^3.0.0",
     "commander": "^4.1.1",
+    "debug": "^4.1.1",
     "decompress": "^4.2.0",
     "jszip": "^3.2.2",
     "prettier": "^1.19.1",
