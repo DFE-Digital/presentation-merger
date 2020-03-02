@@ -1,3 +1,1 @@
-export default function main () {
-  return 'hello world';
-}
+module.exports = require('./src');
