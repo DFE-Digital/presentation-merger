@@ -41,6 +41,12 @@ Providing the option `--file merged.odp` will write the merged presentations to 
 presentation-merger my-pres1.odp my-pres2.odp
 ```
 
+Additional debugging information is available by definding the environment variable `DEBUG=presentation-merger`.
+
+```bash
+DEBUG=presentation-merger presentation-merger my-pres1.odp my-pres2.odp
+```
+
 ### <img src="https://github.com/voodootikigod/logo.js/raw/master/js.png" width="16" height="16" alt=""/> JavaScript module (ES6 / ES2015)
 
 ```javascript
