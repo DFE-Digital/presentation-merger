@@ -3,6 +3,7 @@
   "version": "0.0.1-alpha.0",
   "description": "Merge multiple presenation documents together into a single document",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
