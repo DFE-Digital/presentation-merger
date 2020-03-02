@@ -27,12 +27,27 @@ npm install
 
 ## 🎯 Useage
 
-```javascript
-/**
- *  @todo Undefined interface at time of wrinting.
- */
+### <img src="https://raw.githubusercontent.com/odb/official-bash-logo/master/assets/Logos/Icons/PNG/32x32.png" width="16" height="16" alt=""/> CLI useage
 
+Presenation merger will merge the given files and `STDOUT` the merged presentation.  
+Providing the option `--file merged.odp` will write the merged presentations to `merged.odp`.
+
+```bash
+presentation-merger my-pres1.odp my-pres2.odp
 ```
+
+### <img src="https://github.com/voodootikigod/logo.js/raw/master/js.png" width="16" height="16" alt=""/> JavaScript module (ES6 / ES2015)
+
+```javascript
+const mergeFiles = require('./src/index.js')
+async function main() {
+  let files = ['./my-pres1.odp', './my-pres2.odp'];
+  let stream = fs.createWriteStream('./merged.odp', { flags: 'w' });
+  await mergeFiles(files, stream);
+}
+```
+_note: requires babel or pre-compiling_
+
 
 ## 🤖 Testing
 
