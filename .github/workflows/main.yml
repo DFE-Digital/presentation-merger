@@ -1,4 +1,4 @@
-name: Main
+name: CI
 on: 
   - push
 
@@ -53,7 +53,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: npm install
-      - run: npm run test
-        # env:
+      - uses: paambaati/codeclimate-action@v2.5.3
+        name: Run test with coverage
+        with:
+          coverageCommand: npm test -- --coverage --coverageReporters lcov text-summary
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
           # CI: true
-

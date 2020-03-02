@@ -1,6 +1,11 @@
 # Presnetation Merger
 
-**🚧 WORK IN PROGRESS 🚧**
+![CI](https://github.com/DFE-Digital/presentation-merger/workflows/CI/badge.svg)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/839985fdd472b45186ed/test_coverage)](https://codeclimate.com/github/DFE-Digital/presentation-merger/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/839985fdd472b45186ed/maintainability)](https://codeclimate.com/github/DFE-Digital/presentation-merger/maintainability)
+[![Inline docs](http://inch-ci.org/github/DFE-Digital/presentation-merger.svg?branch=master)](http://inch-ci.org/github/DFE-Digital/presentation-merger)
+![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./.github/CONTRIBUTING.md)
 
 Merge multiple presenation documents together into a single document.
 
@@ -39,7 +44,7 @@ presentation-merger my-pres1.odp my-pres2.odp
 ### <img src="https://github.com/voodootikigod/logo.js/raw/master/js.png" width="16" height="16" alt=""/> JavaScript module (ES6 / ES2015)
 
 ```javascript
-const mergeFiles = require('./src/index.js')
+const mergeFiles = require('./index.js')
 async function main() {
   let files = ['./my-pres1.odp', './my-pres2.odp'];
   let stream = fs.createWriteStream('./merged.odp', { flags: 'w' });
@@ -57,7 +62,8 @@ Unit testing is handled by the Jest framework.
 npm test
 ```
 
-## 👤 Contributing
+## 👤 Contributing 
+
 
 We love contributions! View our [contribution guidelines](./.github/CONTRIBUTING.md).
 
