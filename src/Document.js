@@ -43,14 +43,15 @@ export default class Document extends EventEmitter {
     const content = files.find(f => f.path === 'content.xml');
     const stylesDocument = files.find(f => f.path === 'styles.xml');
     let manifest = this.mergeManifest(files);
-    let pres = new Presentation(JSON.parse(toJson(content.data)));
+    let pres = new Presentation(JSON.parse(toJson(content.data)), manifest);
     let style = new Style(
       JSON.parse(toJson(stylesDocument.data)),
       pres,
       manifest
     );
-    this.merge(pres, manifest);
-    this.mergeStyles(style, manifest);
+    this.merge(pres);
+    // this.mergeContent(pres);
+    this.mergeStyles(style);
     this.counter = this.counter + 1;
   }
 
@@ -180,6 +181,27 @@ export default class Document extends EventEmitter {
     ].forEach(key => {
       this._styleContent(style, key);
     });
+  }
+
+  mergeContent(content) {
+    for (let [key, value] of Object.entries(content.namespaces)) {
+      this.doc['office:document-content'][key] = value;
+    }
+
+    [
+      'office:document-content.office:automatic-styles.style:style',
+      'office:document-content.office:body.office:presentation.draw:page'
+    ].forEach(key => {
+      this._setContent(this.doc, content, key);
+    });
+  }
+
+  _setContent(doc, item, key) {
+    if (!this[key]) {
+      this[key] = new Set();
+    }
+    item.extractArray(key).forEach(i => this[key].add(i));
+    set(doc, key, Array.from(this[key]));
   }
 
   _styleContent(style, key) {

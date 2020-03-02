@@ -27,4 +27,13 @@ export default class Presentation {
       ]) || [];
     return slides.map(slide => new Slide(slide, this.presentation));
   }
+
+  extractArray(key) {
+    let data = get(this.presentation, key) || [];
+    if (!Array.isArray(data)) {
+      return [data];
+    } else {
+      return data;
+    }
+  }
 }
