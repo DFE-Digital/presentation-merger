@@ -1,9 +1,9 @@
 # Presnetation Merger
-
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dfe-digital/presentation-merger)
 ![CI](https://github.com/DFE-Digital/presentation-merger/workflows/CI/badge.svg)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/839985fdd472b45186ed/test_coverage)](https://codeclimate.com/github/DFE-Digital/presentation-merger/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/839985fdd472b45186ed/maintainability)](https://codeclimate.com/github/DFE-Digital/presentation-merger/maintainability)
-[![Inline docs](http://inch-ci.org/github/DFE-Digital/presentation-merger.svg?branch=master)](http://inch-ci.org/github/DFE-Digital/presentation-merger)
+[![Inline docs](https://inch-ci.org/github/DFE-Digital/presentation-merger.svg?branch=master)](https://inch-ci.org/github/DFE-Digital/presentation-merger)
 ![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./.github/CONTRIBUTING.md)
 
@@ -26,8 +26,16 @@ brew install node expat
 
 Once you've aquired the system dependencies, you can now install the project depnendencies.
 
+Ensure you have NPM GitHub repository set in your project `.npmrc`
+
 ```bash
-npm install
+echo "@dfe-digital:registry=https://npm.pkg.github.com" >> .npmrc
+```
+
+Install to your project
+
+```bash
+npm install --save @dfe-digital/presentation-merger
 ```
 
 ## 🎯 Useage

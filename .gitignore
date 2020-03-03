@@ -3,5 +3,5 @@ coverage
 .vscode
 *DS_Store
 __tests__/__fixtures__/output.odp
-dist
+lib
 *.tgz
