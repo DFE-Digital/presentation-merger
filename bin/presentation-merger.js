@@ -7,7 +7,7 @@ const path = require('path');
 const packageJson = require('../package.json');
 const debug = require('debug')('presentation-merger')
 
-const mergeFiles = require('../dist/index.js').default;
+const mergeFiles = require('../lib/index.js').default;
 debug(`Dependencies loaded ${process.hrtime(bootStart)[1] / 1000000}ms`);
 let programStart = process.hrtime();
 
@@ -35,7 +35,7 @@ program
     }
     if (allExist) {
       let hrstart = process.hrtime();
-      mergeFiles(destination, files);
+      await mergeFiles(destination, files);
       debug(`Merged files in ${process.hrtime(hrstart)[1] / 1000000}ms`);
       debug(`Program total time ${process.hrtime(bootStart)[1] / 1000000}ms`);
       process.exit(0);
