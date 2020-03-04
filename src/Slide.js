@@ -65,27 +65,4 @@ export default class Slide {
       return this.styleIDs.includes(item['style:name']);
     });
   }
-
-  get masterStyleIDs() {
-    let ids = {};
-    const documentStyles =
-      get(this.originalPresentation, [
-        'office:document-content',
-        'office:automatic-styles',
-        'style:style',
-      ]) || [];
-    documentStyles.forEach(style => {
-      let keys = Object.keys(style);
-      keys.forEach(key => {
-        if (key.endsWith('style-name') || key.endsWith(':name')) {
-          if (!ids[key]) {
-            ids[key] = new Set();
-          } else {
-            ids[key].add(style[key]);
-          }
-        }
-      });
-    });
-    return ids;
-  }
 }

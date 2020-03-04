@@ -54,12 +54,4 @@ describe("Slide", () => {
       expect(actual).toMatchSnapshot()
     });
   });
-
-  describe(".masterStyleIDs", () => {
-    it("finds all the parent id's that are required to bring across from the master Styles.xml document", () => {
-      const slide = new Slide(slidesFixture[0], fixture);
-      let subject = slide.masterStyleIDs;
-      expect(subject).toMatchSnapshot();
-    });
-  });
 });
