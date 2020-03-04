@@ -108,34 +108,14 @@ describe('Document', () => {
     });
   });
 
-  describe('.merge', () => {
+  describe('.mergeContent', () => {
     it('merges multiple presentations', () => {
-      let doc = new Document();
-      let fixtures = [fixture1, fixture2];
-      let presentations = [];
+      let subject = new Document();
 
-      fixtures.forEach(fixture => {
-        presentations.push(new Presentation(fixture));
-      });
+      subject.mergeContent(new Presentation(fixture1, 0));
+      subject.mergeContent(new Presentation(fixture2, 1));
 
-      presentations.forEach(pres => {
-        doc.merge(pres);
-      });
-
-      let slides = get(
-        doc.doc,
-        'office:document-content.office:body.office:presentation.draw:page'
-      );
-
-      fixtures.forEach(fixture => {
-        let fixtureSlides = get(
-          fixture,
-          'office:document-content.office:body.office:presentation.draw:page'
-        );
-        fixtureSlides.forEach(slide => {
-          expect(slides).toContainEqual(slide);
-        });
-      });
+      expect(subject.doc).toMatchSnapshot()
     });
   });
 

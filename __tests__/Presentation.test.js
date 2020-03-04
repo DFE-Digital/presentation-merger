@@ -1,20 +1,16 @@
 import fs from 'fs';
 import path from 'path';
 import Presenation from '../src/Presentation';
-import Slide from '../src/Slide';
 
 const fixture = JSON.parse(
   fs.readFileSync(path.join(__dirname, "__fixtures__/example.json"))
 );
 
 describe("Presentation", () => {
-  describe('.slides', () => {
-    it('creates an array of slides', () => {
-      const presenation = new Presenation(fixture)
-      let actual = presenation.slides
-
-      expect(actual).toBeInstanceOf(Array)
-      expect(actual[0]).toBeInstanceOf(Slide)
+  describe('.uniqueStyleIDs()', () => {
+    it('renames style names with a prefixed ID', () => {
+      let subject = new Presenation(fixture, 0)
+      expect(JSON.stringify(subject.data)).toContain('"text:style-name":"0-a1219"')
     })
   })
 })

@@ -49,46 +49,41 @@ export default class Document extends EventEmitter {
     const content = files.find(f => f.path === 'content.xml');
     const stylesDocument = files.find(f => f.path === 'styles.xml');
     let manifest = this.mergeManifest(files);
-    let pres = new Presentation(JSON.parse(toJson(content.data)));
+    let pres = new Presentation(JSON.parse(toJson(content.data)), this.counter);
     let style = new Style(
       JSON.parse(toJson(stylesDocument.data)),
       pres,
       manifest
     );
-    this.merge(pres, manifest);
+    this.mergeContent(pres, manifest);
     this.mergeStyles(style, manifest);
     this.counter = this.counter + 1;
   }
 
-  merge(pres) {
-    if (!(pres instanceof Presentation)) {
-      throw new TypeError(
-        `expected Presentation class got ${pres.constructor.name}`
-      );
+  get contentKeys () {
+    return [
+      "office:document-content.office:automatic-styles.style:style",
+      "office:document-content.office:automatic-styles.text:list-style",
+      "office:document-content.office:body.office:presentation.draw:page",
+      "office:document-content.office:body.office:presentation.presentation:settings"
+    ]
+  }
+
+  mergeContent(pres) {
+    for(let [key,value] of Object.entries(pres.namespaces)) {
+      this.doc['office:document-content'][key] = value;
     }
-    this.slides = this.slides.concat(pres.slides);
-    let slides = this.slides.map(slidesDocument => slidesDocument.content);
-    let styles = this.slides
-      .map(slidesDocument => slidesDocument.styles)
-      .flat();
+    this.contentKeys.forEach(key => {
+      this._content(pres, key)
+    })
+  }
 
-    Object.assign(this.doc['office:document-content'], pres.namespaces);
-    set(
-      this.doc,
-      [
-        'office:document-content',
-        'office:body',
-        'office:presentation',
-        'draw:page',
-      ],
-      slides
-    );
-
-    set(
-      this.doc,
-      ['office:document-content', 'office:automatic-styles', 'style:style'],
-      styles
-    );
+  _content(object, key) {
+    if (!this[key]) {
+      this[key] = new Set();
+    }
+    extractArray(object.data, key).forEach(i => this[key].add(i));
+    set(this.doc, key, Array.from(this[key]));
   }
 
   pipe(stream) {
