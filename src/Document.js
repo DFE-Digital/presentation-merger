@@ -4,6 +4,8 @@ import decompress from 'decompress';
 import EventEmitter from 'events';
 import { toJson, toXml } from 'xml2json';
 import { format } from 'prettier';
+import { extractArray } from './utils'
+
 import Presentation from './Presentation';
 import Style from './Style';
 
@@ -186,7 +188,7 @@ export default class Document extends EventEmitter {
     if (!this[key]) {
       this[key] = new Set();
     }
-    style.extractArray(key).forEach(i => this[key].add(i));
+    extractArray(style.data, key).forEach(i => this[key].add(i));
     set(this.stylesDoc, key, Array.from(this[key]));
   }
 

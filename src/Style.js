@@ -1,21 +1,8 @@
-import { moveImageReferences, namespaces } from './utils'
-import { get } from 'shvl';
+import { moveImageReferences, namespaces } from './utils';
 
-export default class Style{
-  constructor(content, presentation, manifest) {
-    this.data = moveImageReferences(content, manifest)
-    this.namespaces = namespaces(content['office:document-styles'])
-    this.presentation = presentation;
-    this.doc;
-    this.styleIDs = new Set();
-  }
-
-  extractArray(key) {
-    let data = get(this.data, key) || [];
-    if (!Array.isArray(data)) {
-      return [data];
-    } else {
-      return data;
-    }
+export default class Style {
+  constructor(content, _, manifest) {
+    this.data = moveImageReferences(content, manifest);
+    this.namespaces = namespaces(content['office:document-styles']);
   }
 }
