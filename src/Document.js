@@ -68,22 +68,51 @@ export default class Document extends EventEmitter {
       "office:document-content.office:body.office:presentation.presentation:settings"
     ]
   }
+  
+  get styleKeys () {
+    return [
+      'office:document-styles.office:styles.draw:gradient',
+      'office:document-styles.office:styles.draw:hatch',
+      'office:document-styles.office:styles.draw:fill-image',
+      'office:document-styles.office:styles.draw:marker',
+      'office:document-styles.office:styles.draw:stroke-dash',
+      'office:document-styles.office:styles.style:default-style',
+      'office:document-styles.office:styles.style:style',
+      /**
+       * @warning `presentation-page-layout` causes OpenOffice to crash when opening the document
+       */
+      // 'office:document-styles.office:styles.style:presentation-page-layout',
+      'office:document-styles.office:automatic-styles.style:page-layout',
+      'office:document-styles.office:automatic-styles.style:style',
+      'office:document-styles.office:master-styles.draw:layer-set',
+      'office:document-styles.office:master-styles.style:handout-master',
+      'office:document-styles.office:master-styles.style:master-page',
+    ]
+  }
 
   mergeContent(pres) {
-    for(let [key,value] of Object.entries(pres.namespaces)) {
-      this.doc['office:document-content'][key] = value;
+    this._merge(this.doc, pres, 'office:document-content', this.contentKeys)
+  }
+
+  mergeStyles(style) {
+    this._merge(this.stylesDoc, style, 'office:document-styles', this.styleKeys)
+  }
+
+  _merge(doc, obj, rootKey, keys) {
+    for(let [key,value] of Object.entries(obj.namespaces)) {
+      doc[rootKey][key] = value;
     }
-    this.contentKeys.forEach(key => {
-      this._content(pres, key)
+    keys.forEach(key => {
+      this._content(doc, obj.data, key)
     })
   }
 
-  _content(object, key) {
+  _content(doc, data, key) {
     if (!this[key]) {
       this[key] = new Set();
     }
-    extractArray(object.data, key).forEach(i => this[key].add(i));
-    set(this.doc, key, Array.from(this[key]));
+    extractArray(data, key).forEach(i => this[key].add(i));
+    set(doc, key, Array.from(this[key]));
   }
 
   pipe(stream) {
@@ -155,40 +184,6 @@ export default class Document extends EventEmitter {
       console.error(err);
       return toXml(object);
     }
-  }
-
-  mergeStyles(style) {
-    for (let [key, value] of Object.entries(style.namespaces)) {
-      this.stylesDoc['office:document-styles'][key] = value;
-    }
-    [
-      'office:document-styles.office:styles.draw:gradient',
-      'office:document-styles.office:styles.draw:hatch',
-      'office:document-styles.office:styles.draw:fill-image',
-      'office:document-styles.office:styles.draw:marker',
-      'office:document-styles.office:styles.draw:stroke-dash',
-      'office:document-styles.office:styles.style:default-style',
-      'office:document-styles.office:styles.style:style',
-      /**
-       * @warning `presentation-page-layout` causes OpenOffice to crash when opening the document
-       */
-      // 'office:document-styles.office:styles.style:presentation-page-layout',
-      'office:document-styles.office:automatic-styles.style:page-layout',
-      'office:document-styles.office:automatic-styles.style:style',
-      'office:document-styles.office:master-styles.draw:layer-set',
-      'office:document-styles.office:master-styles.style:handout-master',
-      'office:document-styles.office:master-styles.style:master-page',
-    ].forEach(key => {
-      this._styleContent(style, key);
-    });
-  }
-
-  _styleContent(style, key) {
-    if (!this[key]) {
-      this[key] = new Set();
-    }
-    extractArray(style.data, key).forEach(i => this[key].add(i));
-    set(this.stylesDoc, key, Array.from(this[key]));
   }
 
   mergeManifest(files) {
