@@ -45,6 +45,32 @@ describe('Document', () => {
     subject = obj.subject;
   });
 
+  describe('.manifestFiles', () => {
+    it('has a initial set of manifest files that will exist', () => {
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'application/vnd.oasis.opendocument.presentation',
+          path: '/',
+          version: '1.2',
+        })
+      );
+
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'text/xml',
+          path: 'content.xml',
+        })
+      );
+
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'text/xml',
+          path: 'styles.xml',
+        })
+      );
+    });
+  });
+
   describe('.mergeFile', () => {
     let file = path.join(__dirname, '__fixtures__/out1.odp');
     afterEach(() => {

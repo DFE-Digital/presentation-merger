@@ -14,7 +14,20 @@ export default class Document extends EventEmitter {
     super({ captureRejections: true });
     this.slides = [];
     this.files = [];
-    this.manifestFiles = [
+    this.manifestFiles = this.manifestFilesInitial;
+    this.counter = 0;
+    this.doc = {
+      'office:document-content': {},
+    };
+    this.stylesDoc = {
+      'office:document-styles': {
+        'office:version': '1.2',
+      },
+    };
+  }
+
+  get manifestFilesInitial() {
+    return [
       {
         mimeType: 'application/vnd.oasis.opendocument.presentation',
         path: '/',
@@ -28,16 +41,7 @@ export default class Document extends EventEmitter {
         mimeType: 'text/xml',
         path: 'styles.xml',
       },
-    ];
-    this.counter = 0;
-    this.doc = {
-      'office:document-content': {},
-    };
-    this.stylesDoc = {
-      'office:document-styles': {
-        'office:version': '1.2',
-      },
-    };
+    ]
   }
 
   async mergeFile(file) {
