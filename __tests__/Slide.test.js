@@ -16,42 +16,20 @@ const slidesFixture = get(fixture, [
 ]);
 
 describe("Slide", () => {
-  describe(".content", () => {
-    it("copies without reference the originalContent", () => {
-      let originalContent = {
-        greet: "hello world",
-        deep: { thing: "original" }
-      };
-
-      const slide = new Slide(originalContent, fixture);
-      let actual = slide.content;
-
-      expect(actual).toEqual(originalContent);
-
-      actual.greet = "new world";
-      actual.deep.thing = "changed";
-      expect(actual).toHaveProperty("greet", "new world");
-      expect(originalContent).toHaveProperty("greet", "hello world");
-
-      expect(actual).toHaveProperty("deep.thing", "changed");
-      expect(originalContent).toHaveProperty("deep.thing", "original");
-    });
-  });
+  let subject
+  beforeEach(() => {
+    subject = new Slide(slidesFixture[0], fixture);
+  })
 
   describe(".styleIDs", () => {
     it("returns the ids for the slide", () => {
-      const slide = new Slide(slidesFixture[0], fixture);
-      let actual = slide.styleIDs;
-      expect(actual).toMatchSnapshot();
+      expect(subject.styleIDs).toMatchSnapshot();
     });
   });
 
   describe(".styles", () => {
     it("includes the styles for the given slide", () => {
-      const slide = new Slide(slidesFixture[0], fixture);
-      let actual = slide.styles;
-
-      expect(actual).toMatchSnapshot()
+      expect(subject.styles).toMatchSnapshot()
     });
   });
 });

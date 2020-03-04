@@ -9,17 +9,8 @@ import { get } from 'shvl';
  */
 export default class Slide {
   constructor(content, presentation, manifest) {
-    this.originalContent = moveImageReferences(content, manifest);
-    this.originalPresentation = presentation;
-  }
-
-  /**
-   * @getter
-   * @description deep copies the provided original content
-   * @returns {object} a deep copy of the original content
-   */
-  get content() {
-    return JSON.parse(JSON.stringify(this.originalContent));
+    this.content = moveImageReferences(content, manifest);
+    this.presentation = presentation;
   }
 
   /**
@@ -30,17 +21,17 @@ export default class Slide {
    */
   get styleIDs() {
     let ids = [];
-    ids.push(this.originalContent['draw:style-name']);
+    ids.push(this.content['draw:style-name']);
     ['draw:frame', 'draw:custom-shape', 'draw:connector'].forEach(key => {
-      if (this.originalContent[key]) {
-        if (Array.isArray(this.originalContent[key])) {
-          this.originalContent[key].forEach(item => {
+      if (this.content[key]) {
+        if (Array.isArray(this.content[key])) {
+          this.content[key].forEach(item => {
             if (item['draw:style-name']) {
               ids.push(item['draw:style-name']);
             }
           });
         } else {
-          ids.push(this.originalContent[key]['draw:style-name']);
+          ids.push(this.content[key]['draw:style-name']);
         }
       }
     });
@@ -56,7 +47,7 @@ export default class Slide {
    */
   get styles() {
     const documentStyles =
-      get(this.originalPresentation, [
+      get(this.presentation, [
         'office:document-content',
         'office:automatic-styles',
         'style:style',
