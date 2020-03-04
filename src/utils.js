@@ -14,3 +14,20 @@ export function moveImageReferences(data, manifest=[]) {
 
   return JSON.parse(str);
 }
+
+/**
+ * Extract XML namespaces from the JSON representation of XML
+ * 
+ * @param {object} data the JSON representation of XML
+ * 
+ * @returns {object} XML namespace keys pairs 
+ */
+export function namespaces(data) {
+  let out = {};
+  for (let [key, value] of Object.entries(data)) {
+    if (key.startsWith('xmlns:')) {
+      out[key] = value;
+    }
+  }
+  return out;
+}

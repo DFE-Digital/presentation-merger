@@ -1,20 +1,10 @@
 import { get } from "shvl";
+import { namespaces } from './utils'
 import Slide from "./Slide";
 export default class Presentation {
   constructor(presentation) {
     this.presentation = presentation;
-  }
-
-  get namespaces() {
-    let out = {};
-    for (let [key, value] of Object.entries(
-      this.presentation['office:document-content']
-    )) {
-      if (key.startsWith('xmlns:')) {
-        out[key] = value;
-      }
-    }
-    return out;
+    this.namespaces = namespaces(presentation['office:document-content'])
   }
 
   get slides() {
