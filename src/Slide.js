@@ -1,3 +1,4 @@
+import { moveImageReferences } from './utils'
 import { get } from 'shvl';
 
 /**
@@ -8,21 +9,8 @@ import { get } from 'shvl';
  */
 export default class Slide {
   constructor(content, presentation, manifest) {
-    this.manifest = manifest || [];
-
-    this.originalContent = content;
-    this.moveImageReferences();
-
+    this.originalContent = moveImageReferences(content, manifest);
     this.originalPresentation = presentation;
-  }
-
-  moveImageReferences() {
-    let str = JSON.stringify(this.originalContent);
-    this.manifest.forEach(i => {
-      str = str.replace(new RegExp(i.pathPrevious, 'gi'), i.path);
-    });
-
-    this.originalContent = JSON.parse(str);
   }
 
   /**
