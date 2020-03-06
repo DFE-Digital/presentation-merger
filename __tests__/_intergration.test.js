@@ -23,7 +23,7 @@ describe('Intergration', () => {
     await mergeFiles(
       [
         path.join(__dirname, '__fixtures__/file1.odp'),
-        path.join(__dirname, '__fixtures__/file2.odp'),
+        path.join(__dirname, '__fixtures__/file2.odp')
       ],
       filePath
     );
@@ -33,21 +33,21 @@ describe('Intergration', () => {
     expect(files).toContainEqual(
       expect.objectContaining({
         path: 'content.xml',
-        type: 'file',
+        type: 'file'
       })
     );
 
     expect(files).toContainEqual(
       expect.objectContaining({
         path: 'META-INF/manifest.xml',
-        type: 'file',
+        type: 'file'
       })
     );
 
     expect(files).toContainEqual(
       expect.objectContaining({
         path: 'mimetype',
-        type: 'file',
+        type: 'file'
       })
     );
 

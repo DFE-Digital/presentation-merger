@@ -25,7 +25,7 @@ export default class Presentation {
   _uniqueStyleIDs() {
     [
       'office:document-content.office:automatic-styles.style:style',
-      'office:document-content.office:automatic-styles.text:list-style',
+      'office:document-content.office:automatic-styles.text:list-style'
     ].forEach(key => {
       this.data = this._renameStyleKeys(this.data, key);
     });

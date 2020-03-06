@@ -22,12 +22,12 @@ export default class Document extends EventEmitter {
     this.manifestFiles = this.manifestFilesInitial;
     this.counter = 0;
     this.doc = {
-      'office:document-content': {},
+      'office:document-content': {}
     };
     this.stylesDoc = {
       'office:document-styles': {
-        'office:version': '1.2',
-      },
+        'office:version': '1.2'
+      }
     };
   }
 
@@ -36,16 +36,16 @@ export default class Document extends EventEmitter {
       {
         mimeType: 'application/vnd.oasis.opendocument.presentation',
         path: '/',
-        version: '1.2',
+        version: '1.2'
       },
       {
         mimeType: 'text/xml',
-        path: 'content.xml',
+        path: 'content.xml'
       },
       {
         mimeType: 'text/xml',
-        path: 'styles.xml',
-      },
+        path: 'styles.xml'
+      }
     ];
   }
 
@@ -70,7 +70,7 @@ export default class Document extends EventEmitter {
       'office:document-content.office:automatic-styles.style:style',
       'office:document-content.office:automatic-styles.text:list-style',
       'office:document-content.office:body.office:presentation.draw:page',
-      'office:document-content.office:body.office:presentation.presentation:settings',
+      'office:document-content.office:body.office:presentation.presentation:settings'
     ];
   }
 
@@ -91,7 +91,7 @@ export default class Document extends EventEmitter {
       'office:document-styles.office:automatic-styles.style:style',
       'office:document-styles.office:master-styles.draw:layer-set',
       'office:document-styles.office:master-styles.style:handout-master',
-      'office:document-styles.office:master-styles.style:master-page',
+      'office:document-styles.office:master-styles.style:master-page'
     ];
   }
 
@@ -131,8 +131,8 @@ export default class Document extends EventEmitter {
       streamFiles: true,
       compression: 'DEFLATE',
       compressionOptions: {
-        level: 9,
-      },
+        level: 9
+      }
     };
   }
 
@@ -175,14 +175,14 @@ export default class Document extends EventEmitter {
       'manifest:manifest': {
         'xmlns:manifest': 'urn:oasis:names:tc:opendocument:xmlns:manifest:1.0',
         'manifest:version': '1.2',
-        'manifest:file-entry': [],
-      },
+        'manifest:file-entry': []
+      }
     };
     output['manifest:manifest']['manifest:file-entry'] = this.manifestFiles.map(
       file => {
         let out = {
           'manifest:full-path': file.path,
-          'manifest:media-type': file.mimeType,
+          'manifest:media-type': file.mimeType
         };
         if (file.version) {
           out['manifest:version'] = file.version;
@@ -197,7 +197,7 @@ export default class Document extends EventEmitter {
     return format(toXml(object), {
       xmlSelfClosingSpace: true,
       xmlWhitespaceSensitivity: 'ignore',
-      parser: 'xml',
+      parser: 'xml'
     });
   }
 
@@ -219,12 +219,12 @@ export default class Document extends EventEmitter {
       this.files.push(file);
       this.manifestFiles.push({
         mimeType: manifestFile['manifest:media-type'],
-        path: file.path,
+        path: file.path
       });
       return {
         mimeType: manifestFile['manifest:media-type'],
         pathPrevious: manifestFile['manifest:full-path'],
-        path: file.path,
+        path: file.path
       };
     }
   }

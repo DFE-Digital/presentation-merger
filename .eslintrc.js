@@ -7,8 +7,8 @@ module.exports = {
   parser: 'babel-eslint',
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   rules: {
-    'semi': ['error', 'always'],
-    'prettier/prettier': 'error',
+    semi: ['error', 'always'],
+    'prettier/prettier': ['error', { sindleQuote: true }],
     'max-lines-per-function': ['error', 25],
     'no-console': [
       'error',

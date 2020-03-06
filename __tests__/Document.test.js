@@ -27,7 +27,7 @@ async function readFixture(filename) {
   return {
     presentation,
     style,
-    subject,
+    subject
   };
 }
 
@@ -48,21 +48,21 @@ describe('Document', () => {
         expect.objectContaining({
           mimeType: 'application/vnd.oasis.opendocument.presentation',
           path: '/',
-          version: '1.2',
+          version: '1.2'
         })
       );
 
       expect(subject.manifestFiles).toContainEqual(
         expect.objectContaining({
           mimeType: 'text/xml',
-          path: 'content.xml',
+          path: 'content.xml'
         })
       );
 
       expect(subject.manifestFiles).toContainEqual(
         expect.objectContaining({
           mimeType: 'text/xml',
-          path: 'styles.xml',
+          path: 'styles.xml'
         })
       );
     });

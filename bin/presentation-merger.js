@@ -30,7 +30,7 @@ program
     let destination = process.stdout;
     if (options.file) {
       destination = fs.createWriteStream(path.resolve(options.file), {
-        flags: 'w',
+        flags: 'w'
       });
     }
     if (allExist) {
