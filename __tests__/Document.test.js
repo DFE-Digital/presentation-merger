@@ -115,7 +115,7 @@ describe('Document', () => {
       subject.mergeContent(new Presentation(fixture1, 0));
       subject.mergeContent(new Presentation(fixture2, 1));
 
-      expect(subject.doc).toMatchSnapshot()
+      expect(subject.doc).toMatchSnapshot();
     });
   });
 
@@ -168,6 +168,33 @@ describe('Document', () => {
 
       it('contains the automatic-styles from both files', () => {
         expect(actual).toMatchSnapshot();
+      });
+    });
+  });
+
+  describe('pipe', () => {
+    let tmpfile = './tmpfile'
+    beforeEach(() => {
+      subject = new Document();
+    });
+    afterEach(() => {
+      fs.unlinkSync(tmpfile)
+    })
+
+    it('handles error', async () => {
+      expect.assertions(2);
+      let stream = fs.createWriteStream(tmpfile);
+      stream.destroy();
+      subject.on('error', err => {
+        expect(err).toMatchInlineSnapshot(
+          `[Error: Cannot call write after a stream was destroyed]`
+        );
+      });
+      return subject.pipe(stream).catch(e => {
+        expect(e).toMatchInlineSnapshot(
+          Error,
+          `[Error: Cannot call write after a stream was destroyed]`
+        );
       });
     });
   });

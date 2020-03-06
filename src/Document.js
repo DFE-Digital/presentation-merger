@@ -115,6 +115,17 @@ export default class Document extends EventEmitter {
     set(doc, key, Array.from(this[key]));
   }
 
+  get ZIPOptions() {
+    return {
+      type: 'nodebuffer',
+      streamFiles: true,
+      compression: 'DEFLATE',
+      compressionOptions: {
+        level: 9,
+      },
+    };
+  }
+
   pipe(stream) {
     let zip = new JSZip();
     this.files.forEach(file => {
@@ -126,14 +137,7 @@ export default class Document extends EventEmitter {
     zip.file('META-INF/manifest.xml', this.toFormattedXML(this.manifest));
     let promise = new Promise((resolve, reject) => {
       zip
-        .generateNodeStream({
-          type: 'nodebuffer',
-          streamFiles: true,
-          compression: 'DEFLATE',
-          compressionOptions: {
-            level: 9,
-          },
-        })
+        .generateNodeStream(this.ZIPOptions)
         .pipe(stream)
         .on('finish', () => {
           resolve();
