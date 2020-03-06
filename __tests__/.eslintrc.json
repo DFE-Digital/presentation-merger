@@ -7,5 +7,8 @@
   ],
   "extends": [
     "plugin:jest/recommended"
-  ]
+  ],
+  "rules": {
+    "max-lines-per-function": "off"
+  }
 }

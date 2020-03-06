@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 const path = require('path');
 const packageJson = require('../package.json');
-const debug = require('debug')('presentation-merger')
+const debug = require('debug')('presentation-merger');
 
 const mergeFiles = require('../lib/index.js').default;
 debug(`Dependencies loaded ${process.hrtime(bootStart)[1] / 1000000}ms`);
@@ -30,7 +30,7 @@ program
     let destination = process.stdout;
     if (options.file) {
       destination = fs.createWriteStream(path.resolve(options.file), {
-        flags: 'w',
+        flags: 'w'
       });
     }
     if (allExist) {

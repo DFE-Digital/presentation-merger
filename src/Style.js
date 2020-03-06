@@ -1,21 +1,17 @@
-import { moveImageReferences, namespaces } from './utils'
-import { get } from 'shvl';
+/** @module Style */
+import { moveImageReferences, namespaces } from './utils';
 
-export default class Style{
-  constructor(content, presentation, manifest) {
-    this.data = moveImageReferences(content, manifest)
-    this.namespaces = namespaces(content['office:document-styles'])
-    this.presentation = presentation;
-    this.doc;
-    this.styleIDs = new Set();
-  }
-
-  extractArray(key) {
-    let data = get(this.data, key) || [];
-    if (!Array.isArray(data)) {
-      return [data];
-    } else {
-      return data;
-    }
+/**
+ * Class prepresenting `style.xml` in the presentation document
+ */
+export default class Style {
+  /**
+   * Create a style representation
+   * @param {object} content JSON representation of `style.xml` document
+   * @param {array} manifest The document manifest of image assets
+   */
+  constructor(content, manifest) {
+    this.data = moveImageReferences(content, manifest);
+    this.namespaces = namespaces(content['office:document-styles']);
   }
 }

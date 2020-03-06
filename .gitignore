@@ -5,3 +5,4 @@ coverage
 __tests__/__fixtures__/output.odp
 lib
 *.tgz
+docs

@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Style masterPages returns master styles for the presenation 1`] = `undefined`;
-
 exports[`Style namespaces returns the style XML namespaces for this presentation 1`] = `
 Object {
   "xmlns:anim": "urn:oasis:names:tc:opendocument:xmlns:animation:1.0",
@@ -36,7 +34,3 @@ Object {
   "xmlns:xlink": "http://www.w3.org/1999/xlink",
 }
 `;
-
-exports[`Style presentationPageLayouts returns layouts for the presentation 1`] = `undefined`;
-
-exports[`Style styles returns styles for the presentation slides 1`] = `Array []`;

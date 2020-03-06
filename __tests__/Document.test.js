@@ -22,15 +22,12 @@ async function readFixture(filename) {
   const masterStylesFile = files.find(f => f.path === 'styles.xml');
   const contentFile = files.find(f => f.path === 'content.xml');
   const presentation = new Presentation(JSON.parse(toJson(contentFile.data)));
-  const style = new Style(
-    JSON.parse(toJson(masterStylesFile.data)),
-    presentation
-  );
+  const style = new Style(JSON.parse(toJson(masterStylesFile.data)));
   const subject = new Document();
   return {
     presentation,
     style,
-    subject,
+    subject
   };
 }
 
@@ -43,6 +40,32 @@ describe('Document', () => {
     presentation = obj.presentation;
     style = obj.style;
     subject = obj.subject;
+  });
+
+  describe('.manifestFiles', () => {
+    it('has a initial set of manifest files that will exist', () => {
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'application/vnd.oasis.opendocument.presentation',
+          path: '/',
+          version: '1.2'
+        })
+      );
+
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'text/xml',
+          path: 'content.xml'
+        })
+      );
+
+      expect(subject.manifestFiles).toContainEqual(
+        expect.objectContaining({
+          mimeType: 'text/xml',
+          path: 'styles.xml'
+        })
+      );
+    });
   });
 
   describe('.mergeFile', () => {
@@ -82,34 +105,14 @@ describe('Document', () => {
     });
   });
 
-  describe('.merge', () => {
+  describe('.mergeContent', () => {
     it('merges multiple presentations', () => {
-      let doc = new Document();
-      let fixtures = [fixture1, fixture2];
-      let presentations = [];
+      let subject = new Document();
 
-      fixtures.forEach(fixture => {
-        presentations.push(new Presentation(fixture));
-      });
+      subject.mergeContent(new Presentation(fixture1, 0));
+      subject.mergeContent(new Presentation(fixture2, 1));
 
-      presentations.forEach(pres => {
-        doc.merge(pres);
-      });
-
-      let slides = get(
-        doc.doc,
-        'office:document-content.office:body.office:presentation.draw:page'
-      );
-
-      fixtures.forEach(fixture => {
-        let fixtureSlides = get(
-          fixture,
-          'office:document-content.office:body.office:presentation.draw:page'
-        );
-        fixtureSlides.forEach(slide => {
-          expect(slides).toContainEqual(slide);
-        });
-      });
+      expect(subject.doc).toMatchSnapshot();
     });
   });
 
@@ -134,34 +137,46 @@ describe('Document', () => {
       expect(subject.stylesDoc).toMatchSnapshot();
     });
 
-    describe('master-page', () => {
-      let actual;
-      beforeEach(() => {
-        let key =
-          'office:document-styles.office:master-styles.style:master-page';
-        actual = get(subject.stylesDoc, key);
-      });
+    [
+      'office:document-styles.office:master-styles.style:master-page',
+      'office:document-styles.office:automatic-styles.style:style'
+    ].forEach(key => {
+      describe(key, () => {
+        let actual;
+        beforeEach(() => {
+          actual = get(subject.stylesDoc, key);
+        });
 
-      it('contains the master style names', () => {
-        let actualNames = actual.map(i => i['style:name']);
-        expect(actualNames).toMatchSnapshot();
-      });
-
-      it('contains the master frames', () => {
-        let actualNames = actual.map(i => i['draw:frame']);
-        expect(actualNames).toMatchSnapshot();
+        it(`contains the expected contents of ${key}`, () => {
+          expect(actual).toMatchSnapshot();
+        });
       });
     });
+  });
 
-    describe('office:automatic-styles.style:style', () => {
-      let actual;
-      beforeEach(() => {
-        let key = 'office:document-styles.office:automatic-styles.style:style';
-        actual = get(subject.stylesDoc, key);
+  describe('pipe', () => {
+    let tmpfile = './tmpfile';
+    beforeEach(() => {
+      subject = new Document();
+    });
+    afterEach(() => {
+      fs.unlinkSync(tmpfile);
+    });
+
+    it('handles error', async () => {
+      expect.assertions(2);
+      let stream = fs.createWriteStream(tmpfile);
+      stream.destroy();
+      subject.on('error', err => {
+        expect(err).toMatchInlineSnapshot(
+          `[Error: Cannot call write after a stream was destroyed]`
+        );
       });
-
-      it('contains the automatic-styles from both files', () => {
-        expect(actual).toMatchSnapshot();
+      return subject.pipe(stream).catch(e => {
+        expect(e).toMatchInlineSnapshot(
+          Error,
+          `[Error: Cannot call write after a stream was destroyed]`
+        );
       });
     });
   });

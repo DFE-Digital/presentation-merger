@@ -1,5 +1,2821 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Document .mergeContent merges multiple presentations 1`] = `
+Object {
+  "office:document-content": Object {
+    "office:automatic-styles": Object {
+      "style:style": Array [
+        Object {
+          "style:drawing-page-properties": Object {
+            "presentation:background-objects-visible": "true",
+            "presentation:background-visible": "true",
+            "presentation:display-date-time": "true",
+            "presentation:display-footer": "true",
+            "presentation:display-page-number": "false",
+          },
+          "style:family": "drawing-page",
+          "style:name": "0-dp1",
+        },
+        Object {
+          "style:drawing-page-properties": Object {
+            "presentation:display-date-time": "true",
+            "presentation:display-footer": "true",
+            "presentation:display-header": "true",
+            "presentation:display-page-number": "false",
+          },
+          "style:family": "drawing-page",
+          "style:name": "0-dp2",
+        },
+        Object {
+          "style:family": "graphic",
+          "style:graphic-properties": Object {
+            "style:protect": "size",
+          },
+          "style:name": "0-gr1",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-pr1",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "13.231cm",
+          },
+          "style:name": "0-pr2",
+          "style:parent-style-name": "prs-novelty-subtitle",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "11.409cm",
+          },
+          "style:name": "0-pr3",
+          "style:parent-style-name": "prs-novelty-notes",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-pr4",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "13.231cm",
+          },
+          "style:name": "0-pr5",
+          "style:parent-style-name": "prs-novelty-outline1",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-pr6",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "13.231cm",
+          },
+          "style:name": "0-pr7",
+          "style:parent-style-name": "prs-novelty-outline1",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-pr8",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-pr9",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-0-pr10",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "0-L4",
+          "style:name": "0-0-pr11",
+          "style:parent-style-name": "prs-novelty-title",
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P1",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0.6cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P2",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.2cm",
+            "fo:margin-right": "0cm",
+            "fo:text-align": "center",
+            "fo:text-indent": "-0.6cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P3",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.2cm",
+            "fo:margin-right": "0cm",
+            "fo:text-align": "center",
+            "fo:text-indent": "-0.6cm",
+          },
+          "style:text-properties": Object {
+            "fo:font-size": "32pt",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P4",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "0cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P5",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.4cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1.2cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P6",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "true",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P7",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.4cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "true",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P8",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.4cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "true",
+            "style:font-size-asian": "24pt",
+            "style:font-size-complex": "24pt",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "0-P9",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.4cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "style:font-size-asian": "24pt",
+            "style:font-size-complex": "24pt",
+          },
+        },
+        Object {
+          "style:family": "text",
+          "style:name": "0-T1",
+          "style:text-properties": Object {
+            "fo:font-size": "32pt",
+          },
+        },
+        Object {
+          "style:family": "text",
+          "style:name": "0-T2",
+          "style:text-properties": Object {
+            "style:font-size-asian": "24pt",
+            "style:font-size-complex": "24pt",
+          },
+        },
+        Object {
+          "style:drawing-page-properties": Object {
+            "draw:fill": "solid",
+            "draw:fill-color": "#333366",
+            "draw:fill-image-height": "1cm",
+            "draw:fill-image-width": "1cm",
+            "presentation:background-objects-visible": "true",
+            "presentation:background-visible": "true",
+            "presentation:display-date-time": "true",
+            "presentation:display-footer": "true",
+            "presentation:display-page-number": "false",
+          },
+          "style:family": "drawing-page",
+          "style:name": "1-dp1",
+        },
+        Object {
+          "style:drawing-page-properties": Object {
+            "presentation:display-date-time": "true",
+            "presentation:display-footer": "true",
+            "presentation:display-header": "true",
+            "presentation:display-page-number": "false",
+          },
+          "style:family": "drawing-page",
+          "style:name": "1-dp2",
+        },
+        Object {
+          "style:drawing-page-properties": Object {
+            "presentation:background-objects-visible": "true",
+            "presentation:background-visible": "true",
+            "presentation:display-date-time": "true",
+            "presentation:display-footer": "true",
+            "presentation:display-page-number": "false",
+          },
+          "style:family": "drawing-page",
+          "style:name": "1-dp3",
+        },
+        Object {
+          "style:family": "graphic",
+          "style:graphic-properties": Object {
+            "style:protect": "size",
+          },
+          "style:name": "1-gr1",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr1",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "13.231cm",
+          },
+          "style:name": "1-pr2",
+          "style:parent-style-name": "prs-strategy-subtitle",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "11.409cm",
+          },
+          "style:name": "1-pr3",
+          "style:parent-style-name": "prs-strategy-notes",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr4",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "13.231cm",
+          },
+          "style:name": "1-pr5",
+          "style:parent-style-name": "prs-strategy-outline1",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr6",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr7",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr8",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-pr9",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "presentation",
+          "style:graphic-properties": Object {
+            "draw:auto-grow-height": "true",
+            "draw:fill-color": "#ffffff",
+            "fo:min-height": "3.506cm",
+          },
+          "style:list-style-name": "1-L4",
+          "style:name": "1-1-pr10",
+          "style:parent-style-name": "prs-strategy-title",
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P1",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0.6cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P2",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0.6cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-0.6cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "false",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P3",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0.6cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-0.6cm",
+          },
+          "style:text-properties": Object {
+            "fo:font-size": "32pt",
+            "fo:hyphenate": "false",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P4",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "0cm",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P5",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "0cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "true",
+          },
+        },
+        Object {
+          "style:family": "paragraph",
+          "style:name": "1-P6",
+          "style:paragraph-properties": Object {
+            "fo:margin-left": "1.4cm",
+            "fo:margin-right": "0cm",
+            "fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "fo:hyphenate": "true",
+          },
+        },
+        Object {
+          "style:family": "text",
+          "style:name": "1-T1",
+          "style:text-properties": Object {
+            "fo:font-size": "32pt",
+          },
+        },
+      ],
+      "text:list-style": Array [
+        Object {
+          "style:name": "0-L1",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "1.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "4.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "0-L2",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "0.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "1.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "1.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "2.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "3cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "3.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "4.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "4.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "0-L3",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "1cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "1.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "3.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "4.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "5cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "5.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "6.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#99284c",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+                "style:font-charset": "x-symbol",
+                "style:font-pitch": "variable",
+                "style:font-style-name": "Regular",
+              },
+              "text:bullet-char": "",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "0-L4",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "-0.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "1.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "4.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "1-L1",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "1.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "4.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "1-L2",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "0.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "1.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "1.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "2.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "3cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "3.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "4.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "4.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "1-L3",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "➲",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "1cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "1.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "3.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "4.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "5cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "5.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1.2cm",
+                "text:space-before": "6.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#ff9966",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "75%",
+              },
+              "text:bullet-char": "●",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+        Object {
+          "style:name": "1-L4",
+          "text:list-level-style-bullet": Array [
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "-0.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "1",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "2",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "0.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "3",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "1.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "4",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "5",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "2.6cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "6",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.2cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "7",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "3.8cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "8",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "1cm",
+                "text:space-before": "4.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:color": "#000000",
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+              },
+              "text:bullet-char": "",
+              "text:level": "9",
+            },
+            Object {
+              "style:list-level-properties": Object {
+                "text:min-label-width": "0.6cm",
+                "text:space-before": "5.4cm",
+              },
+              "style:text-properties": Object {
+                "fo:font-family": "StarSymbol",
+                "fo:font-size": "45%",
+                "style:use-window-font-color": "true",
+              },
+              "text:bullet-char": "●",
+              "text:level": "10",
+            },
+          ],
+        },
+      ],
+    },
+    "office:body": Object {
+      "office:presentation": Object {
+        "draw:page": Array [
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Introducing a New Product",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-pr1",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "text:span": Object {
+                      "$t": "Title",
+                      "text:style-name": "0-T1",
+                    },
+                    "text:style-name": "0-P2",
+                  },
+                },
+                "draw:text-style-name": "0-P3",
+                "presentation:class": "subtitle",
+                "presentation:style-name": "0-pr2",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.285cm",
+                "svg:y": "5.938cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Title",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "1",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L1T0",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.003cm",
+                  "text:p": Object {
+                    "$t": "Long-term Goal",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-pr4",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.003cm",
+                  "text:list": Object {
+                    "text:list-item": Object {
+                      "text:p": Object {
+                        "$t": "State the intended goal",
+                        "text:style-name": "0-P4",
+                      },
+                    },
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P5",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.285cm",
+                "svg:y": "5.938cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Long-term Goal",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "2",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.016cm",
+                  "text:p": Object {
+                    "$t": "Customer Wishes",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-pr6",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.016cm",
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "Describe customer needs and wishes",
+                          "text:style-name": "0-P6",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Explain the requirements",
+                          "text:style-name": "0-P6",
+                        },
+                      },
+                    ],
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P7",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr7",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.585cm",
+                "svg:y": "5.838cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Customer Wishes",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "3",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.032cm",
+                  "text:p": Object {
+                    "text:line-break": Object {},
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-pr8",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "text:span": Object {
+                            "$t": "Describe the main attributes of the product",
+                            "text:style-name": "0-T2",
+                          },
+                          "text:style-name": "0-P6",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "text:span": Object {
+                            "$t": "Link the product attributes to fulfil customer needs",
+                            "text:style-name": "0-T2",
+                          },
+                          "text:style-name": "0-P6",
+                        },
+                      },
+                    ],
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P8",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr7",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.585cm",
+                "svg:y": "5.838cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Fulfilling Customer Needs",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "4",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Cost Analysis",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-pr9",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "text:span": Object {
+                            "$t": "Indicate the financial advantages for the customer",
+                            "text:style-name": "0-T2",
+                          },
+                          "text:style-name": "0-P4",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "text:span": Object {
+                            "$t": "Compare quality and price with those of the competition",
+                            "text:style-name": "0-T2",
+                          },
+                          "text:style-name": "0-P4",
+                        },
+                      },
+                    ],
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P9",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.285cm",
+                "svg:y": "5.938cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Cost Analysis",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "5",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Strengths and Advantages",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-0-pr10",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:list": Object {
+                    "text:list-item": Object {
+                      "text:p": Object {
+                        "$t": "Summarise the special features and advantages of the product being introduced",
+                        "text:style-name": "0-P6",
+                      },
+                    },
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P7",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr7",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.585cm",
+                "svg:y": "5.838cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Strengths and Advantages",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "6",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Next Steps of Action",
+                    "text:style-name": "0-P1",
+                  },
+                },
+                "draw:text-style-name": "0-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "0-0-pr11",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "1.943cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:list": Object {
+                    "text:list-item": Object {
+                      "text:p": Object {
+                        "$t": "Explain the steps that now need to be taken",
+                        "text:style-name": "0-P6",
+                      },
+                    },
+                    "text:style-name": "0-L3",
+                  },
+                },
+                "draw:text-style-name": "0-P7",
+                "presentation:class": "outline",
+                "presentation:style-name": "0-pr7",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.384cm",
+                "svg:x": "2.585cm",
+                "svg:y": "5.838cm",
+              },
+            ],
+            "draw:master-page-name": "prs-novelty",
+            "draw:name": "Next Steps of Action",
+            "draw:style-name": "0-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "0-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "0-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "7",
+                "draw:style-name": "0-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "0-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A0-L20-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Recommendation of a Strategy",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr1",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "10.956cm",
+                  "text:p": Object {
+                    "text:span": Object {
+                      "$t": "Title",
+                      "text:style-name": "1-T1",
+                    },
+                    "text:style-name": "1-P2",
+                  },
+                },
+                "draw:text-style-name": "1-P3",
+                "presentation:class": "subtitle",
+                "presentation:style-name": "1-pr2",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Title",
+            "draw:style-name": "1-dp1",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "1",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L1T0",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.024cm",
+                  "text:p": Object {
+                    "$t": "Overview",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr4",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.024cm",
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "Summarise the main plans",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Explain the long-term course to follow",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                    ],
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Overview",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "2",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.032cm",
+                  "text:p": Object {
+                    "$t": "Long-term goal",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr6",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.032cm",
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "State the desired goal",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Define the goal in more detail",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                    ],
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Long-term goal",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "3",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "9.472cm",
+                  "text:p": Object {
+                    "$t": "The Present Situation",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr7",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "9.472cm",
+                  "text:list": Object {
+                    "text:list-item": Object {
+                      "text:p": Object {
+                        "$t": "Give a summary of the current situation",
+                        "text:style-name": "1-P5",
+                      },
+                    },
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "The Present Situation",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "4",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "10.162cm",
+                  "text:p": Object {
+                    "$t": "Development up to present",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr8",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "10.162cm",
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "Development made up to the current situation",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Important background information",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Original forecasts which turned out to be wrong",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Original forecasts which turned out to be true",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                    ],
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Development up to present",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "5",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.024cm",
+                  "text:p": Object {
+                    "$t": "Potential Alternatives",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-pr9",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "draw:corner-radius": "0.024cm",
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "State the alternative strategies",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "List the pros and cons of each strategy",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Give a forecast of costs",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                    ],
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Potential Alternatives",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "6",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+          Object {
+            "draw:frame": Array [
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:p": Object {
+                    "$t": "Recommendation",
+                    "text:style-name": "1-P1",
+                  },
+                },
+                "draw:text-style-name": "1-P1",
+                "presentation:class": "title",
+                "presentation:style-name": "1-1-pr10",
+                "svg:height": "3.506cm",
+                "svg:width": "23.911cm",
+                "svg:x": "2.058cm",
+                "svg:y": "0.325cm",
+              },
+              Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {
+                  "text:list": Object {
+                    "text:list-item": Array [
+                      Object {
+                        "text:p": Object {
+                          "$t": "Recommend one or several strategies",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Give a summary of the expected results",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Name the next steps to be taken",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                      Object {
+                        "text:p": Object {
+                          "$t": "Delegate the various tasks",
+                          "text:style-name": "1-P5",
+                        },
+                      },
+                    ],
+                    "text:style-name": "1-L3",
+                  },
+                },
+                "draw:text-style-name": "1-P6",
+                "presentation:class": "outline",
+                "presentation:style-name": "1-pr5",
+                "presentation:user-transformed": "true",
+                "svg:height": "13.231cm",
+                "svg:width": "23.548cm",
+                "svg:x": "3.023cm",
+                "svg:y": "6.178cm",
+              },
+            ],
+            "draw:master-page-name": "prs-strategy",
+            "draw:name": "Recommendation",
+            "draw:style-name": "1-dp3",
+            "office:forms": Object {
+              "form:apply-design-mode": "false",
+              "form:automatic-focus": "false",
+            },
+            "presentation:notes": Object {
+              "draw:frame": Object {
+                "draw:layer": "layout",
+                "draw:text-box": Object {},
+                "draw:text-style-name": "1-P4",
+                "presentation:class": "notes",
+                "presentation:placeholder": "true",
+                "presentation:style-name": "1-pr3",
+                "svg:height": "11.409cm",
+                "svg:width": "14.517cm",
+                "svg:x": "3.249cm",
+                "svg:y": "14.13cm",
+              },
+              "draw:page-thumbnail": Object {
+                "draw:layer": "layout",
+                "draw:page-number": "7",
+                "draw:style-name": "1-gr1",
+                "presentation:class": "page",
+                "svg:height": "10.279cm",
+                "svg:width": "13.705cm",
+                "svg:x": "3.647cm",
+                "svg:y": "2.853cm",
+              },
+              "draw:style-name": "1-dp2",
+            },
+            "presentation:presentation-page-layout-name": "A1-L21-T1",
+          },
+        ],
+        "presentation:settings": Array [
+          Object {
+            "presentation:mouse-visible": "false",
+            "presentation:stay-on-top": "true",
+          },
+          Object {
+            "presentation:mouse-visible": "false",
+            "presentation:stay-on-top": "true",
+          },
+        ],
+      },
+    },
+    "xmlns:anim": "urn:oasis:names:tc:opendocument:xmlns:animation:1.0",
+    "xmlns:chart": "urn:oasis:names:tc:opendocument:xmlns:chart:1.0",
+    "xmlns:dc": "http://purl.org/dc/elements/1.1/",
+    "xmlns:dom": "http://www.w3.org/2001/xml-events",
+    "xmlns:dr3d": "urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0",
+    "xmlns:draw": "urn:oasis:names:tc:opendocument:xmlns:drawing:1.0",
+    "xmlns:drawooo": "http://openoffice.org/2010/draw",
+    "xmlns:field": "urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0",
+    "xmlns:fo": "urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0",
+    "xmlns:form": "urn:oasis:names:tc:opendocument:xmlns:form:1.0",
+    "xmlns:grddl": "http://www.w3.org/2003/g/data-view#",
+    "xmlns:math": "http://www.w3.org/1998/Math/MathML",
+    "xmlns:meta": "urn:oasis:names:tc:opendocument:xmlns:meta:1.0",
+    "xmlns:number": "urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0",
+    "xmlns:of": "urn:oasis:names:tc:opendocument:xmlns:of:1.2",
+    "xmlns:office": "urn:oasis:names:tc:opendocument:xmlns:office:1.0",
+    "xmlns:officeooo": "http://openoffice.org/2009/office",
+    "xmlns:ooo": "http://openoffice.org/2004/office",
+    "xmlns:oooc": "http://openoffice.org/2004/calc",
+    "xmlns:ooow": "http://openoffice.org/2004/writer",
+    "xmlns:presentation": "urn:oasis:names:tc:opendocument:xmlns:presentation:1.0",
+    "xmlns:rpt": "http://openoffice.org/2005/report",
+    "xmlns:script": "urn:oasis:names:tc:opendocument:xmlns:script:1.0",
+    "xmlns:smil": "urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0",
+    "xmlns:style": "urn:oasis:names:tc:opendocument:xmlns:style:1.0",
+    "xmlns:svg": "urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0",
+    "xmlns:table": "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
+    "xmlns:tableooo": "http://openoffice.org/2009/table",
+    "xmlns:text": "urn:oasis:names:tc:opendocument:xmlns:text:1.0",
+    "xmlns:xforms": "http://www.w3.org/2002/xforms",
+    "xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+    "xmlns:xlink": "http://www.w3.org/1999/xlink",
+    "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  },
+}
+`;
+
 exports[`Document manifest returns the correct formatting for mimetype 1`] = `
 Object {
   "manifest:manifest": Object {
@@ -62,100 +2878,6 @@ Object {
     "xmlns:manifest": "urn:oasis:names:tc:opendocument:xmlns:manifest:1.0",
   },
 }
-`;
-
-exports[`Document mergeStyles master-page contains the master frames 1`] = `
-Array [
-  Array [
-    Object {
-      "draw:image": Object {
-        "text:p": Object {},
-        "xlink:actuate": "onLoad",
-        "xlink:href": "Pictures/100000000000032000000258E080B12F.jpg",
-        "xlink:show": "embed",
-        "xlink:type": "simple",
-      },
-      "draw:layer": "backgroundobjects",
-      "draw:style-name": "Mgr1",
-      "draw:text-style-name": "MP1",
-      "svg:height": "21cm",
-      "svg:width": "28cm",
-      "svg:x": "-0.001cm",
-      "svg:y": "-0.001cm",
-    },
-    Object {
-      "draw:layer": "backgroundobjects",
-      "draw:text-box": Object {},
-      "presentation:class": "title",
-      "presentation:placeholder": "true",
-      "presentation:style-name": "prs-novelty-title",
-      "svg:height": "3.506cm",
-      "svg:width": "23.911cm",
-      "svg:x": "2.058cm",
-      "svg:y": "1.943cm",
-    },
-    Object {
-      "draw:layer": "backgroundobjects",
-      "draw:text-box": Object {},
-      "presentation:class": "outline",
-      "presentation:placeholder": "true",
-      "presentation:style-name": "prs-novelty-outline1",
-      "svg:height": "13.23cm",
-      "svg:width": "23.384cm",
-      "svg:x": "2.285cm",
-      "svg:y": "5.938cm",
-    },
-  ],
-  Array [
-    Object {
-      "draw:layer": "backgroundobjects",
-      "draw:text-box": Object {
-        "draw:corner-radius": "0.065cm",
-      },
-      "presentation:class": "title",
-      "presentation:placeholder": "true",
-      "presentation:style-name": "prs-strategy-title",
-      "svg:height": "3.506cm",
-      "svg:width": "23.911cm",
-      "svg:x": "2.058cm",
-      "svg:y": "0.325cm",
-    },
-    Object {
-      "draw:layer": "backgroundobjects",
-      "draw:text-box": Object {},
-      "presentation:class": "outline",
-      "presentation:placeholder": "true",
-      "presentation:style-name": "prs-strategy-outline1",
-      "svg:height": "13.23cm",
-      "svg:width": "23.548cm",
-      "svg:x": "3.023cm",
-      "svg:y": "6.178cm",
-    },
-    Object {
-      "draw:image": Object {
-        "text:p": Object {},
-        "xlink:actuate": "onLoad",
-        "xlink:href": "Pictures/2000023600002305000012CD3628FC8C.wmf",
-        "xlink:show": "embed",
-        "xlink:type": "simple",
-      },
-      "draw:layer": "backgroundobjects",
-      "draw:style-name": "Mgr1",
-      "draw:text-style-name": "MP1",
-      "svg:height": "2.937cm",
-      "svg:width": "5.47cm",
-      "svg:x": "22.048cm",
-      "svg:y": "17.365cm",
-    },
-  ],
-]
-`;
-
-exports[`Document mergeStyles master-page contains the master style names 1`] = `
-Array [
-  "prs-novelty",
-  "prs-strategy",
-]
 `;
 
 exports[`Document mergeStyles merges style content from the presentation into the document style 1`] = `
@@ -10117,7 +12839,7 @@ Object {
 }
 `;
 
-exports[`Document mergeStyles office:automatic-styles.style:style contains the automatic-styles from both files 1`] = `
+exports[`Document mergeStyles office:document-styles.office:automatic-styles.style:style contains the expected contents of office:document-styles.office:automatic-styles.style:style 1`] = `
 Array [
   Object {
     "style:drawing-page-properties": Object {
@@ -10218,6 +12940,151 @@ Array [
     "style:paragraph-properties": Object {
       "fo:text-align": "center",
     },
+  },
+]
+`;
+
+exports[`Document mergeStyles office:document-styles.office:master-styles.style:master-page contains the expected contents of office:document-styles.office:master-styles.style:master-page 1`] = `
+Array [
+  Object {
+    "draw:frame": Array [
+      Object {
+        "draw:image": Object {
+          "text:p": Object {},
+          "xlink:actuate": "onLoad",
+          "xlink:href": "Pictures/100000000000032000000258E080B12F.jpg",
+          "xlink:show": "embed",
+          "xlink:type": "simple",
+        },
+        "draw:layer": "backgroundobjects",
+        "draw:style-name": "Mgr1",
+        "draw:text-style-name": "MP1",
+        "svg:height": "21cm",
+        "svg:width": "28cm",
+        "svg:x": "-0.001cm",
+        "svg:y": "-0.001cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "title",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-title",
+        "svg:height": "3.506cm",
+        "svg:width": "23.911cm",
+        "svg:x": "2.058cm",
+        "svg:y": "1.943cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "outline",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-outline1",
+        "svg:height": "13.23cm",
+        "svg:width": "23.384cm",
+        "svg:x": "2.285cm",
+        "svg:y": "5.938cm",
+      },
+    ],
+    "draw:style-name": "Mdp1",
+    "presentation:notes": Object {
+      "draw:frame": Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {
+          "draw:corner-radius": "3107.312cm",
+        },
+        "presentation:class": "notes",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-notes",
+        "svg:height": "11.409cm",
+        "svg:width": "14.517cm",
+        "svg:x": "3.249cm",
+        "svg:y": "14.13cm",
+      },
+      "draw:page-thumbnail": Object {
+        "draw:layer": "backgroundobjects",
+        "presentation:class": "page",
+        "presentation:style-name": "prs-novelty-title",
+        "svg:height": "10.279cm",
+        "svg:width": "13.705cm",
+        "svg:x": "3.647cm",
+        "svg:y": "2.853cm",
+      },
+      "style:page-layout-name": "PM2",
+    },
+    "style:name": "prs-novelty",
+    "style:page-layout-name": "PM1",
+  },
+  Object {
+    "draw:frame": Array [
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {
+          "draw:corner-radius": "0.065cm",
+        },
+        "presentation:class": "title",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-title",
+        "svg:height": "3.506cm",
+        "svg:width": "23.911cm",
+        "svg:x": "2.058cm",
+        "svg:y": "0.325cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "outline",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-outline1",
+        "svg:height": "13.23cm",
+        "svg:width": "23.548cm",
+        "svg:x": "3.023cm",
+        "svg:y": "6.178cm",
+      },
+      Object {
+        "draw:image": Object {
+          "text:p": Object {},
+          "xlink:actuate": "onLoad",
+          "xlink:href": "Pictures/2000023600002305000012CD3628FC8C.wmf",
+          "xlink:show": "embed",
+          "xlink:type": "simple",
+        },
+        "draw:layer": "backgroundobjects",
+        "draw:style-name": "Mgr1",
+        "draw:text-style-name": "MP1",
+        "svg:height": "2.937cm",
+        "svg:width": "5.47cm",
+        "svg:x": "22.048cm",
+        "svg:y": "17.365cm",
+      },
+    ],
+    "draw:style-name": "Mdp1",
+    "presentation:notes": Object {
+      "draw:frame": Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "notes",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-notes",
+        "svg:height": "11.409cm",
+        "svg:width": "14.517cm",
+        "svg:x": "3.249cm",
+        "svg:y": "14.13cm",
+      },
+      "draw:page-thumbnail": Object {
+        "draw:layer": "backgroundobjects",
+        "presentation:class": "page",
+        "presentation:style-name": "prs-strategy-title",
+        "svg:height": "10.279cm",
+        "svg:width": "13.705cm",
+        "svg:x": "3.647cm",
+        "svg:y": "2.853cm",
+      },
+      "style:page-layout-name": "PM2",
+    },
+    "style:name": "prs-strategy",
+    "style:page-layout-name": "PM1",
   },
 ]
 `;
