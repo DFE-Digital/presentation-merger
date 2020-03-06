@@ -1,6 +1,6 @@
 {
   "name": "@dfe-digital/presentation-merger",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "Merge multiple presenation documents together into a single document",
   "main": "lib/index.js",
   "private": false,
