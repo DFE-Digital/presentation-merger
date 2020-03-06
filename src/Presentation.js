@@ -1,6 +1,16 @@
+/** @module Presentation */
 import { get } from 'shvl';
 import { namespaces, uuid } from './utils';
+
+/**
+ * Class prepresenting `content.xml` in the presentation document
+ */
 export default class Presentation {
+  /**
+   * Create a presentation content representation.
+   * @param {object} presentation JSON representation of content.xml
+   * @param {string} id unique identifier for the presentation
+   */
   constructor(presentation, id) {
     this.id = id;
     if (id === undefined) {

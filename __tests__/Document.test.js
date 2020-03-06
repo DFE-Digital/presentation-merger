@@ -22,10 +22,7 @@ async function readFixture(filename) {
   const masterStylesFile = files.find(f => f.path === 'styles.xml');
   const contentFile = files.find(f => f.path === 'content.xml');
   const presentation = new Presentation(JSON.parse(toJson(contentFile.data)));
-  const style = new Style(
-    JSON.parse(toJson(masterStylesFile.data)),
-    presentation
-  );
+  const style = new Style(JSON.parse(toJson(masterStylesFile.data)));
   const subject = new Document();
   return {
     presentation,

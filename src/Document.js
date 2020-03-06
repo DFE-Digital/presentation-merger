@@ -1,3 +1,4 @@
+/** @module Document */
 import { get, set } from 'shvl';
 import JSZip from 'jszip';
 import decompress from 'decompress';
@@ -9,6 +10,10 @@ import { extractArray } from './utils';
 import Presentation from './Presentation';
 import Style from './Style';
 
+/**
+ * Class representing a new presentation document to merge files into
+ * @extends EventEmitter
+ */
 export default class Document extends EventEmitter {
   constructor() {
     super({ captureRejections: true });
@@ -44,17 +49,17 @@ export default class Document extends EventEmitter {
     ];
   }
 
+  /**
+   * Merge the given file to the document
+   * @param {string} file The file path to merge to the document
+   */
   async mergeFile(file) {
     const files = await decompress(file);
     const content = files.find(f => f.path === 'content.xml');
     const stylesDocument = files.find(f => f.path === 'styles.xml');
     let manifest = this.mergeManifest(files);
     let pres = new Presentation(JSON.parse(toJson(content.data)), this.counter);
-    let style = new Style(
-      JSON.parse(toJson(stylesDocument.data)),
-      pres,
-      manifest
-    );
+    let style = new Style(JSON.parse(toJson(stylesDocument.data)), manifest);
     this.mergeContent(pres, manifest);
     this.mergeStyles(style, manifest);
     this.counter = this.counter + 1;
@@ -131,6 +136,11 @@ export default class Document extends EventEmitter {
     };
   }
 
+  /**
+   * Pipe the merged files through the ZIP stream to return the expected encapulation for presentaitons.
+   *
+   * @param {stream.WriteStream} stream The output stream for the zipped contents to write to
+   */
   pipe(stream) {
     let promise = new Promise((resolve, reject) => {
       this._zipFiles()
