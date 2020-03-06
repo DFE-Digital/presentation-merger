@@ -148,14 +148,8 @@ describe('Document', () => {
         actual = get(subject.stylesDoc, key);
       });
 
-      it('contains the master style names', () => {
-        let actualNames = actual.map(i => i['style:name']);
-        expect(actualNames).toMatchSnapshot();
-      });
-
-      it('contains the master frames', () => {
-        let actualNames = actual.map(i => i['draw:frame']);
-        expect(actualNames).toMatchSnapshot();
+      it('contains the expected master pages', () => {
+        expect(actual).toMatchSnapshot();
       });
     });
 

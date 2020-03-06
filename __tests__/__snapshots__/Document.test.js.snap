@@ -2880,6 +2880,151 @@ Object {
 }
 `;
 
+exports[`Document mergeStyles master-page contains the expected master pages 1`] = `
+Array [
+  Object {
+    "draw:frame": Array [
+      Object {
+        "draw:image": Object {
+          "text:p": Object {},
+          "xlink:actuate": "onLoad",
+          "xlink:href": "Pictures/100000000000032000000258E080B12F.jpg",
+          "xlink:show": "embed",
+          "xlink:type": "simple",
+        },
+        "draw:layer": "backgroundobjects",
+        "draw:style-name": "Mgr1",
+        "draw:text-style-name": "MP1",
+        "svg:height": "21cm",
+        "svg:width": "28cm",
+        "svg:x": "-0.001cm",
+        "svg:y": "-0.001cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "title",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-title",
+        "svg:height": "3.506cm",
+        "svg:width": "23.911cm",
+        "svg:x": "2.058cm",
+        "svg:y": "1.943cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "outline",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-outline1",
+        "svg:height": "13.23cm",
+        "svg:width": "23.384cm",
+        "svg:x": "2.285cm",
+        "svg:y": "5.938cm",
+      },
+    ],
+    "draw:style-name": "Mdp1",
+    "presentation:notes": Object {
+      "draw:frame": Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {
+          "draw:corner-radius": "3107.312cm",
+        },
+        "presentation:class": "notes",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-novelty-notes",
+        "svg:height": "11.409cm",
+        "svg:width": "14.517cm",
+        "svg:x": "3.249cm",
+        "svg:y": "14.13cm",
+      },
+      "draw:page-thumbnail": Object {
+        "draw:layer": "backgroundobjects",
+        "presentation:class": "page",
+        "presentation:style-name": "prs-novelty-title",
+        "svg:height": "10.279cm",
+        "svg:width": "13.705cm",
+        "svg:x": "3.647cm",
+        "svg:y": "2.853cm",
+      },
+      "style:page-layout-name": "PM2",
+    },
+    "style:name": "prs-novelty",
+    "style:page-layout-name": "PM1",
+  },
+  Object {
+    "draw:frame": Array [
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {
+          "draw:corner-radius": "0.065cm",
+        },
+        "presentation:class": "title",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-title",
+        "svg:height": "3.506cm",
+        "svg:width": "23.911cm",
+        "svg:x": "2.058cm",
+        "svg:y": "0.325cm",
+      },
+      Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "outline",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-outline1",
+        "svg:height": "13.23cm",
+        "svg:width": "23.548cm",
+        "svg:x": "3.023cm",
+        "svg:y": "6.178cm",
+      },
+      Object {
+        "draw:image": Object {
+          "text:p": Object {},
+          "xlink:actuate": "onLoad",
+          "xlink:href": "Pictures/2000023600002305000012CD3628FC8C.wmf",
+          "xlink:show": "embed",
+          "xlink:type": "simple",
+        },
+        "draw:layer": "backgroundobjects",
+        "draw:style-name": "Mgr1",
+        "draw:text-style-name": "MP1",
+        "svg:height": "2.937cm",
+        "svg:width": "5.47cm",
+        "svg:x": "22.048cm",
+        "svg:y": "17.365cm",
+      },
+    ],
+    "draw:style-name": "Mdp1",
+    "presentation:notes": Object {
+      "draw:frame": Object {
+        "draw:layer": "backgroundobjects",
+        "draw:text-box": Object {},
+        "presentation:class": "notes",
+        "presentation:placeholder": "true",
+        "presentation:style-name": "prs-strategy-notes",
+        "svg:height": "11.409cm",
+        "svg:width": "14.517cm",
+        "svg:x": "3.249cm",
+        "svg:y": "14.13cm",
+      },
+      "draw:page-thumbnail": Object {
+        "draw:layer": "backgroundobjects",
+        "presentation:class": "page",
+        "presentation:style-name": "prs-strategy-title",
+        "svg:height": "10.279cm",
+        "svg:width": "13.705cm",
+        "svg:x": "3.647cm",
+        "svg:y": "2.853cm",
+      },
+      "style:page-layout-name": "PM2",
+    },
+    "style:name": "prs-strategy",
+    "style:page-layout-name": "PM1",
+  },
+]
+`;
+
 exports[`Document mergeStyles master-page contains the master frames 1`] = `
 Array [
   Array [
