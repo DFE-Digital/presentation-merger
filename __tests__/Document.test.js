@@ -167,13 +167,13 @@ describe('Document', () => {
   });
 
   describe('pipe', () => {
-    let tmpfile = './tmpfile'
+    let tmpfile = './tmpfile';
     beforeEach(() => {
       subject = new Document();
     });
     afterEach(() => {
-      fs.unlinkSync(tmpfile)
-    })
+      fs.unlinkSync(tmpfile);
+    });
 
     it('handles error', async () => {
       expect.assertions(2);
