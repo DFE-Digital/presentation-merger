@@ -137,28 +137,19 @@ describe('Document', () => {
       expect(subject.stylesDoc).toMatchSnapshot();
     });
 
-    describe('master-page', () => {
-      let actual;
-      beforeEach(() => {
-        let key =
-          'office:document-styles.office:master-styles.style:master-page';
-        actual = get(subject.stylesDoc, key);
-      });
+    [
+      'office:document-styles.office:master-styles.style:master-page',
+      'office:document-styles.office:automatic-styles.style:style'
+    ].forEach(key => {
+      describe(key, () => {
+        let actual;
+        beforeEach(() => {
+          actual = get(subject.stylesDoc, key);
+        });
 
-      it('contains the expected master pages', () => {
-        expect(actual).toMatchSnapshot();
-      });
-    });
-
-    describe('office:automatic-styles.style:style', () => {
-      let actual;
-      beforeEach(() => {
-        let key = 'office:document-styles.office:automatic-styles.style:style';
-        actual = get(subject.stylesDoc, key);
-      });
-
-      it('contains the automatic-styles from both files', () => {
-        expect(actual).toMatchSnapshot();
+        it(`contains the expected contents of ${key}`, () => {
+          expect(actual).toMatchSnapshot();
+        });
       });
     });
   });
