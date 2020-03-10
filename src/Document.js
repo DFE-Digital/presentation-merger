@@ -1,14 +1,14 @@
 /** @module Document */
-import { get, set } from 'shvl';
+import fs from 'fs';
+import path from 'path';
+import { get } from 'shvl';
 import JSZip from 'jszip';
 import decompress from 'decompress';
 import EventEmitter from 'events';
 import { toJson, toXml } from 'xml2json';
 import { format } from 'prettier';
-import { extractArray } from './utils';
-
-import Presentation from './Presentation';
-import Style from './Style';
+import { moveImageReferences } from './utils';
+import Merger from './Merger';
 
 /**
  * Class representing a new presentation document to merge files into
@@ -21,14 +21,8 @@ export default class Document extends EventEmitter {
     this.files = [];
     this.manifestFiles = this.manifestFilesInitial;
     this.counter = 0;
-    this.doc = {
-      'office:document-content': {}
-    };
-    this.stylesDoc = {
-      'office:document-styles': {
-        'office:version': '1.2'
-      }
-    };
+    this.styles = new Merger('styles');
+    this.content = new Merger('content');
   }
 
   get manifestFilesInitial() {
@@ -54,75 +48,15 @@ export default class Document extends EventEmitter {
    * @param {string} file The file path to merge to the document
    */
   async mergeFile(file) {
-    const files = await decompress(file);
-    const content = files.find(f => f.path === 'content.xml');
-    const stylesDocument = files.find(f => f.path === 'styles.xml');
+    const files = await decompress(file, path);
     let manifest = this.mergeManifest(files);
-    let pres = new Presentation(JSON.parse(toJson(content.data)), this.counter);
-    let style = new Style(JSON.parse(toJson(stylesDocument.data)), manifest);
-    this.mergeContent(pres, manifest);
-    this.mergeStyles(style, manifest);
+    const contentXML = files.find(f => f.path === 'content.xml');
+    const stylesXML = files.find(f => f.path === 'styles.xml');
+    this.styles.merge(stylesXML.data.toString());
+    this.content.merge(contentXML.data.toString());
+    this.styles.doc = moveImageReferences(this.styles.doc, manifest);
+    this.content.doc = moveImageReferences(this.content.doc, manifest);
     this.counter = this.counter + 1;
-  }
-
-  get contentKeys() {
-    return [
-      'office:document-content.office:automatic-styles.style:style',
-      'office:document-content.office:automatic-styles.text:list-style',
-      'office:document-content.office:body.office:presentation.draw:page',
-      'office:document-content.office:body.office:presentation.presentation:settings'
-    ];
-  }
-
-  get styleKeys() {
-    return [
-      'office:document-styles.office:styles.draw:gradient',
-      'office:document-styles.office:styles.draw:hatch',
-      'office:document-styles.office:styles.draw:fill-image',
-      'office:document-styles.office:styles.draw:marker',
-      'office:document-styles.office:styles.draw:stroke-dash',
-      'office:document-styles.office:styles.style:default-style',
-      'office:document-styles.office:styles.style:style',
-      /**
-       * @warning `presentation-page-layout` causes OpenOffice to crash when opening the document
-       */
-      // 'office:document-styles.office:styles.style:presentation-page-layout',
-      'office:document-styles.office:automatic-styles.style:page-layout',
-      'office:document-styles.office:automatic-styles.style:style',
-      'office:document-styles.office:master-styles.draw:layer-set',
-      'office:document-styles.office:master-styles.style:handout-master',
-      'office:document-styles.office:master-styles.style:master-page'
-    ];
-  }
-
-  mergeContent(pres) {
-    this._merge(this.doc, pres, 'office:document-content', this.contentKeys);
-  }
-
-  mergeStyles(style) {
-    this._merge(
-      this.stylesDoc,
-      style,
-      'office:document-styles',
-      this.styleKeys
-    );
-  }
-
-  _merge(doc, obj, rootKey, keys) {
-    for (let [key, value] of Object.entries(obj.namespaces)) {
-      doc[rootKey][key] = value;
-    }
-    keys.forEach(key => {
-      this._content(doc, obj.data, key);
-    });
-  }
-
-  _content(doc, data, key) {
-    if (!this[key]) {
-      this[key] = new Set();
-    }
-    extractArray(data, key).forEach(i => this[key].add(i));
-    set(doc, key, Array.from(this[key]));
   }
 
   get ZIPOptions() {
@@ -143,11 +77,13 @@ export default class Document extends EventEmitter {
    */
   pipe(stream) {
     let promise = new Promise((resolve, reject) => {
-      this._zipFiles()
+      let zip = this._zipFiles();
+
+      zip
         .generateNodeStream(this.ZIPOptions)
         .pipe(stream)
         .on('finish', () => {
-          resolve();
+          resolve(zip);
           this.emit('end');
         })
         .on('error', err => {
@@ -164,9 +100,9 @@ export default class Document extends EventEmitter {
       zip.file(file.path, file.data);
     });
     zip.file('mimetype', 'application/vnd.oasis.opendocument.presentation');
-    zip.file('content.xml', this.toFormattedXML(this.doc));
-    zip.file('styles.xml', this.toFormattedXML(this.stylesDoc));
+    zip.file('content.xml', this.content.toXml(true));
     zip.file('META-INF/manifest.xml', this.toFormattedXML(this.manifest));
+    zip.file('styles.xml', this.styles.toXml(true));
     return zip;
   }
 
@@ -194,11 +130,20 @@ export default class Document extends EventEmitter {
   }
 
   toFormattedXML(object) {
-    return format(toXml(object), {
-      xmlSelfClosingSpace: true,
-      xmlWhitespaceSensitivity: 'ignore',
-      parser: 'xml'
-    });
+    let xml = toXml(object);
+    let fmt = '';
+    try {
+      fmt = format(xml, {
+        xmlSelfClosingSpace: true,
+        xmlWhitespaceSensitivity: 'ignore',
+        parser: 'xml'
+      });
+    } catch (err) {
+      // console.error(err);
+      fmt = xml;
+    }
+    fs.writeFileSync(path.join(__dirname, './out.xml'), fmt);
+    return fmt;
   }
 
   mergeManifest(files) {
