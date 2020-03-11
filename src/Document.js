@@ -1,11 +1,10 @@
 /** @module Document */
-import path from 'path';
 import JSZip from 'jszip';
-import decompress from 'decompress';
 import EventEmitter from 'events';
-// import { moveImageReferences } from './utils';
+import { moveImageReferences } from './utils';
 import Merger from './Merger';
 import Manifest from './Manifest';
+import { readFileSync } from 'fs';
 
 /**
  * Class representing a new presentation document to merge files into
@@ -25,14 +24,15 @@ export default class Document extends EventEmitter {
    * @param {string} file The file path to merge to the document
    */
   async mergeFile(file) {
-    const files = await decompress(file, path);
-    const contentXML = files.find(f => f.path === 'content.xml');
-    const stylesXML = files.find(f => f.path === 'styles.xml');
-    this.manifest.merge(files);
-    this.styles.merge(stylesXML.data.toString());
-    this.content.merge(contentXML.data.toString());
-    // this.styles.doc = moveImageReferences(this.styles.doc, manifest);
-    // this.content.doc = moveImageReferences(this.content.doc, manifest);
+    const data = readFileSync(file);
+    let zip = await JSZip.loadAsync(data);
+    const contentXML = await zip.file('content.xml').async('string');
+    const stylesXML = await zip.file('styles.xml').async('string');
+    const manifest = await this.manifest.merge(zip);
+    this.styles.merge(stylesXML);
+    this.content.merge(contentXML);
+    this.styles.doc = moveImageReferences(this.styles.doc, manifest);
+    this.content.doc = moveImageReferences(this.content.doc, manifest);
     this.counter = this.counter + 1;
   }
 
@@ -55,13 +55,12 @@ export default class Document extends EventEmitter {
   pipe(stream) {
     let promise = new Promise((resolve, reject) => {
       let zip = this._zipFiles();
-
       zip
         .generateNodeStream(this.ZIPOptions)
         .pipe(stream)
         .on('finish', () => {
           resolve(zip);
-          this.emit('end');
+          this.emit('end', zip);
         })
         .on('error', err => {
           reject(err);
@@ -73,13 +72,13 @@ export default class Document extends EventEmitter {
 
   _zipFiles() {
     const zip = new JSZip();
+    zip.file('mimetype', 'application/vnd.oasis.opendocument.presentation');
+    zip.file('META-INF/manifest.xml', this.manifest.toXml());
+    zip.file('content.xml', this.content.toXml());
+    zip.file('styles.xml', this.styles.toXml());
     this.manifest.files.forEach(file => {
       zip.file(file.path, file.data);
     });
-    zip.file('mimetype', 'application/vnd.oasis.opendocument.presentation');
-    zip.file('content.xml', this.content.toXml(true));
-    zip.file('META-INF/manifest.xml', this.manifest.toXml(true));
-    zip.file('styles.xml', this.styles.toXml(true));
     return zip;
   }
 }

@@ -2,7 +2,8 @@ node_modules
 coverage
 .vscode
 *DS_Store
-__tests__/__fixtures__/output.odp
+__tests__/__fixtures__/**/output/
+__tests__/__fixtures__/**/output.odp
 lib
 *.tgz
 docs
