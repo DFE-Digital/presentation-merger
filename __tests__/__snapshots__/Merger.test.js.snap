@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Merger .merge(xml) appends the selected XML keys to the document sets 1`] = `
+Object {
+  "office:document-content": Object {
+    "@_office:version": "1.2",
+    "@_xmlns:officeooo": "http://openoffice.org/2009/office",
+    "office:automatic-styles": Object {
+      "number:date-style": Array [],
+      "style:style": Array [],
+      "text:list-style": Array [],
+    },
+    "office:body": Object {
+      "office:presentation": Object {
+        "draw:page": Array [
+          Object {
+            "@_draw:name": "page1",
+          },
+          Object {
+            "@_draw:name": "page2",
+          },
+          Object {
+            "@_draw:name": "page1",
+          },
+          Object {
+            "@_draw:name": "page2",
+          },
+        ],
+      },
+    },
+    "office:font-face-decls": Object {
+      "style:font-face": Array [],
+    },
+    "office:scripts": Array [],
+  },
+}
+`;
+
+exports[`Merger .merge(xml) appends the selected XML keys to the document sets 2`] = `
+Set {
+  Object {
+    "@_draw:name": "page1",
+  },
+  Object {
+    "@_draw:name": "page2",
+  },
+  Object {
+    "@_draw:name": "page1",
+  },
+  Object {
+    "@_draw:name": "page2",
+  },
+}
+`;
+
+exports[`Merger .merge(xml) merges the provided XML content to the doc object 1`] = `
+Object {
+  "office:document-content": Object {
+    "@_office:version": "1.2",
+    "@_xmlns:officeooo": "http://openoffice.org/2009/office",
+    "office:automatic-styles": Object {
+      "number:date-style": Array [],
+      "style:style": Array [],
+      "text:list-style": Array [],
+    },
+    "office:body": Object {
+      "office:presentation": Object {
+        "draw:page": Array [
+          Object {
+            "@_draw:name": "page1",
+          },
+          Object {
+            "@_draw:name": "page2",
+          },
+        ],
+      },
+    },
+    "office:font-face-decls": Object {
+      "style:font-face": Array [],
+    },
+    "office:scripts": Array [],
+  },
+}
+`;
+
+exports[`Merger .merge(xml) merges the provided XML content to the doc object 2`] = `
+Set {
+  Object {
+    "@_draw:name": "page1",
+  },
+  Object {
+    "@_draw:name": "page2",
+  },
+}
+`;
+
+exports[`Merger .toObj(xml) throws an error when initialized with a unknown type 1`] = `"Unhandled content type 'something'"`;
+
+exports[`Merger .toXml(formatted) converts doc object to XML without formatting 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<office:document-content><office:body><office:presentation><draw:page draw:name=\\"page1\\"></draw:page></office:presentation></office:body></office:document-content>"
+`;
+
+exports[`Merger .toXml(formatted) converts the doc object to XML 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<office:document-content>
+  <office:body>
+    <office:presentation>
+      <draw:page draw:name=\\"page1\\" />
+    </office:presentation>
+  </office:body>
+</office:document-content>
+"
+`;
+
+exports[`Merger throws an error when initialized with a unknown type 1`] = `"missing \`rootKey\` expected \\"content\\" or \\"styles\\""`;
