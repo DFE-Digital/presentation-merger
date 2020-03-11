@@ -43,7 +43,7 @@ export default class Manifest {
   _manifestMapEntry(zip, manifestFile) {
     if (this._manifestIsImageEntry(manifestFile)) {
       const file = zip.file(manifestFile['@_manifest:full-path']);
-      file.path = `Presentation${this.counter}-${file.path}`;
+      file.path = `Presentation${this.counter}-${file.name}`;
       this.files.push(file);
       this.manifestFiles.push({
         mimeType: manifestFile['@_manifest:media-type'],

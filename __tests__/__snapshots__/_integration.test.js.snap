@@ -6,11 +6,11 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 1`] = 
   <manifest:file-entry manifest:full-path=\\"/\\" manifest:media-type=\\"application/vnd.oasis.opendocument.presentation\\" manifest:version=\\"1.2\\"></manifest:file-entry>
   <manifest:file-entry manifest:full-path=\\"content.xml\\" manifest:media-type=\\"text/xml\\"></manifest:file-entry>
   <manifest:file-entry manifest:full-path=\\"styles.xml\\" manifest:media-type=\\"text/xml\\"></manifest:file-entry>
-  <manifest:file-entry manifest:full-path=\\"Presentation0-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
-  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
-  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
-  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
-  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation0-Thumbnails/thumbnail.png\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-Pictures/100002010000042200000098C229A4842787C6AA.png\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-Pictures/1000020100000422000000B28E6D1922B84B2803.png\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-Pictures/1000020100000422000000A28007CF17A1AE36FB.png\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-Thumbnails/thumbnail.png\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
 </manifest:manifest>
 "
 `;
@@ -6399,7 +6399,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 3`] = 
         svg:y=\\"16.713cm\\"
       >
         <draw:image
-          xlink:href=\\"Presentation1-undefined\\"
+          xlink:href=\\"Presentation1-Pictures/1000020100000422000000A28007CF17A1AE36FB.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
@@ -6496,7 +6496,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 3`] = 
         svg:y=\\"0cm\\"
       >
         <draw:image
-          xlink:href=\\"Presentation1-undefined\\"
+          xlink:href=\\"Presentation1-Pictures/1000020100000422000000B28E6D1922B84B2803.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
@@ -6616,7 +6616,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 3`] = 
         svg:y=\\"16.968cm\\"
       >
         <draw:image
-          xlink:href=\\"Presentation1-undefined\\"
+          xlink:href=\\"Presentation1-Pictures/100002010000042200000098C229A4842787C6AA.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
