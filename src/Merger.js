@@ -88,6 +88,9 @@ export default class Merger {
   toXml(formatted = true) {
     let parser = new Parser(this.parserOptions);
     let xml = parser.parse(this.doc);
+    if (!xml) {
+      return '';
+    }
     xml = `<?xml version="1.0" encoding="UTF-8" ?>\n${xml}`;
     if (formatted) {
       xml = format(xml, {

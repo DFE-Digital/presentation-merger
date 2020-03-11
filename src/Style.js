@@ -1,6 +1,6 @@
 /** @module Style */
 import XMLFileBase from './XMLFileBase';
-import { extractArray } from './utils';
+// import { extractArray } from './utils';
 
 /**
  * Class prepresenting `style.xml` in the presentation document
@@ -16,6 +16,7 @@ export default class Style extends XMLFileBase {
     super(xml, id, 'office:document-styles', manifest);
   }
 
+  /*
   get arrayNotation() {
     return [
       'style:handout-master',
@@ -34,6 +35,7 @@ export default class Style extends XMLFileBase {
       'draw:custom-shape'
     ];
   }
+  */
 
   get keys() {
     return [
@@ -60,32 +62,29 @@ export default class Style extends XMLFileBase {
 
   // eslint-disable-next-line max-lines-per-function
   changeKeyReferences(content) {
-    let arr = extractArray(
-      content,
-      'office:document-styles.office:automatic-styles.style:style'
-    );
-    let mp = extractArray(
-      content,
-      'office:document-styles.office:master-styles.style:master-page'
-    );
-    mp.forEach(e => {
-      delete e['presentation:notes'];
-      delete e['draw:custom-shape']; // @temp
-      console.log(e);
-      extractArray(e, 'draw:custom-shape').forEach(s => {
-        if (s['@_presentation:style-name']) {
-          s['@_presentation:style-name'] =
-            this.id + '_' + s['@_presentation:style-name'];
-          console.log('shape', s['@_presentation:style-name']);
-        }
-      });
-    });
-    arr.forEach(e => {
-      if (e['@_style:family'] === 'presentation') {
-        e['@_style:name'] = this.id + '_' + e['@_style:name'];
-        console.log(e['@_style:name']);
-      }
-    });
+    // let arr = extractArray(
+    //   content,
+    //   'office:document-styles.office:automatic-styles.style:style'
+    // );
+    // let mp = extractArray(
+    //   content,
+    //   'office:document-styles.office:master-styles.style:master-page'
+    // );
+    // mp.forEach(e => {
+    //   delete e['presentation:notes'];
+    //   delete e['draw:custom-shape']; // @temp
+    //   extractArray(e, 'draw:custom-shape').forEach(s => {
+    //     if (s['@_presentation:style-name']) {
+    //       s['@_presentation:style-name'] =
+    //         this.id + '_' + s['@_presentation:style-name'];
+    //     }
+    //   });
+    // });
+    // arr.forEach(e => {
+    //   if (e['@_style:family'] === 'presentation') {
+    //     e['@_style:name'] = this.id + '_' + e['@_style:name'];
+    //   }
+    // });
 
     return content;
   }

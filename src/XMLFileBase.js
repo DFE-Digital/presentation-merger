@@ -24,14 +24,6 @@ export default class XMLFileBase {
       attrNodeName: false,
       ignoreAttributes: false,
       ignoreNameSpace: false
-      // arrayMode: true
-      // object: true,
-      // reversible: true,
-      // coerce: true,
-      // trim: false,
-
-      // arrayMode: 'strict' //this.arrayNotation
-      // arrayNotation: this.arrayNotation
     });
   }
 

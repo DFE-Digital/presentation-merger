@@ -1,51 +1,109 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Intergration Merges two documents together into one document 1`] = `
-"<manifest:manifest
-  xmlns:manifest=\\"urn:oasis:names:tc:opendocument:xmlns:manifest:1.0\\"
-  manifest:version=\\"1.2\\"
->
-  <manifest:file-entry
-    manifest:full-path=\\"/\\"
-    manifest:media-type=\\"application/vnd.oasis.opendocument.presentation\\"
-    manifest:version=\\"1.2\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"content.xml\\"
-    manifest:media-type=\\"text/xml\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"styles.xml\\"
-    manifest:media-type=\\"text/xml\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation0-Thumbnails/thumbnail.png\\"
-    manifest:media-type=\\"image/png\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation0-Pictures/100000000000032000000258E080B12F.jpg\\"
-    manifest:media-type=\\"image/jpeg\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation0-Pictures/100002010000028200000040779DD47E.png\\"
-    manifest:media-type=\\"image/png\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation0-Pictures/1000000000000040000000400142E835.png\\"
-    manifest:media-type=\\"image/png\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation1-Thumbnails/thumbnail.png\\"
-    manifest:media-type=\\"image/png\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation1-Pictures/2000023600002305000012CD3628FC8C.wmf\\"
-    manifest:media-type=\\"\\"
-  />
-  <manifest:file-entry
-    manifest:full-path=\\"Presentation1-Pictures/1000000000000040000000400142E835.png\\"
-    manifest:media-type=\\"image/png\\"
-  />
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<manifest:manifest>
+  <xmlns:manifest
+  >urn:oasis:names:tc:opendocument:xmlns:manifest:1.0</xmlns:manifest>
+  <manifest:version>1.2</manifest:version>
+  <manifest:file-entry>
+    <manifest:full-path>/</manifest:full-path>
+    <manifest:media-type
+    >application/vnd.oasis.opendocument.presentation</manifest:media-type>
+    <manifest:version>1.2</manifest:version>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>content.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>styles.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Pictures/100000000000032000000258E080B12F.jpg</manifest:full-path>
+    <manifest:media-type>image/jpeg</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Pictures/100002010000028200000040779DD47E.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Pictures/1000000000000040000000400142E835.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/2000023600002305000012CD3628FC8C.wmf</manifest:full-path>
+    <manifest:media-type />
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/1000000000000040000000400142E835.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+</manifest:manifest>
+"
+`;
+
+exports[`Intergration issue #4 merges files successfully 1`] = `
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<manifest:manifest>
+  <xmlns:manifest
+  >urn:oasis:names:tc:opendocument:xmlns:manifest:1.0</xmlns:manifest>
+  <manifest:version>1.2</manifest:version>
+  <manifest:file-entry>
+    <manifest:full-path>/</manifest:full-path>
+    <manifest:media-type
+    >application/vnd.oasis.opendocument.presentation</manifest:media-type>
+    <manifest:version>1.2</manifest:version>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>content.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>styles.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/100002010000042200000098C229A4842787C6AA.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/1000020100000422000000B28E6D1922B84B2803.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/1000020100000422000000A28007CF17A1AE36FB.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
 </manifest:manifest>
 "
 `;

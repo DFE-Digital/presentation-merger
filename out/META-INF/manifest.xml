@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest:manifest>
+  <xmlns:manifest
+  >urn:oasis:names:tc:opendocument:xmlns:manifest:1.0</xmlns:manifest>
+  <manifest:version>1.2</manifest:version>
+  <manifest:file-entry>
+    <manifest:full-path>/</manifest:full-path>
+    <manifest:media-type
+    >application/vnd.oasis.opendocument.presentation</manifest:media-type>
+    <manifest:version>1.2</manifest:version>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>content.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path>styles.xml</manifest:full-path>
+    <manifest:media-type>text/xml</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation0-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/100002010000042200000098C229A4842787C6AA.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/1000020100000422000000B28E6D1922B84B2803.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Pictures/1000020100000422000000A28007CF17A1AE36FB.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+  <manifest:file-entry>
+    <manifest:full-path
+    >Presentation1-Thumbnails/thumbnail.png</manifest:full-path>
+    <manifest:media-type>image/png</manifest:media-type>
+  </manifest:file-entry>
+</manifest:manifest>

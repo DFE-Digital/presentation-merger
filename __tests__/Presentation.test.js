@@ -1,18 +1,27 @@
-import fs from 'fs';
-import path from 'path';
 import Presenation from '../src/Presentation';
 
-const fixture = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '__fixtures__/example.json'))
-);
-
 describe('Presentation', () => {
-  describe('.uniqueStyleIDs()', () => {
-    it('renames style names with a prefixed ID', () => {
-      let subject = new Presenation(fixture, 0);
-      expect(JSON.stringify(subject.data)).toContain(
-        '"text:style-name":"0-a1219"'
-      );
+  let subject;
+  beforeEach(() => {
+    subject = new Presenation();
+  });
+
+  describe('.keys', () => {
+    it('returns an array of keys to extract from the document', () => {
+      expect(subject.keys).toMatchInlineSnapshot(`
+        Array [
+          "office:document-content.office:scripts",
+          "office:document-content.office:font-face-decls.style:font-face",
+          "office:document-content.office:automatic-styles.style:style",
+          "office:document-content.office:automatic-styles.text:list-style",
+          "office:document-content.office:automatic-styles.number:date-style",
+          "office:document-content.office:body.office:presentation.draw:page",
+        ]
+      `);
     });
+  });
+
+  describe('.changeKeyReferences', () => {
+    it.todo('changes the references of styles to be unique');
   });
 });

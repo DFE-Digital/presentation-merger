@@ -45,7 +45,8 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
-    "lint-staged": "^9.5.0"
+    "lint-staged": "^9.5.0",
+    "jsdoc": "^3.6.3"
   },
   "husky": {
     "hooks": {
@@ -65,11 +66,9 @@
     "debug": "^4.1.1",
     "decompress": "^4.2.0",
     "fast-xml-parser": "^3.16.0",
-    "jsdoc": "^3.6.3",
     "jszip": "^3.2.2",
     "prettier": "^1.19.1",
-    "shvl": "^2.0.0",
-    "xml2json": "^0.12.0"
+    "shvl": "^2.0.0"
   },
   "repository": {
     "type": "git",

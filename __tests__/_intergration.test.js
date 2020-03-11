@@ -9,50 +9,64 @@ async function mergeFiles(files, outPath) {
   for (let file of files) {
     await doc.mergeFile(file);
   }
-  doc.pipe(stream);
-  return new Promise((done, fail) => {
-    doc.on('end', done);
-    doc.on('error', fail);
-  });
+  return doc.pipe(stream);
+}
+
+async function checkPresentationIntegrity(filePath) {
+  const files = await decompress(filePath, 'out');
+
+  expect(files).toContainEqual(
+    expect.objectContaining({
+      path: 'content.xml',
+      type: 'file'
+    })
+  );
+
+  expect(files).toContainEqual(
+    expect.objectContaining({
+      path: 'META-INF/manifest.xml',
+      type: 'file'
+    })
+  );
+
+  expect(files).toContainEqual(
+    expect.objectContaining({
+      path: 'mimetype',
+      type: 'file'
+    })
+  );
+
+  expect(
+    files.find(f => f.path === 'META-INF/manifest.xml').data.toString()
+  ).toMatchSnapshot();
 }
 
 describe('Intergration', () => {
+  // eslint-disable-next-line jest/expect-expect
   it('Merges two documents together into one document', async () => {
-    const filePath = path.join(__dirname, '__fixtures__/output.odp');
+    let dirname = path.join(__dirname, '__fixtures__');
+
+    const filePath = path.join(dirname, 'output.odp');
 
     await mergeFiles(
-      [
-        path.join(__dirname, '__fixtures__/file1.odp'),
-        path.join(__dirname, '__fixtures__/file2.odp')
-      ],
+      [path.join(dirname, 'file1.odp'), path.join(dirname, 'file2.odp')],
       filePath
     );
+    await checkPresentationIntegrity(filePath);
+  });
 
-    const files = await decompress(filePath);
+  describe('issue #4', () => {
+    // eslint-disable-next-line jest/expect-expect
+    it('merges files successfully', async () => {
+      let dirname = path.join(__dirname, '__fixtures__/samples1');
+      const filePath = path.join(dirname, 'output.odp');
+      await mergeFiles(
+        [path.join(dirname, 'pres1.odp'), path.join(dirname, 'pres2.odp')],
+        filePath
+      );
 
-    expect(files).toContainEqual(
-      expect.objectContaining({
-        path: 'content.xml',
-        type: 'file'
-      })
-    );
-
-    expect(files).toContainEqual(
-      expect.objectContaining({
-        path: 'META-INF/manifest.xml',
-        type: 'file'
-      })
-    );
-
-    expect(files).toContainEqual(
-      expect.objectContaining({
-        path: 'mimetype',
-        type: 'file'
-      })
-    );
-
-    expect(
-      files.find(f => f.path === 'META-INF/manifest.xml').data.toString()
-    ).toMatchSnapshot();
+      await checkPresentationIntegrity(filePath);
+      // exec(`open ${filePath}`);
+    });
   });
 });
