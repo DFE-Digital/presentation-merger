@@ -1,48 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 1`] = `
-"<manifest:manifest>
-  <xmlns:manifest>urn:oasis:names:tc:opendocument:xmlns:manifest:1.0</xmlns:manifest>
-  <manifest:version>1.2</manifest:version>
-  <manifest:file-entry>
-    <manifest:full-path>/</manifest:full-path>
-    <manifest:media-type>application/vnd.oasis.opendocument.presentation</manifest:media-type>
-    <manifest:version>1.2</manifest:version>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>content.xml</manifest:full-path>
-    <manifest:media-type>text/xml</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>styles.xml</manifest:full-path>
-    <manifest:media-type>text/xml</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>Presentation0-undefined</manifest:full-path>
-    <manifest:media-type>image/png</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>Presentation1-undefined</manifest:full-path>
-    <manifest:media-type>image/png</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>Presentation1-undefined</manifest:full-path>
-    <manifest:media-type>image/png</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>Presentation1-undefined</manifest:full-path>
-    <manifest:media-type>image/png</manifest:media-type>
-  </manifest:file-entry>
-  <manifest:file-entry>
-    <manifest:full-path>Presentation1-undefined</manifest:full-path>
-    <manifest:media-type>image/png</manifest:media-type>
-  </manifest:file-entry>
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<manifest:manifest xmlns:manifest=\\"urn:oasis:names:tc:opendocument:xmlns:manifest:1.0\\" manifest:version=\\"1.2\\">
+  <manifest:file-entry manifest:full-path=\\"/\\" manifest:media-type=\\"application/vnd.oasis.opendocument.presentation\\" manifest:version=\\"1.2\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"content.xml\\" manifest:media-type=\\"text/xml\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"styles.xml\\" manifest:media-type=\\"text/xml\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation0-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
+  <manifest:file-entry manifest:full-path=\\"Presentation1-undefined\\" manifest:media-type=\\"image/png\\"></manifest:file-entry>
 </manifest:manifest>
 "
 `;
 
 exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 2`] = `
-"<office:document-content
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<office:document-content
   xmlns:officeooo=\\"http://openoffice.org/2009/office\\"
   xmlns:anim=\\"urn:oasis:names:tc:opendocument:xmlns:animation:1.0\\"
   xmlns:smil=\\"urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0\\"
@@ -905,7 +880,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 2`] = 
 `;
 
 exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" 3`] = `
-"<office:document-styles
+"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" ?>
+<office:document-styles
   xmlns:officeooo=\\"http://openoffice.org/2009/office\\"
   xmlns:anim=\\"urn:oasis:names:tc:opendocument:xmlns:animation:1.0\\"
   xmlns:smil=\\"urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0\\"

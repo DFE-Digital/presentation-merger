@@ -2,12 +2,12 @@
 
 exports[`Document ._zipFiles() returns a JSZip containing files 1`] = `
 Array [
-  "/test",
   "mimetype",
-  "content.xml",
   "META-INF/",
   "META-INF/manifest.xml",
+  "content.xml",
   "styles.xml",
+  "/test",
 ]
 `;
 

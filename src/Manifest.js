@@ -2,7 +2,6 @@
 import { j2xParser as Parser } from 'fast-xml-parser';
 import { get } from 'shvl';
 import { parse as toJson } from 'fast-xml-parser';
-import { format } from 'prettier';
 
 export default class Manifest {
   constructor() {
@@ -28,7 +27,7 @@ export default class Manifest {
   async merge(zip) {
     const manifest = await zip.file('META-INF/manifest.xml').async('string');
     let json = toJson(manifest, {
-      attributeNamePrefix: '',
+      attributeNamePrefix: '@_',
       attrNodeName: false,
       ignoreAttributes: false,
       ignoreNameSpace: false
@@ -43,43 +42,44 @@ export default class Manifest {
 
   _manifestMapEntry(zip, manifestFile) {
     if (this._manifestIsImageEntry(manifestFile)) {
-      const file = zip.file(manifestFile['manifest:full-path']);
+      const file = zip.file(manifestFile['@_manifest:full-path']);
       file.path = `Presentation${this.counter}-${file.path}`;
       this.files.push(file);
       this.manifestFiles.push({
-        mimeType: manifestFile['manifest:media-type'],
+        mimeType: manifestFile['@_manifest:media-type'],
         path: file.path
       });
       return {
-        mimeType: manifestFile['manifest:media-type'],
-        pathPrevious: manifestFile['manifest:full-path'],
+        mimeType: manifestFile['@_manifest:media-type'],
+        pathPrevious: manifestFile['@_manifest:full-path'],
         path: file.path
       };
     }
   }
   _manifestIsImageEntry(manifestFile) {
     return (
-      manifestFile['manifest:media-type'].startsWith('image/') ||
-      manifestFile['manifest:full-path'].endsWith('.wmf')
+      manifestFile['@_manifest:media-type'].startsWith('image/') ||
+      manifestFile['@_manifest:full-path'].endsWith('.wmf')
     );
   }
 
   get doc() {
     let output = {
       'manifest:manifest': {
-        'xmlns:manifest': 'urn:oasis:names:tc:opendocument:xmlns:manifest:1.0',
-        'manifest:version': '1.2',
-        'manifest:file-entry': []
+        '@_xmlns:manifest':
+          'urn:oasis:names:tc:opendocument:xmlns:manifest:1.0',
+        '@_manifest:version': '1.2',
+        '@_manifest:file-entry': []
       }
     };
     output['manifest:manifest']['manifest:file-entry'] = this.manifestFiles.map(
       file => {
         let out = {
-          'manifest:full-path': file.path,
-          'manifest:media-type': file.mimeType
+          '@_manifest:full-path': file.path,
+          '@_manifest:media-type': file.mimeType
         };
         if (file.version) {
-          out['manifest:version'] = file.version;
+          out['@_manifest:version'] = file.version;
         }
         return out;
       }
@@ -88,19 +88,19 @@ export default class Manifest {
   }
 
   toXml(formatted = true) {
-    let parser = new Parser(this.parserOptions);
+    const options = {
+      format: formatted,
+      attributeNamePrefix: '@_',
+      attrNodeName: false,
+      ignoreAttributes: false,
+      ignoreNameSpace: false
+    };
+    const parser = new Parser(options);
     let xml = parser.parse(this.doc);
     if (!xml) {
       return '';
     }
     xml = `<?xml version="1.0" encoding="UTF-8" ?>\n${xml}`;
-    if (formatted) {
-      xml = format(xml, {
-        xmlSelfClosingSpace: true,
-        xmlWhitespaceSensitivity: 'ignore',
-        parser: 'xml'
-      });
-    }
     return xml;
   }
 }
