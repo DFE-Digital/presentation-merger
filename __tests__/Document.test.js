@@ -17,7 +17,9 @@ describe('Document', () => {
 
   describe('.mergeFile(file)', () => {
     it('merges the given file into the single document', async () => {
-      await subject.mergeFile(path.join(__dirname, '__fixtures__/file1.odp'));
+      await subject.mergeFile(
+        path.join(__dirname, '__fixtures__/samples0/pres1.odp')
+      );
       expect(subject.manifestFiles).toMatchSnapshot();
       expect(subject.content).toMatchSnapshot();
       expect(subject.styles).toMatchSnapshot();
