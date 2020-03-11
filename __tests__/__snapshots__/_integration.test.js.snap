@@ -2537,18 +2537,10 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       draw:distance=\\"0.02cm\\"
       draw:rotation=\\"0\\"
     />
-    <draw:hatch
-      draw:name=\\"Hatch_20_1\\"
-      draw:display-name=\\"Hatch 1\\"
-      draw:style=\\"single\\"
-      draw:color=\\"#000000\\"
-      draw:distance=\\"0.02cm\\"
-      draw:rotation=\\"0\\"
-    />
     <draw:fill-image
       draw:name=\\"Bitmape_20_1\\"
       draw:display-name=\\"Bitmape 1\\"
-      xlink:href=\\"Presentation1-Pictures/1000000000000040000000400142E835.png\\"
+      xlink:href=\\"Presentation0-Pictures/1000000000000040000000400142E835.png\\"
       xlink:type=\\"simple\\"
       xlink:show=\\"embed\\"
       xlink:actuate=\\"onLoad\\"
@@ -2556,7 +2548,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
     <draw:fill-image
       draw:name=\\"Bitmape_20_2\\"
       draw:display-name=\\"Bitmape 2\\"
-      xlink:href=\\"Pictures/100002010000028200000040779DD47E.png\\"
+      xlink:href=\\"Presentation0-Pictures/100002010000028200000040779DD47E.png\\"
       xlink:type=\\"simple\\"
       xlink:show=\\"embed\\"
       xlink:actuate=\\"onLoad\\"
@@ -2586,34 +2578,6 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       draw:display-name=\\"Linienende 3\\"
       svg:viewBox=\\"0 0 200 400\\"
       svg:d=\\"M100 0l100 400h-200z\\"
-    />
-    <draw:marker
-      draw:name=\\"Linienende_20_1\\"
-      draw:display-name=\\"Linienende 1\\"
-      svg:viewBox=\\"0 0 20 30\\"
-      svg:d=\\"M10 0l-10 30h20z\\"
-    />
-    <draw:marker
-      draw:name=\\"Linienende_20_2\\"
-      draw:display-name=\\"Linienende 2\\"
-      svg:viewBox=\\"0 0 200 400\\"
-      svg:d=\\"M100 0l100 400h-200z\\"
-    />
-    <draw:marker
-      draw:name=\\"Linienende_20_3\\"
-      draw:display-name=\\"Linienende 3\\"
-      svg:viewBox=\\"0 0 200 400\\"
-      svg:d=\\"M100 0l100 400h-200z\\"
-    />
-    <draw:stroke-dash
-      draw:name=\\"Dash_20_1\\"
-      draw:display-name=\\"Dash 1\\"
-      draw:style=\\"rect\\"
-      draw:dots1=\\"1\\"
-      draw:dots1-length=\\"0.02cm\\"
-      draw:dots2=\\"1\\"
-      draw:dots2-length=\\"0.02cm\\"
-      draw:distance=\\"0.02cm\\"
     />
     <draw:stroke-dash
       draw:name=\\"Dash_20_1\\"
@@ -7768,6 +7732,72 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
     </style:style>
   </office:styles>
   <office:automatic-styles>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"29.7cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM2\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"29.7cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM2\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
     <style:style style:name=\\"Mdp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         draw:background-size=\\"border\\"
@@ -7856,6 +7886,81 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
     </style:style>
   </office:automatic-styles>
   <office:master-styles>
+    <draw:layer-set>
+      <draw:layer draw:name=\\"layout\\" />
+      <draw:layer draw:name=\\"background\\" />
+      <draw:layer draw:name=\\"backgroundobjects\\" />
+      <draw:layer draw:name=\\"controls\\" />
+      <draw:layer draw:name=\\"measurelines\\" />
+    </draw:layer-set>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T25\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"2.375cm\\"
+        svg:y=\\"2.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"2.375cm\\"
+        svg:y=\\"11cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"16.725cm\\"
+        svg:y=\\"2.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"16.725cm\\"
+        svg:y=\\"11cm\\"
+      />
+    </style:handout-master>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T25\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"2.375cm\\"
+        svg:y=\\"2.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"2.375cm\\"
+        svg:y=\\"11cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"16.725cm\\"
+        svg:y=\\"2.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"10.599cm\\"
+        svg:height=\\"7.949cm\\"
+        svg:x=\\"16.725cm\\"
+        svg:y=\\"11cm\\"
+      />
+    </style:handout-master>
     <style:master-page
       style:name=\\"prs-novelty\\"
       style:page-layout-name=\\"PM1\\"
@@ -7871,7 +7976,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         svg:y=\\"-0.001cm\\"
       >
         <draw:image
-          xlink:href=\\"Pictures/100000000000032000000258E080B12F.jpg\\"
+          xlink:href=\\"Presentation0-Pictures/100000000000032000000258E080B12F.jpg\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
@@ -8152,36 +8257,6 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       svg:font-family=\\"&apos;Source Sans Pro Semibold&apos;\\"
       style:font-adornments=\\"Semibold\\"
       style:font-family-generic=\\"swiss\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Arial Unicode MS\\"
-      svg:font-family=\\"&apos;Arial Unicode MS&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"PingFang SC\\"
-      svg:font-family=\\"&apos;PingFang SC&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Tahoma\\"
-      svg:font-family=\\"Tahoma\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Liberation Sans\\"
-      svg:font-family=\\"&apos;Liberation Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans\\"
-      svg:font-family=\\"&apos;Noto Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
       style:font-pitch=\\"variable\\"
     />
     <style:font-face
@@ -9032,36 +9107,6 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       style:font-family-generic=\\"system\\"
       style:font-pitch=\\"variable\\"
     />
-    <style:font-face
-      style:name=\\"Liberation Sans\\"
-      svg:font-family=\\"&apos;Liberation Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans\\"
-      svg:font-family=\\"&apos;Noto Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Arial Unicode MS\\"
-      svg:font-family=\\"&apos;Arial Unicode MS&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"PingFang SC\\"
-      svg:font-family=\\"&apos;PingFang SC&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Tahoma\\"
-      svg:font-family=\\"Tahoma\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
   </office:font-face-decls>
   <office:styles>
     <draw:gradient
@@ -9152,72 +9197,6 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       draw:angle=\\"0\\"
       draw:border=\\"0%\\"
     />
-    <draw:gradient
-      draw:name=\\"Filled\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ffffff\\"
-      draw:end-color=\\"#cccccc\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Blue\\"
-      draw:display-name=\\"Filled Blue\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#729fcf\\"
-      draw:end-color=\\"#355269\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Green\\"
-      draw:display-name=\\"Filled Green\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#77bc65\\"
-      draw:end-color=\\"#127622\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Red\\"
-      draw:display-name=\\"Filled Red\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ff6d6d\\"
-      draw:end-color=\\"#c9211e\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Yellow\\"
-      draw:display-name=\\"Filled Yellow\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ffde59\\"
-      draw:end-color=\\"#b47804\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Shapes\\"
-      draw:style=\\"rectangular\\"
-      draw:cx=\\"50%\\"
-      draw:cy=\\"50%\\"
-      draw:start-color=\\"#cccccc\\"
-      draw:end-color=\\"#ffffff\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"0\\"
-      draw:border=\\"0%\\"
-    />
     <draw:hatch
       draw:name=\\"Hatching_20_91\\"
       draw:display-name=\\"Hatching 91\\"
@@ -9225,11 +9204,6 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       draw:color=\\"#3465a4\\"
       draw:distance=\\"0.02cm\\"
       draw:rotation=\\"0\\"
-    />
-    <draw:marker
-      draw:name=\\"Arrow\\"
-      svg:viewBox=\\"0 0 20 30\\"
-      svg:d=\\"M10 0l-10 30h20z\\"
     />
     <draw:marker
       draw:name=\\"Arrow\\"
@@ -12925,6 +12899,50 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
     </style:style>
   </office:styles>
   <office:automatic-styles>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
     <style:style style:name=\\"Mdp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         draw:background-size=\\"border\\"
@@ -13961,6 +13979,253 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
     </text:list-style>
   </office:automatic-styles>
   <office:master-styles>
+    <draw:layer-set>
+      <draw:layer draw:name=\\"layout\\" />
+      <draw:layer draw:name=\\"background\\" />
+      <draw:layer draw:name=\\"backgroundobjects\\" />
+      <draw:layer draw:name=\\"controls\\" />
+      <draw:layer draw:name=\\"measurelines\\" />
+    </draw:layer-set>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T26\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"3.742cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"12.318cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"20.894cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"3.742cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"12.318cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"5.061cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"20.894cm\\"
+      />
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"header\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:header />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"date-time\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:date-time />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"footer\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:footer />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"page-number\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <text:page-number>&lt;number&gt;</text:page-number>
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+    </style:handout-master>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T26\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"header\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:header />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"date-time\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:date-time />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"footer\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:footer />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"page-number\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <text:page-number>&lt;number&gt;</text:page-number>
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+    </style:handout-master>
     <style:master-page
       style:name=\\"Alizarin\\"
       style:page-layout-name=\\"PM1\\"
@@ -14897,36 +15162,6 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       style:font-family-generic=\\"system\\"
       style:font-pitch=\\"variable\\"
     />
-    <style:font-face
-      style:name=\\"Liberation Sans\\"
-      svg:font-family=\\"&apos;Liberation Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans\\"
-      svg:font-family=\\"&apos;Noto Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"DejaVu Sans\\"
-      svg:font-family=\\"&apos;DejaVu Sans&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Lohit Devanagari\\"
-      svg:font-family=\\"&apos;Lohit Devanagari&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans CJK SC\\"
-      svg:font-family=\\"&apos;Noto Sans CJK SC&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
   </office:font-face-decls>
   <office:automatic-styles>
     <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
@@ -15616,36 +15851,6 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       style:font-family-generic=\\"system\\"
       style:font-pitch=\\"variable\\"
     />
-    <style:font-face
-      style:name=\\"Liberation Sans\\"
-      svg:font-family=\\"&apos;Liberation Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans\\"
-      svg:font-family=\\"&apos;Noto Sans&apos;\\"
-      style:font-family-generic=\\"roman\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"DejaVu Sans\\"
-      svg:font-family=\\"&apos;DejaVu Sans&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Lohit Devanagari\\"
-      svg:font-family=\\"&apos;Lohit Devanagari&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
-    <style:font-face
-      style:name=\\"Noto Sans CJK SC\\"
-      svg:font-family=\\"&apos;Noto Sans CJK SC&apos;\\"
-      style:font-family-generic=\\"system\\"
-      style:font-pitch=\\"variable\\"
-    />
   </office:font-face-decls>
   <office:styles>
     <draw:gradient
@@ -15715,60 +15920,6 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       draw:border=\\"0%\\"
     />
     <draw:gradient
-      draw:name=\\"Filled\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ffffff\\"
-      draw:end-color=\\"#cccccc\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Blue\\"
-      draw:display-name=\\"Filled Blue\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#729fcf\\"
-      draw:end-color=\\"#355269\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Green\\"
-      draw:display-name=\\"Filled Green\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#77bc65\\"
-      draw:end-color=\\"#127622\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Red\\"
-      draw:display-name=\\"Filled Red\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ff6d6d\\"
-      draw:end-color=\\"#c9211e\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Filled_20_Yellow\\"
-      draw:display-name=\\"Filled Yellow\\"
-      draw:style=\\"linear\\"
-      draw:start-color=\\"#ffde59\\"
-      draw:end-color=\\"#b47804\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"300\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:gradient
       draw:name=\\"Gradient_20_2\\"
       draw:display-name=\\"Gradient 2\\"
       draw:style=\\"linear\\"
@@ -15778,23 +15929,6 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       draw:end-intensity=\\"100%\\"
       draw:angle=\\"2700\\"
       draw:border=\\"0%\\"
-    />
-    <draw:gradient
-      draw:name=\\"Shapes\\"
-      draw:style=\\"rectangular\\"
-      draw:cx=\\"50%\\"
-      draw:cy=\\"50%\\"
-      draw:start-color=\\"#cccccc\\"
-      draw:end-color=\\"#ffffff\\"
-      draw:start-intensity=\\"100%\\"
-      draw:end-intensity=\\"100%\\"
-      draw:angle=\\"0\\"
-      draw:border=\\"0%\\"
-    />
-    <draw:marker
-      draw:name=\\"Arrow\\"
-      svg:viewBox=\\"0 0 20 30\\"
-      svg:d=\\"M10 0l-10 30h20z\\"
     />
     <draw:marker
       draw:name=\\"Arrow\\"
@@ -19397,6 +19531,50 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
     </style:style>
   </office:styles>
   <office:automatic-styles>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM0\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"21cm\\"
+        fo:page-height=\\"29.7cm\\"
+        style:print-orientation=\\"portrait\\"
+      />
+    </style:page-layout>
+    <style:page-layout style:name=\\"PM1\\">
+      <style:page-layout-properties
+        fo:margin-top=\\"0cm\\"
+        fo:margin-bottom=\\"0cm\\"
+        fo:margin-left=\\"0cm\\"
+        fo:margin-right=\\"0cm\\"
+        fo:page-width=\\"28cm\\"
+        fo:page-height=\\"21cm\\"
+        style:print-orientation=\\"landscape\\"
+      />
+    </style:page-layout>
     <style:style style:name=\\"Mdp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         draw:background-size=\\"border\\"
@@ -20223,6 +20401,253 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
     </text:list-style>
   </office:automatic-styles>
   <office:master-styles>
+    <draw:layer-set>
+      <draw:layer draw:name=\\"layout\\" />
+      <draw:layer draw:name=\\"background\\" />
+      <draw:layer draw:name=\\"backgroundobjects\\" />
+      <draw:layer draw:name=\\"controls\\" />
+      <draw:layer draw:name=\\"measurelines\\" />
+    </draw:layer-set>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T26\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"header\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:header />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"date-time\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:date-time />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"footer\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:footer />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"page-number\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <text:page-number>&lt;number&gt;</text:page-number>
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+    </style:handout-master>
+    <style:handout-master
+      presentation:presentation-page-layout-name=\\"AL0T26\\"
+      style:page-layout-name=\\"PM0\\"
+      draw:style-name=\\"Mdp2\\"
+    >
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"1cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"2.898cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"11.474cm\\"
+      />
+      <draw:page-thumbnail
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"8.999cm\\"
+        svg:height=\\"6.749cm\\"
+        svg:x=\\"11cm\\"
+        svg:y=\\"20.05cm\\"
+      />
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"header\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:header />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr1\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"0cm\\"
+        presentation:class=\\"date-time\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:date-time />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP2\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"0cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"footer\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP1\\">
+            <text:span text:style-name=\\"MT1\\">
+              <presentation:footer />
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+      <draw:frame
+        draw:style-name=\\"Mgr2\\"
+        draw:text-style-name=\\"MP4\\"
+        draw:layer=\\"backgroundobjects\\"
+        svg:width=\\"9.113cm\\"
+        svg:height=\\"1.484cm\\"
+        svg:x=\\"11.886cm\\"
+        svg:y=\\"28.215cm\\"
+        presentation:class=\\"page-number\\"
+      >
+        <draw:text-box>
+          <text:p text:style-name=\\"MP3\\">
+            <text:span text:style-name=\\"MT1\\">
+              <text:page-number>&lt;number&gt;</text:page-number>
+            </text:span>
+          </text:p>
+        </draw:text-box>
+      </draw:frame>
+    </style:handout-master>
     <style:master-page
       style:name=\\"Beehive\\"
       style:page-layout-name=\\"PM1\\"
@@ -20238,7 +20663,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         svg:y=\\"16.713cm\\"
       >
         <draw:image
-          xlink:href=\\"Pictures/1000020100000422000000A2277504F30A810755.png\\"
+          xlink:href=\\"Presentation0-Pictures/1000020100000422000000A2277504F30A810755.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
@@ -20335,7 +20760,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         svg:y=\\"0cm\\"
       >
         <draw:image
-          xlink:href=\\"Pictures/1000020100000422000000B2B43F3309F5F5EA0B.png\\"
+          xlink:href=\\"Presentation0-Pictures/1000020100000422000000B2B43F3309F5F5EA0B.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"
@@ -20455,7 +20880,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         svg:y=\\"16.968cm\\"
       >
         <draw:image
-          xlink:href=\\"Pictures/100002010000042200000098867BFA9F3EB7C7AD.png\\"
+          xlink:href=\\"Presentation0-Pictures/100002010000042200000098867BFA9F3EB7C7AD.png\\"
           xlink:type=\\"simple\\"
           xlink:show=\\"embed\\"
           xlink:actuate=\\"onLoad\\"

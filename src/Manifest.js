@@ -21,10 +21,9 @@ export default class Manifest {
       }
     ];
     this.files = [];
-    this.counter = 0;
   }
 
-  async merge(zip) {
+  async merge(zip, counter) {
     const manifest = await zip.file('META-INF/manifest.xml').async('string');
     let json = toJson(manifest, {
       attributeNamePrefix: '@_',
@@ -34,16 +33,15 @@ export default class Manifest {
     });
     const manifestFiles = get(json, 'manifest:manifest.manifest:file-entry');
     const response = manifestFiles
-      .map(manifestFile => this._manifestMapEntry(zip, manifestFile))
+      .map(manifestFile => this._manifestMapEntry(zip, manifestFile, counter))
       .filter(Boolean);
-    this.counter++;
     return response;
   }
 
-  _manifestMapEntry(zip, manifestFile) {
+  _manifestMapEntry(zip, manifestFile, counter) {
     if (this._manifestIsImageEntry(manifestFile)) {
       const file = zip.file(manifestFile['@_manifest:full-path']);
-      file.path = `Presentation${this.counter}-${file.name}`;
+      file.path = `Presentation${counter}-${file.name}`;
       this.files.push(file);
       this.manifestFiles.push({
         mimeType: manifestFile['@_manifest:media-type'],

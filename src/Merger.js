@@ -7,6 +7,28 @@ import Style from '../src/Style';
 
 import { j2xParser as Parser } from 'fast-xml-parser';
 
+function containsObject(needle, haystack) {
+  for (var i in haystack) {
+    var count = 0,
+      matching = true;
+
+    for (var key in needle) {
+      if (haystack[i][key] === needle[key]) {
+        matching = true;
+
+        if (count == Object.keys(haystack[i]).length - 1 && matching) {
+          return true;
+        } else {
+          count++;
+        }
+      } else {
+        matching = false;
+      }
+    }
+  }
+
+  return false;
+}
 let counter = 0;
 
 /**
@@ -54,12 +76,14 @@ export default class Merger {
     set(this.doc, [obj.rootKey, '@_office:version'], '1.2');
     obj.keys.forEach(key => {
       if (!this[key]) {
-        this[key] = new Set();
+        this[key] = [];
       }
       extractArray(obj.content, key).forEach(d => {
-        this[key].add(d);
+        if (!containsObject(d, this[key])) {
+          this[key].push(d);
+        }
       });
-      set(this.doc, key, Array.from(this[key]));
+      set(this.doc, key, this[key]);
     });
     counter++;
   }

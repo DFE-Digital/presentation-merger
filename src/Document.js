@@ -26,13 +26,13 @@ export default class Document extends EventEmitter {
   async mergeFile(file) {
     const data = readFileSync(file);
     let zip = await JSZip.loadAsync(data);
-    const contentXML = await zip.file('content.xml').async('string');
-    const stylesXML = await zip.file('styles.xml').async('string');
-    const manifest = await this.manifest.merge(zip);
+    const manifest = await this.manifest.merge(zip, this.counter);
+    let contentXML = await zip.file('content.xml').async('string');
+    let stylesXML = await zip.file('styles.xml').async('string');
+    stylesXML = moveImageReferences(stylesXML, manifest);
+    contentXML = moveImageReferences(contentXML, manifest);
     this.styles.merge(stylesXML);
     this.content.merge(contentXML);
-    this.styles.doc = moveImageReferences(this.styles.doc, manifest);
-    this.content.doc = moveImageReferences(this.content.doc, manifest);
     this.counter = this.counter + 1;
   }
 
