@@ -41,6 +41,7 @@ export default class Manifest {
   _manifestMapEntry(zip, manifestFile, counter) {
     if (this._manifestIsImageEntry(manifestFile)) {
       const file = zip.file(manifestFile['@_manifest:full-path']);
+      file.data = file.async('uint8array');
       file.path = `Presentation${counter}-${file.name}`;
       this.files.push(file);
       this.manifestFiles.push({
