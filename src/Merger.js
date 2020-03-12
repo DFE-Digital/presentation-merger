@@ -29,7 +29,6 @@ function containsObject(needle, haystack) {
 
   return false;
 }
-let counter = 0;
 
 /**
  * Class extraction for merging XML documents into a single source
@@ -47,6 +46,7 @@ export default class Merger {
     this.doc = {};
     this.type = type;
     this.manifest = manifest;
+    this.counter = 0;
   }
 
   /**
@@ -85,7 +85,7 @@ export default class Merger {
       });
       set(this.doc, key, this[key]);
     });
-    counter++;
+    this.counter++;
   }
 
   /**
@@ -96,9 +96,9 @@ export default class Merger {
    */
   toObj(xml) {
     if (this.type === 'content') {
-      return new Presentation(xml, this.manifest, counter);
+      return new Presentation(xml, this.manifest, this.counter);
     } else if (this.type === 'styles') {
-      return new Style(xml, this.manifest, counter);
+      return new Style(xml, this.manifest, this.counter);
     } else {
       throw new Error(`Unhandled content type '${this.type}'`);
     }

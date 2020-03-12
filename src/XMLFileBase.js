@@ -52,19 +52,17 @@ export default class XMLFileBase {
     return JSON.parse(str);
   }
 
-  // changeKeyReferences(content) {
-  //   const matcher = key => {
-  //     return [
-  //       // 'draw:style-name',
-  //       // 'style:name',
-  //       // ':style-name',
-  //       // ':master-page-name',
-  //       // ':text-style-name'
-  //       // ':page-layout-name',
-  //       // 'presentation:presentation-page-layout-name',
-  //       // 'style:page-layout-name'
-  //     ].some(end => key.endsWith(end));
-  //   };
-  //   return renameKeys(content, this.keys, this.id, matcher);
-  // }
+  get prefixKeys() {
+    return [];
+  }
+
+  changeKeyReferences(content) {
+    let str = JSON.stringify(content);
+    this.prefixKeys.forEach(key => {
+      let pat = new RegExp(`"${key}":"(.*?)"`, 'gsu');
+      str = str.replace(pat, `"${key}":"${this.id}-$1"`);
+    });
+    content = JSON.parse(str);
+    return content;
+  }
 }

@@ -16,27 +16,6 @@ export default class Style extends XMLFileBase {
     super(xml, id, 'office:document-styles', manifest);
   }
 
-  /*
-  get arrayNotation() {
-    return [
-      'style:handout-master',
-      'style:master-page',
-      'style:style',
-      'style:page-layout',
-      'style:presentation-page-layout',
-      'style:default-style',
-      'draw:layer',
-      'draw:stroke-dash',
-      'draw:marker',
-      'draw:fill-image',
-      'draw:hatch',
-      'draw:gradient',
-      'draw:frame',
-      'draw:custom-shape'
-    ];
-  }
-  */
-
   get keys() {
     return [
       'office:document-styles.office:font-face-decls.style:font-face',
@@ -60,32 +39,15 @@ export default class Style extends XMLFileBase {
     ];
   }
 
-  // eslint-disable-next-line max-lines-per-function
-  changeKeyReferences(content) {
-    // let arr = extractArray(
-    //   content,
-    //   'office:document-styles.office:automatic-styles.style:style'
-    // );
-    // let mp = extractArray(
-    //   content,
-    //   'office:document-styles.office:master-styles.style:master-page'
-    // );
-    // mp.forEach(e => {
-    //   delete e['presentation:notes'];
-    //   delete e['draw:custom-shape']; // @temp
-    //   extractArray(e, 'draw:custom-shape').forEach(s => {
-    //     if (s['@_presentation:style-name']) {
-    //       s['@_presentation:style-name'] =
-    //         this.id + '_' + s['@_presentation:style-name'];
-    //     }
-    //   });
-    // });
-    // arr.forEach(e => {
-    //   if (e['@_style:family'] === 'presentation') {
-    //     e['@_style:name'] = this.id + '_' + e['@_style:name'];
-    //   }
-    // });
-
-    return content;
+  get prefixKeys() {
+    return [
+      '@_style:name',
+      '@_style:page-layout-name',
+      '@_style:parent-style-name',
+      '@_draw:style-name',
+      '@_draw:text-style-name',
+      '@_presentation:style-name',
+      '@_presentation:presentation-page-layout-name'
+    ];
   }
 }

@@ -1,4 +1,5 @@
 import Style from '../src/Style';
+import fixture from './__fixtures__/styles.json';
 
 describe('Style', () => {
   let subject;
@@ -29,7 +30,31 @@ describe('Style', () => {
     });
   });
 
+  describe('.prefixKeys', () => {
+    it('returns an array of keys to prefix with id', () => {
+      expect(subject.prefixKeys).toMatchInlineSnapshot(`
+        Array [
+          "@_style:name",
+          "@_style:page-layout-name",
+          "@_style:parent-style-name",
+          "@_draw:style-name",
+          "@_draw:text-style-name",
+          "@_presentation:style-name",
+          "@_presentation:presentation-page-layout-name",
+        ]
+      `);
+    });
+  });
+
   describe('.changeKeyReferences', () => {
-    it.todo('changes the references of styles to be unique');
+    beforeEach(() => {
+      subject.doc = fixture;
+    });
+
+    it('changes the references of styles to be unique', () => {
+      subject.id = 0;
+      let actual = subject.changeKeyReferences(subject.doc);
+      expect(actual).toMatchSnapshot();
+    });
   });
 });

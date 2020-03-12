@@ -1,0 +1,3413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Style .changeKeyReferences changes the references of styles to be unique 1`] = `
+Object {
+  "office:document-styles": Object {
+    "@_office:version": "1.2",
+    "@_xmlns:anim": "urn:oasis:names:tc:opendocument:xmlns:animation:1.0",
+    "@_xmlns:chart": "urn:oasis:names:tc:opendocument:xmlns:chart:1.0",
+    "@_xmlns:dc": "http://purl.org/dc/elements/1.1/",
+    "@_xmlns:dom": "http://www.w3.org/2001/xml-events",
+    "@_xmlns:dr3d": "urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0",
+    "@_xmlns:draw": "urn:oasis:names:tc:opendocument:xmlns:drawing:1.0",
+    "@_xmlns:drawooo": "http://openoffice.org/2010/draw",
+    "@_xmlns:fo": "urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0",
+    "@_xmlns:form": "urn:oasis:names:tc:opendocument:xmlns:form:1.0",
+    "@_xmlns:grddl": "http://www.w3.org/2003/g/data-view#",
+    "@_xmlns:math": "http://www.w3.org/1998/Math/MathML",
+    "@_xmlns:meta": "urn:oasis:names:tc:opendocument:xmlns:meta:1.0",
+    "@_xmlns:number": "urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0",
+    "@_xmlns:of": "urn:oasis:names:tc:opendocument:xmlns:of:1.2",
+    "@_xmlns:office": "urn:oasis:names:tc:opendocument:xmlns:office:1.0",
+    "@_xmlns:officeooo": "http://openoffice.org/2009/office",
+    "@_xmlns:ooo": "http://openoffice.org/2004/office",
+    "@_xmlns:oooc": "http://openoffice.org/2004/calc",
+    "@_xmlns:ooow": "http://openoffice.org/2004/writer",
+    "@_xmlns:presentation": "urn:oasis:names:tc:opendocument:xmlns:presentation:1.0",
+    "@_xmlns:rpt": "http://openoffice.org/2005/report",
+    "@_xmlns:script": "urn:oasis:names:tc:opendocument:xmlns:script:1.0",
+    "@_xmlns:smil": "urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0",
+    "@_xmlns:style": "urn:oasis:names:tc:opendocument:xmlns:style:1.0",
+    "@_xmlns:svg": "urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0",
+    "@_xmlns:table": "urn:oasis:names:tc:opendocument:xmlns:table:1.0",
+    "@_xmlns:tableooo": "http://openoffice.org/2009/table",
+    "@_xmlns:text": "urn:oasis:names:tc:opendocument:xmlns:text:1.0",
+    "@_xmlns:xhtml": "http://www.w3.org/1999/xhtml",
+    "@_xmlns:xlink": "http://www.w3.org/1999/xlink",
+    "office:automatic-styles": Object {
+      "style:page-layout": Array [
+        Object {
+          "@_style:name": "0-PM0",
+          "style:page-layout-properties": Object {
+            "@_fo:margin-bottom": "0cm",
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:margin-top": "0cm",
+            "@_fo:page-height": "21cm",
+            "@_fo:page-width": "29.7cm",
+            "@_style:print-orientation": "landscape",
+          },
+        },
+        Object {
+          "@_style:name": "0-PM1",
+          "style:page-layout-properties": Object {
+            "@_fo:margin-bottom": "0cm",
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:margin-top": "0cm",
+            "@_fo:page-height": "21cm",
+            "@_fo:page-width": "28cm",
+            "@_style:print-orientation": "landscape",
+          },
+        },
+        Object {
+          "@_style:name": "0-PM2",
+          "style:page-layout-properties": Object {
+            "@_fo:margin-bottom": "0cm",
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:margin-top": "0cm",
+            "@_fo:page-height": "29.7cm",
+            "@_fo:page-width": "21cm",
+            "@_style:print-orientation": "portrait",
+          },
+        },
+      ],
+      "style:style": Array [
+        Object {
+          "@_style:family": "drawing-page",
+          "@_style:name": "0-Mdp1",
+          "style:drawing-page-properties": Object {
+            "@_draw:background-size": "border",
+            "@_draw:fill": "solid",
+            "@_draw:fill-color": "#333366",
+            "@_draw:fill-image-height": "1cm",
+            "@_draw:fill-image-width": "1cm",
+          },
+        },
+        Object {
+          "@_style:family": "drawing-page",
+          "@_style:name": "0-Mdp2",
+          "style:drawing-page-properties": Object {
+            "@_presentation:display-date-time": "true",
+            "@_presentation:display-footer": "true",
+            "@_presentation:display-header": "true",
+            "@_presentation:display-page-number": "false",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-Mgr1",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:blue": "0%",
+            "@_draw:color-mode": "standard",
+            "@_draw:contrast": "0%",
+            "@_draw:fill": "none",
+            "@_draw:gamma": "100%",
+            "@_draw:green": "0%",
+            "@_draw:image-opacity": "100%",
+            "@_draw:luminance": "0%",
+            "@_draw:opacity": "100%",
+            "@_draw:red": "0%",
+            "@_draw:stroke": "none",
+            "@_draw:textarea-horizontal-align": "center",
+            "@_draw:textarea-vertical-align": "middle",
+            "@_fo:clip": "rect(0cm, 0cm, 0cm, 0cm)",
+            "@_style:mirror": "none",
+          },
+        },
+        Object {
+          "@_style:family": "paragraph",
+          "@_style:name": "0-MP1",
+          "style:paragraph-properties": Object {
+            "@_fo:text-align": "center",
+          },
+        },
+      ],
+    },
+    "office:master-styles": Object {
+      "draw:layer-set": Object {
+        "draw:layer": Array [
+          Object {
+            "@_draw:name": "layout",
+          },
+          Object {
+            "@_draw:name": "background",
+          },
+          Object {
+            "@_draw:name": "backgroundobjects",
+          },
+          Object {
+            "@_draw:name": "controls",
+          },
+          Object {
+            "@_draw:name": "measurelines",
+          },
+        ],
+      },
+      "style:handout-master": Object {
+        "@_draw:style-name": "0-Mdp2",
+        "@_presentation:presentation-page-layout-name": "0-AL0T25",
+        "@_style:page-layout-name": "0-PM0",
+        "draw:page-thumbnail": Array [
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_svg:height": "7.949cm",
+            "@_svg:width": "10.599cm",
+            "@_svg:x": "2.375cm",
+            "@_svg:y": "2.05cm",
+          },
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_svg:height": "7.949cm",
+            "@_svg:width": "10.599cm",
+            "@_svg:x": "2.375cm",
+            "@_svg:y": "11cm",
+          },
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_svg:height": "7.949cm",
+            "@_svg:width": "10.599cm",
+            "@_svg:x": "16.725cm",
+            "@_svg:y": "2.05cm",
+          },
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_svg:height": "7.949cm",
+            "@_svg:width": "10.599cm",
+            "@_svg:x": "16.725cm",
+            "@_svg:y": "11cm",
+          },
+        ],
+      },
+      "style:master-page": Object {
+        "@_draw:style-name": "0-Mdp1",
+        "@_style:name": "0-prs-strategy",
+        "@_style:page-layout-name": "0-PM1",
+        "draw:frame": Array [
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_presentation:class": "title",
+            "@_presentation:placeholder": "true",
+            "@_presentation:style-name": "0-prs-strategy-title",
+            "@_svg:height": "3.506cm",
+            "@_svg:width": "23.911cm",
+            "@_svg:x": "2.058cm",
+            "@_svg:y": "0.325cm",
+            "draw:text-box": Object {
+              "@_draw:corner-radius": "0.065cm",
+            },
+          },
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_presentation:class": "outline",
+            "@_presentation:placeholder": "true",
+            "@_presentation:style-name": "0-prs-strategy-outline1",
+            "@_svg:height": "13.23cm",
+            "@_svg:width": "23.548cm",
+            "@_svg:x": "3.023cm",
+            "@_svg:y": "6.178cm",
+            "draw:text-box": "",
+          },
+          Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_draw:style-name": "0-Mgr1",
+            "@_draw:text-style-name": "0-MP1",
+            "@_svg:height": "2.937cm",
+            "@_svg:width": "5.47cm",
+            "@_svg:x": "22.048cm",
+            "@_svg:y": "17.365cm",
+            "draw:image": Object {
+              "@_xlink:actuate": "onLoad",
+              "@_xlink:href": "Pictures/2000023600002305000012CD3628FC8C.wmf",
+              "@_xlink:show": "embed",
+              "@_xlink:type": "simple",
+              "text:p": "",
+            },
+          },
+        ],
+        "presentation:notes": Object {
+          "@_style:page-layout-name": "0-PM2",
+          "draw:frame": Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_presentation:class": "notes",
+            "@_presentation:placeholder": "true",
+            "@_presentation:style-name": "0-prs-strategy-notes",
+            "@_svg:height": "11.409cm",
+            "@_svg:width": "14.517cm",
+            "@_svg:x": "3.249cm",
+            "@_svg:y": "14.13cm",
+            "draw:text-box": "",
+          },
+          "draw:page-thumbnail": Object {
+            "@_draw:layer": "backgroundobjects",
+            "@_presentation:class": "page",
+            "@_presentation:style-name": "0-prs-strategy-title",
+            "@_svg:height": "10.279cm",
+            "@_svg:width": "13.705cm",
+            "@_svg:x": "3.647cm",
+            "@_svg:y": "2.853cm",
+          },
+        },
+      },
+    },
+    "office:styles": Object {
+      "draw:fill-image": Object {
+        "@_draw:display-name": "Bitmape 1",
+        "@_draw:name": "Bitmape_20_1",
+        "@_xlink:actuate": "onLoad",
+        "@_xlink:href": "Pictures/1000000000000040000000400142E835.png",
+        "@_xlink:show": "embed",
+        "@_xlink:type": "simple",
+      },
+      "draw:gradient": Object {
+        "@_draw:angle": "0",
+        "@_draw:border": "0%",
+        "@_draw:display-name": "Gradient 26",
+        "@_draw:end-color": "#ffffff",
+        "@_draw:end-intensity": "0%",
+        "@_draw:name": "Gradient_20_26",
+        "@_draw:start-color": "#000000",
+        "@_draw:start-intensity": "0%",
+        "@_draw:style": "linear",
+      },
+      "draw:hatch": Object {
+        "@_draw:color": "#000000",
+        "@_draw:display-name": "Hatch 1",
+        "@_draw:distance": "0.02cm",
+        "@_draw:name": "Hatch_20_1",
+        "@_draw:rotation": "0",
+        "@_draw:style": "single",
+      },
+      "draw:marker": Array [
+        Object {
+          "@_draw:display-name": "Linienende 1",
+          "@_draw:name": "Linienende_20_1",
+          "@_svg:d": "M10 0l-10 30h20z",
+          "@_svg:viewBox": "0 0 20 30",
+        },
+        Object {
+          "@_draw:display-name": "Linienende 2",
+          "@_draw:name": "Linienende_20_2",
+          "@_svg:d": "M100 0l100 400h-200z",
+          "@_svg:viewBox": "0 0 200 400",
+        },
+        Object {
+          "@_draw:display-name": "Linienende 3",
+          "@_draw:name": "Linienende_20_3",
+          "@_svg:d": "M100 0l100 400h-200z",
+          "@_svg:viewBox": "0 0 200 400",
+        },
+      ],
+      "draw:stroke-dash": Object {
+        "@_draw:display-name": "Dash 1",
+        "@_draw:distance": "0.02cm",
+        "@_draw:dots1": "1",
+        "@_draw:dots1-length": "0.02cm",
+        "@_draw:dots2": "1",
+        "@_draw:dots2-length": "0.02cm",
+        "@_draw:name": "Dash_20_1",
+        "@_draw:style": "rect",
+      },
+      "style:default-style": Object {
+        "@_style:family": "graphic",
+        "style:graphic-properties": Object {
+          "@_fo:wrap-option": "no-wrap",
+        },
+        "style:paragraph-properties": Object {
+          "@_style:font-independent-line-spacing": "false",
+          "@_style:line-break": "strict",
+          "@_style:punctuation-wrap": "simple",
+          "@_style:text-autospace": "ideograph-alpha",
+          "@_style:writing-mode": "lr-tb",
+          "style:tab-stops": "",
+        },
+        "style:text-properties": Object {
+          "@_fo:color": "#000000",
+          "@_fo:country": "US",
+          "@_fo:font-family": "Thorndale",
+          "@_fo:font-size": "24pt",
+          "@_fo:language": "en",
+          "@_style:country-asian": "none",
+          "@_style:country-complex": "none",
+          "@_style:font-family-asian": "&apos;HG Mincho Light J&apos;, &apos;MS Mincho&apos;, &apos;HG Mincho J&apos;, &apos;HG Mincho L&apos;, &apos;HG Mincho&apos;, Mincho, &apos;MS PMincho&apos;, &apos;MS Gothic&apos;, &apos;HG Gothic J&apos;, &apos;HG Gothic B&apos;, &apos;HG Gothic&apos;, Gothic, &apos;MS PGothic&apos;, &apos;Andale Sans UI&apos;, &apos;Arial Unicode MS&apos;, &apos;Lucida Sans Unicode&apos;, Tahoma",
+          "@_style:font-family-complex": "&apos;Arial Unicode MS&apos;",
+          "@_style:font-family-generic": "roman",
+          "@_style:font-pitch": "variable",
+          "@_style:font-pitch-asian": "variable",
+          "@_style:font-pitch-complex": "variable",
+          "@_style:font-size-asian": "24pt",
+          "@_style:font-size-complex": "24pt",
+          "@_style:language-asian": "zxx",
+          "@_style:language-complex": "zxx",
+        },
+      },
+      "style:presentation-page-layout": Array [
+        Object {
+          "@_style:name": "0-AL0T25",
+          "presentation:placeholder": Array [
+            Object {
+              "@_presentation:object": "handout",
+              "@_svg:height": "0.703cm",
+              "@_svg:width": "10.556cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "1.743cm",
+            },
+            Object {
+              "@_presentation:object": "handout",
+              "@_svg:height": "0.703cm",
+              "@_svg:width": "10.556cm",
+              "@_svg:x": "15.414cm",
+              "@_svg:y": "1.743cm",
+            },
+            Object {
+              "@_presentation:object": "handout",
+              "@_svg:height": "0.703cm",
+              "@_svg:width": "10.556cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "4.546cm",
+            },
+            Object {
+              "@_presentation:object": "handout",
+              "@_svg:height": "0.703cm",
+              "@_svg:width": "10.556cm",
+              "@_svg:x": "15.414cm",
+              "@_svg:y": "4.546cm",
+            },
+          ],
+        },
+        Object {
+          "@_style:name": "0-AL1T0",
+          "presentation:placeholder": Array [
+            Object {
+              "@_presentation:object": "title",
+              "@_svg:height": "3.507cm",
+              "@_svg:width": "23.912cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "1.743cm",
+            },
+            Object {
+              "@_presentation:object": "subtitle",
+              "@_svg:height": "13.23cm",
+              "@_svg:width": "23.912cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "5.838cm",
+            },
+          ],
+        },
+        Object {
+          "@_style:name": "0-AL2T1",
+          "presentation:placeholder": Array [
+            Object {
+              "@_presentation:object": "title",
+              "@_svg:height": "3.507cm",
+              "@_svg:width": "23.912cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "1.743cm",
+            },
+            Object {
+              "@_presentation:object": "outline",
+              "@_svg:height": "13.23cm",
+              "@_svg:width": "23.912cm",
+              "@_svg:x": "2.058cm",
+              "@_svg:y": "5.838cm",
+            },
+          ],
+        },
+      ],
+      "style:style": Array [
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "solid",
+            "@_draw:fill-color": "#00b8ff",
+            "@_draw:fill-gradient-name": "Gradient_20_26",
+            "@_draw:fill-hatch-name": "Hatch_20_1",
+            "@_draw:fill-image-name": "Bitmape_20_1",
+            "@_draw:marker-end-center": "false",
+            "@_draw:marker-end-width": "0.3cm",
+            "@_draw:marker-start-center": "false",
+            "@_draw:marker-start-width": "0.3cm",
+            "@_draw:shadow": "hidden",
+            "@_draw:shadow-color": "#808080",
+            "@_draw:shadow-offset-x": "0.3cm",
+            "@_draw:shadow-offset-y": "0.3cm",
+            "@_draw:stroke": "solid",
+            "@_draw:stroke-dash": "Dash_20_1",
+            "@_svg:stroke-color": "#000000",
+            "@_svg:stroke-width": "0cm",
+            "text:list-style": Object {
+              "@_style:name": "0-standard",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:line-height": "100%",
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#ffffff",
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "24pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-objectwitharrow",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:marker-end-width": "0.3cm",
+            "@_draw:marker-start": "Linienende_20_1",
+            "@_draw:marker-start-center": "true",
+            "@_draw:marker-start-width": "0.7cm",
+            "@_draw:stroke": "solid",
+            "@_svg:stroke-color": "#000000",
+            "@_svg:stroke-width": "0.15cm",
+            "text:list-style": Object {
+              "@_style:name": "0-objectwitharrow",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-objectwithshadow",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:shadow": "visible",
+            "@_draw:shadow-color": "#808080",
+            "@_draw:shadow-offset-x": "0.3cm",
+            "@_draw:shadow-offset-y": "0.3cm",
+            "text:list-style": Object {
+              "@_style:name": "0-objectwithshadow",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-objectwithoutfill",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-objectwithoutfill",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        Object {
+          "@_style:display-name": "Object with no fill and no line",
+          "@_style:family": "graphic",
+          "@_style:name": "0-Object_20_with_20_no_20_fill_20_and_20_no_20_line",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-text",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-text",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-textbody",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-textbody",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "16pt",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-textbodyjustfied",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-textbodyjustfied",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:text-align": "justify",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-textbodyindent",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-textbodyindent",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": Object {
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-indent": "0.6cm",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-title",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-title",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "44pt",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-title1",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "solid",
+            "@_draw:fill-color": "#008080",
+            "@_draw:shadow": "visible",
+            "@_draw:shadow-color": "#808080",
+            "@_draw:shadow-offset-x": "0.2cm",
+            "@_draw:shadow-offset-y": "0.2cm",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-title1",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:text-align": "center",
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "24pt",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-title2",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill-color": "#ffcc99",
+            "@_draw:shadow": "visible",
+            "@_draw:shadow-color": "#808080",
+            "@_draw:shadow-offset-x": "0.2cm",
+            "@_draw:shadow-offset-y": "0.2cm",
+            "@_svg:stroke-width": "0.05cm",
+            "text:list-style": Object {
+              "@_style:name": "0-title2",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "center",
+            "@_fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "36pt",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-headline",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-headline",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "24pt",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-headline1",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-headline1",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "18pt",
+            "@_fo:font-weight": "bold",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-headline2",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-headline2",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "14pt",
+            "@_fo:font-style": "italic",
+            "@_fo:font-weight": "bold",
+          },
+        },
+        Object {
+          "@_style:family": "graphic",
+          "@_style:name": "0-measure",
+          "@_style:parent-style-name": "0-standard",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:marker-end": "Linienende_20_3",
+            "@_draw:marker-end-width": "0.2cm",
+            "@_draw:marker-start": "Linienende_20_2",
+            "@_draw:marker-start-width": "0.2cm",
+            "@_draw:stroke": "solid",
+            "text:list-style": Object {
+              "@_style:name": "0-measure",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": "",
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+              ],
+            },
+          },
+          "style:text-properties": Object {
+            "@_fo:font-size": "12pt",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-background",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "solid",
+            "@_draw:fill-color": "#333366",
+            "@_draw:fill-image-height": "1cm",
+            "@_draw:fill-image-width": "1cm",
+            "@_draw:stroke": "none",
+          },
+          "style:text-properties": Object {
+            "@_fo:hyphenate": "true",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-backgroundobjects",
+          "style:graphic-properties": Object {
+            "@_draw:shadow": "hidden",
+            "@_draw:shadow-color": "#808080",
+            "@_draw:shadow-offset-x": "0.3cm",
+            "@_draw:shadow-offset-y": "0.3cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Thorndale",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-notes",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#000000",
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Thorndale",
+            "@_fo:font-size": "24pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline1",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "text:list-style": Object {
+              "@_style:name": "0-prs-strategy-outline1",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "➲",
+                  "@_text:level": "1",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "0.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "1cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "2.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "3.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "5cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "5.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1.2cm",
+                    "@_text:space-before": "6.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#ff9966",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "75%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                    "@_style:use-window-font-color": "true",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:margin-bottom": "0cm",
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:margin-top": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "32pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline2",
+          "@_style:parent-style-name": "0-prs-strategy-outline1",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "28pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline3",
+          "@_style:parent-style-name": "0-prs-strategy-outline2",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "24pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline4",
+          "@_style:parent-style-name": "0-prs-strategy-outline3",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline5",
+          "@_style:parent-style-name": "0-prs-strategy-outline4",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#99ccff",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline6",
+          "@_style:parent-style-name": "0-prs-strategy-outline5",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#99ccff",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline7",
+          "@_style:parent-style-name": "0-prs-strategy-outline6",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#99ccff",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline8",
+          "@_style:parent-style-name": "0-prs-strategy-outline7",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#99ccff",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-outline9",
+          "@_style:parent-style-name": "0-prs-strategy-outline8",
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "start",
+            "@_fo:text-indent": "-1.2cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#99ccff",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "20pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Standard",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-subtitle",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "@_draw:textarea-vertical-align": "middle",
+            "text:list-style": Object {
+              "@_style:name": "0-prs-strategy-subtitle",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "1",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "0.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "1.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "2.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "3.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "4.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                    "@_style:use-window-font-color": "true",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:margin-left": "0cm",
+            "@_fo:margin-right": "0cm",
+            "@_fo:text-align": "center",
+            "@_fo:text-indent": "0cm",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Thorndale",
+            "@_fo:font-size": "32pt",
+            "@_fo:font-style": "normal",
+            "@_fo:font-weight": "normal",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "roman",
+            "@_style:font-pitch": "variable",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+        Object {
+          "@_style:family": "presentation",
+          "@_style:name": "0-prs-strategy-title",
+          "style:graphic-properties": Object {
+            "@_draw:fill": "none",
+            "@_draw:stroke": "none",
+            "@_draw:textarea-vertical-align": "middle",
+            "text:list-style": Object {
+              "@_style:name": "0-prs-strategy-title",
+              "text:list-level-style-bullet": Array [
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "1",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "2",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "0.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "3",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "0.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "4",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "1.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "5",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "6",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "2.6cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "7",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "3.2cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "8",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "3.8cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "",
+                  "@_text:level": "9",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "1cm",
+                    "@_text:space-before": "4.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:color": "#000000",
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                  },
+                },
+                Object {
+                  "@_text:bullet-char": "●",
+                  "@_text:level": "10",
+                  "style:list-level-properties": Object {
+                    "@_text:min-label-width": "0.6cm",
+                    "@_text:space-before": "5.4cm",
+                  },
+                  "style:text-properties": Object {
+                    "@_fo:font-family": "StarSymbol",
+                    "@_fo:font-size": "45%",
+                    "@_style:use-window-font-color": "true",
+                  },
+                },
+              ],
+            },
+          },
+          "style:paragraph-properties": Object {
+            "@_fo:text-align": "center",
+          },
+          "style:text-properties": Object {
+            "@_fo:color": "#e6e6e6",
+            "@_fo:country": "GB",
+            "@_fo:font-family": "Albany",
+            "@_fo:font-size": "40pt",
+            "@_fo:font-style": "italic",
+            "@_fo:font-weight": "bold",
+            "@_fo:hyphenate": "true",
+            "@_fo:language": "en",
+            "@_fo:text-shadow": "none",
+            "@_style:font-family-generic": "swiss",
+            "@_style:font-pitch": "variable",
+            "@_style:font-style-name": "Fett Kursiv",
+            "@_style:text-line-through-style": "none",
+            "@_style:text-outline": "false",
+            "@_style:text-underline-style": "none",
+          },
+        },
+      ],
+    },
+  },
+}
+`;
