@@ -1,6 +1,5 @@
 /** @module Style */
 import XMLFileBase from './XMLFileBase';
-// import { extractArray } from './utils';
 
 /**
  * Class prepresenting `style.xml` in the presentation document

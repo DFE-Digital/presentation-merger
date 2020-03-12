@@ -1,25 +1,46 @@
+import XMLFileBase from '../src/XMLFileBase';
+import fixture from './__fixtures__/content.json';
+import fs from 'fs';
+import path from 'path';
+
 describe('XMLFileBase', () => {
+  let subject;
+  beforeEach(() => {
+    subject = new XMLFileBase();
+  });
+
   describe('.namespaces', () => {
-    it.todo('extracts namespace key/pairs for the XML document');
+    it('extracts namespace key/pairs for the XML document', () => {
+      subject.rootKey = 'office:document-content';
+      jest.spyOn(subject, 'data', 'get').mockReturnValue(fixture);
+      expect(subject.namespaces).toMatchSnapshot();
+    });
   });
 
   describe('.data', () => {
-    it.todo('converts the XML to object notation');
-  });
-
-  describe('.contentOriginal', () => {
-    it.todo('extracts the selected content keys from the data');
+    it('converts the XML to object notation', () => {
+      subject.xml = fs
+        .readFileSync(path.join(__dirname, '__fixtures__/content.xml'))
+        .toString();
+      let actual = subject.data;
+      expect(actual).toEqual(fixture);
+    });
   });
 
   describe('.content', () => {
-    it.todo('returns optimised content with pre-processors');
-  });
-
-  describe('.changeImagePaths', () => {
-    it.todo('replaces references of asset path with its updated location');
+    it('returns optimised content with pre-processors', () => {
+      jest.spyOn(subject, 'data', 'get').mockReturnValue(fixture);
+      expect(subject.content).toMatchSnapshot();
+    });
   });
 
   describe('.changeKeyReferences', () => {
-    it.todo('replaces references of styles with the updated reference');
+    it('replaces references of styles with the updated reference', () => {
+      let given = { 'hello:world': 'prefixme' };
+      jest.spyOn(subject, 'prefixKeys', 'get').mockReturnValue(['hello:world']);
+      subject.id = 0;
+      let actual = subject.changeKeyReferences(given);
+      expect(actual).toEqual({ 'hello:world': '0-prefixme' });
+    });
   });
 });

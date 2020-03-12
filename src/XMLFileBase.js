@@ -1,5 +1,4 @@
-import { get, set } from 'shvl';
-import { uuid, namespaces } from './utils';
+import { uuid } from './utils';
 import { parse as toJson } from 'fast-xml-parser';
 
 export default class XMLFileBase {
@@ -14,8 +13,21 @@ export default class XMLFileBase {
     this.contentCache = null;
   }
 
+  /**
+   * Extract XML namespaces from the JSON representation of XML
+   *
+   * @param {object} data The JSON representation of XML
+   *
+   * @returns {object} XML namespace keys pairs
+   */
   get namespaces() {
-    return namespaces(this.data[this.rootKey]);
+    let out = {};
+    for (let [key, value] of Object.entries(this.data[this.rootKey])) {
+      if (key.startsWith('@_xmlns:')) {
+        out[key] = value;
+      }
+    }
+    return out;
   }
 
   get data() {
@@ -27,29 +39,13 @@ export default class XMLFileBase {
     });
   }
 
-  get contentOriginal() {
-    return this.keys.reduce((obj, key) => {
-      set(obj, key, get(this.data, key));
-      return obj;
-    }, {});
-  }
-
   get content() {
     if (this.contentCache) {
       return this.contentCache;
     }
     this.contentCache = this.data;
-    // this.contentCache = this.changeImagePaths(this.contentCache);
     this.contentCache = this.changeKeyReferences(this.contentCache);
     return this.contentCache;
-  }
-
-  changeImagePaths(obj) {
-    let str = JSON.stringify(obj);
-    str = this.manifest.reduce((str, i) => {
-      return str.replace(new RegExp(i.pathPrevious, 'gi'), i.path);
-    }, str);
-    return JSON.parse(str);
   }
 
   get prefixKeys() {
