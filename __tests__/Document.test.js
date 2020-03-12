@@ -1,166 +1,56 @@
 import fs from 'fs';
 import path from 'path';
-import { get } from 'shvl';
-import { toJson } from 'xml2json';
-import decompress from 'decompress';
-import Presentation from '../src/Presentation';
 import Document from '../src/Document';
-import Style from '../src/Style';
-
-const fixture1 = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '__fixtures__/file1.json'))
-);
-
-const fixture2 = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '__fixtures__/file2.json'))
-);
-
-async function readFixture(filename) {
-  const files = await decompress(
-    path.join(__dirname, '__fixtures__/' + filename)
-  );
-  const masterStylesFile = files.find(f => f.path === 'styles.xml');
-  const contentFile = files.find(f => f.path === 'content.xml');
-  const presentation = new Presentation(JSON.parse(toJson(contentFile.data)));
-  const style = new Style(JSON.parse(toJson(masterStylesFile.data)));
-  const subject = new Document();
-  return {
-    presentation,
-    style,
-    subject
-  };
-}
+import JSZip from 'jszip';
 
 describe('Document', () => {
   let subject;
-  let style;
-  let presentation;
   beforeEach(async () => {
-    let obj = await readFixture('file1.odp');
-    presentation = obj.presentation;
-    style = obj.style;
-    subject = obj.subject;
+    subject = new Document();
   });
 
-  describe('.manifestFiles', () => {
-    it('has a initial set of manifest files that will exist', () => {
-      expect(subject.manifestFiles).toContainEqual(
-        expect.objectContaining({
-          mimeType: 'application/vnd.oasis.opendocument.presentation',
-          path: '/',
-          version: '1.2'
-        })
+  describe('.manifestFilesInitial', () => {
+    it('returns an array of default entities in the manifest', () => {
+      expect(subject.manifestFilesInitial).toMatchSnapshot();
+    });
+  });
+
+  describe('.mergeFile(file)', () => {
+    it('merges the given file into the single document', async () => {
+      await subject.mergeFile(
+        path.join(__dirname, '__fixtures__/samples0/pres1.odp')
       );
-
-      expect(subject.manifestFiles).toContainEqual(
-        expect.objectContaining({
-          mimeType: 'text/xml',
-          path: 'content.xml'
-        })
-      );
-
-      expect(subject.manifestFiles).toContainEqual(
-        expect.objectContaining({
-          mimeType: 'text/xml',
-          path: 'styles.xml'
-        })
-      );
+      expect(subject.manifestFiles).toMatchSnapshot();
+      expect(subject.content).toMatchSnapshot();
+      expect(subject.styles).toMatchSnapshot();
+      expect(subject.counter).toEqual(1);
     });
   });
 
-  describe('.mergeFile', () => {
-    let file = path.join(__dirname, '__fixtures__/out1.odp');
-    afterEach(() => {
-      fs.unlinkSync(file);
-    });
-    it('prepares files to merge', async () => {
-      let doc = new Document();
-      await doc.mergeFile(path.join(__dirname, '__fixtures__/file1.odp'));
-      await doc.mergeFile(path.join(__dirname, '__fixtures__/file2.odp'));
-      let stream = fs.createWriteStream(file, { flags: 'w' });
-      doc.pipe(stream);
-      return new Promise(done => {
-        doc.on('end', async () => {
-          const files = await decompress(file);
-          let filePaths = files.map(f => f.path);
-
-          expect(filePaths).toContainEqual('content.xml');
-          expect(filePaths).toContainEqual(
-            'Presentation0-Pictures/100000000000032000000258E080B12F.jpg'
-          );
-
-          expect(filePaths).toContainEqual(
-            'Presentation0-Pictures/100002010000028200000040779DD47E.png'
-          );
-
-          expect(filePaths).toContainEqual(
-            'Presentation0-Pictures/1000000000000040000000400142E835.png'
-          );
-          done();
-        });
-        doc.on('error', err => {
-          throw err;
-        });
-      });
+  describe('.ZIPOptions', () => {
+    it('returns default options for JSZip', () => {
+      expect(subject.ZIPOptions).toMatchSnapshot();
     });
   });
 
-  describe('.mergeContent', () => {
-    it('merges multiple presentations', () => {
-      let subject = new Document();
-
-      subject.mergeContent(new Presentation(fixture1, 0));
-      subject.mergeContent(new Presentation(fixture2, 1));
-
-      expect(subject.doc).toMatchSnapshot();
-    });
-  });
-
-  describe('manifest', () => {
-    it('returns the correct formatting for mimetype', async () => {
-      expect(subject.manifest).toMatchSnapshot();
-      await subject.mergeFile(path.join(__dirname, '__fixtures__/file1.odp'));
-      expect(subject.manifest).toMatchSnapshot();
-    });
-  });
-
-  describe('mergeStyles', () => {
-    beforeEach(async () => {
-      let obj1 = await readFixture('file1.odp');
-      subject.mergeStyles(obj1.style, obj1.presentation);
-      let obj2 = await readFixture('file2.odp');
-      subject.mergeStyles(obj2.style, obj2.presentation);
-    });
-
-    it('merges style content from the presentation into the document style', () => {
-      subject.mergeStyles(style, presentation);
-      expect(subject.stylesDoc).toMatchSnapshot();
-    });
-
-    [
-      'office:document-styles.office:master-styles.style:master-page',
-      'office:document-styles.office:automatic-styles.style:style'
-    ].forEach(key => {
-      describe(key, () => {
-        let actual;
-        beforeEach(() => {
-          actual = get(subject.stylesDoc, key);
-        });
-
-        it(`contains the expected contents of ${key}`, () => {
-          expect(actual).toMatchSnapshot();
-        });
-      });
-    });
-  });
-
-  describe('pipe', () => {
+  describe('.pipe(stream)', () => {
     let tmpfile = './tmpfile';
     beforeEach(() => {
-      subject = new Document();
+      subject._zipFiles = jest.fn().mockImplementation(() => {
+        const zip = new JSZip();
+        return zip;
+      });
     });
+
     afterEach(() => {
       fs.unlinkSync(tmpfile);
+    });
+
+    it('successfully resolves', () => {
+      let stream = fs.createWriteStream(tmpfile);
+      return subject.pipe(stream).then(zip => {
+        expect(zip).toBeInstanceOf(JSZip);
+      });
     });
 
     it('handles error', async () => {
@@ -178,6 +68,15 @@ describe('Document', () => {
           `[Error: Cannot call write after a stream was destroyed]`
         );
       });
+    });
+  });
+
+  describe('._zipFiles()', () => {
+    it('returns a JSZip containing files', () => {
+      subject.manifest.files = [{ path: '/test', data: 'empty' }];
+      let actual = subject._zipFiles();
+      expect(actual).toBeInstanceOf(JSZip);
+      expect(Object.keys(actual.files)).toMatchSnapshot();
     });
   });
 });

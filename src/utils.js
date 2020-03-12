@@ -8,30 +8,12 @@ import { get } from 'shvl';
  *
  * @returns {object} Modified input data with any reference replaced within.
  */
-export function moveImageReferences(data, manifest = []) {
-  let str = JSON.stringify(data);
+export function moveImageReferences(str, manifest = []) {
   manifest.forEach(i => {
-    str = str.replace(new RegExp(i.pathPrevious, 'gi'), i.path);
+    let pattern = new RegExp(`"${i.pathPrevious}"`, 'g');
+    str = str.replace(pattern, `"${i.path}"`);
   });
-
-  return JSON.parse(str);
-}
-
-/**
- * Extract XML namespaces from the JSON representation of XML
- *
- * @param {object} data The JSON representation of XML
- *
- * @returns {object} XML namespace keys pairs
- */
-export function namespaces(data) {
-  let out = {};
-  for (let [key, value] of Object.entries(data)) {
-    if (key.startsWith('xmlns:')) {
-      out[key] = value;
-    }
-  }
-  return out;
+  return str;
 }
 
 /**
