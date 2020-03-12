@@ -40,7 +40,7 @@ export default class XMLFileBase {
     }
     this.contentCache = this.data;
     // this.contentCache = this.changeImagePaths(this.contentCache);
-    // this.contentCache = this.changeKeyReferences(this.contentCache);
+    this.contentCache = this.changeKeyReferences(this.contentCache);
     return this.contentCache;
   }
 

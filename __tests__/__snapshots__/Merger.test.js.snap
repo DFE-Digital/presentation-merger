@@ -19,12 +19,6 @@ Object {
           Object {
             "@_draw:name": "page2",
           },
-          Object {
-            "@_draw:name": "page1",
-          },
-          Object {
-            "@_draw:name": "page2",
-          },
         ],
       },
     },
@@ -37,20 +31,14 @@ Object {
 `;
 
 exports[`Merger .merge(xml) appends the selected XML keys to the document sets 2`] = `
-Set {
+Array [
   Object {
     "@_draw:name": "page1",
   },
   Object {
     "@_draw:name": "page2",
   },
-  Object {
-    "@_draw:name": "page1",
-  },
-  Object {
-    "@_draw:name": "page2",
-  },
-}
+]
 `;
 
 exports[`Merger .merge(xml) merges the provided XML content to the doc object 1`] = `
@@ -84,14 +72,14 @@ Object {
 `;
 
 exports[`Merger .merge(xml) merges the provided XML content to the doc object 2`] = `
-Set {
+Array [
   Object {
     "@_draw:name": "page1",
   },
   Object {
     "@_draw:name": "page2",
   },
-}
+]
 `;
 
 exports[`Merger .toObj(xml) throws an error when initialized with a unknown type 1`] = `"Unhandled content type 'something'"`;

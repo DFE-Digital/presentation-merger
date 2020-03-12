@@ -70,7 +70,7 @@ Merger {
         "style:style": Array [
           Object {
             "@_style:family": "drawing-page",
-            "@_style:name": "dp1",
+            "@_style:name": "1-dp1",
             "style:drawing-page-properties": Object {
               "@_presentation:background-objects-visible": "true",
               "@_presentation:background-visible": "true",
@@ -81,7 +81,7 @@ Merger {
           },
           Object {
             "@_style:family": "drawing-page",
-            "@_style:name": "dp2",
+            "@_style:name": "1-dp2",
             "style:drawing-page-properties": Object {
               "@_presentation:display-date-time": "true",
               "@_presentation:display-footer": "true",
@@ -91,7 +91,7 @@ Merger {
           },
           Object {
             "@_style:family": "graphic",
-            "@_style:name": "gr1",
+            "@_style:name": "1-gr1",
             "style:graphic-properties": Object {
               "@_style:protect": "size",
             },
@@ -99,7 +99,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr1",
+            "@_style:name": "1-pr1",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -109,7 +109,7 @@ Merger {
           },
           Object {
             "@_style:family": "presentation",
-            "@_style:name": "pr2",
+            "@_style:name": "1-pr2",
             "@_style:parent-style-name": "prs-novelty-subtitle",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -121,7 +121,7 @@ Merger {
           },
           Object {
             "@_style:family": "presentation",
-            "@_style:name": "pr3",
+            "@_style:name": "1-pr3",
             "@_style:parent-style-name": "prs-novelty-notes",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -132,7 +132,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr4",
+            "@_style:name": "1-pr4",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -142,7 +142,7 @@ Merger {
           },
           Object {
             "@_style:family": "presentation",
-            "@_style:name": "pr5",
+            "@_style:name": "1-pr5",
             "@_style:parent-style-name": "prs-novelty-outline1",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -153,7 +153,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr6",
+            "@_style:name": "1-pr6",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -163,7 +163,7 @@ Merger {
           },
           Object {
             "@_style:family": "presentation",
-            "@_style:name": "pr7",
+            "@_style:name": "1-pr7",
             "@_style:parent-style-name": "prs-novelty-outline1",
             "style:graphic-properties": Object {
               "@_draw:fill-color": "#ffffff",
@@ -173,7 +173,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr8",
+            "@_style:name": "1-pr8",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -184,7 +184,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr9",
+            "@_style:name": "1-pr9",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -195,7 +195,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr10",
+            "@_style:name": "1-pr10",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -206,7 +206,7 @@ Merger {
           Object {
             "@_style:family": "presentation",
             "@_style:list-style-name": "L4",
-            "@_style:name": "pr11",
+            "@_style:name": "1-pr11",
             "@_style:parent-style-name": "prs-novelty-title",
             "style:graphic-properties": Object {
               "@_draw:auto-grow-height": "true",
@@ -216,7 +216,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P1",
+            "@_style:name": "1-P1",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "0.6cm",
               "@_fo:margin-right": "0cm",
@@ -225,7 +225,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P2",
+            "@_style:name": "1-P2",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.2cm",
               "@_fo:margin-right": "0cm",
@@ -235,7 +235,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P3",
+            "@_style:name": "1-P3",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.2cm",
               "@_fo:margin-right": "0cm",
@@ -248,7 +248,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P4",
+            "@_style:name": "1-P4",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "0cm",
               "@_fo:margin-right": "0cm",
@@ -257,7 +257,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P5",
+            "@_style:name": "1-P5",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.4cm",
               "@_fo:margin-right": "0cm",
@@ -266,7 +266,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P6",
+            "@_style:name": "1-P6",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "0cm",
               "@_fo:margin-right": "0cm",
@@ -278,7 +278,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P7",
+            "@_style:name": "1-P7",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.4cm",
               "@_fo:margin-right": "0cm",
@@ -290,7 +290,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P8",
+            "@_style:name": "1-P8",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.4cm",
               "@_fo:margin-right": "0cm",
@@ -304,7 +304,7 @@ Merger {
           },
           Object {
             "@_style:family": "paragraph",
-            "@_style:name": "P9",
+            "@_style:name": "1-P9",
             "style:paragraph-properties": Object {
               "@_fo:margin-left": "1.4cm",
               "@_fo:margin-right": "0cm",
@@ -317,14 +317,14 @@ Merger {
           },
           Object {
             "@_style:family": "text",
-            "@_style:name": "T1",
+            "@_style:name": "1-T1",
             "style:text-properties": Object {
               "@_fo:font-size": "32pt",
             },
           },
           Object {
             "@_style:family": "text",
-            "@_style:name": "T2",
+            "@_style:name": "1-T2",
             "style:text-properties": Object {
               "@_style:font-size-asian": "24pt",
               "@_style:font-size-complex": "24pt",
@@ -905,14 +905,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Title",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL1T0",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr1",
+                  "@_presentation:style-name": "1-pr1",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -920,15 +920,15 @@ Merger {
                   "draw:text-box": Object {
                     "text:p": Object {
                       "#text": "Introducing a New Product",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P3",
+                  "@_draw:text-style-name": "1-P3",
                   "@_presentation:class": "subtitle",
-                  "@_presentation:style-name": "pr2",
+                  "@_presentation:style-name": "1-pr2",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -936,10 +936,10 @@ Merger {
                   "@_svg:y": "5.938cm",
                   "draw:text-box": Object {
                     "text:p": Object {
-                      "@_text:style-name": "P2",
+                      "@_text:style-name": "1-P2",
                       "text:span": Object {
                         "#text": "Title",
-                        "@_text:style-name": "T1",
+                        "@_text:style-name": "1-T1",
                       },
                     },
                   },
@@ -953,7 +953,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -978,14 +978,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Long-term Goal",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr4",
+                  "@_presentation:style-name": "1-pr4",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -994,15 +994,15 @@ Merger {
                     "@_draw:corner-radius": "0.003cm",
                     "text:p": Object {
                       "#text": "Long-term Goal",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P5",
+                  "@_draw:text-style-name": "1-P5",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr5",
+                  "@_presentation:style-name": "1-pr5",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1015,7 +1015,7 @@ Merger {
                       "text:list-item": Object {
                         "text:p": Object {
                           "#text": "State the intended goal",
-                          "@_text:style-name": "P4",
+                          "@_text:style-name": "1-P4",
                         },
                       },
                     },
@@ -1030,7 +1030,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1055,14 +1055,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Customer Wishes",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr6",
+                  "@_presentation:style-name": "1-pr6",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -1071,15 +1071,15 @@ Merger {
                     "@_draw:corner-radius": "0.016cm",
                     "text:p": Object {
                       "#text": "Customer Wishes",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P7",
+                  "@_draw:text-style-name": "1-P7",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr7",
+                  "@_presentation:style-name": "1-pr7",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1093,7 +1093,7 @@ Merger {
                         Object {
                           "text:p": Object {
                             "#text": "Describe customer needs and wishes",
-                            "@_text:style-name": "P6",
+                            "@_text:style-name": "1-P6",
                           },
                         },
                         Object {
@@ -1115,7 +1115,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1140,14 +1140,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Fulfilling Customer Needs",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr8",
+                  "@_presentation:style-name": "1-pr8",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -1156,16 +1156,16 @@ Merger {
                     "@_draw:corner-radius": "0.032cm",
                     "text:p": Object {
                       "#text": "FulfillingCustomer Needs",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                       "text:line-break": "",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P8",
+                  "@_draw:text-style-name": "1-P8",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr7",
+                  "@_presentation:style-name": "1-pr7",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1177,10 +1177,10 @@ Merger {
                       "text:list-item": Array [
                         Object {
                           "text:p": Object {
-                            "@_text:style-name": "P6",
+                            "@_text:style-name": "1-P6",
                             "text:span": Object {
                               "#text": "Describe the main attributes of the product",
-                              "@_text:style-name": "T2",
+                              "@_text:style-name": "1-T2",
                             },
                           },
                         },
@@ -1206,7 +1206,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1231,14 +1231,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Cost Analysis",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr9",
+                  "@_presentation:style-name": "1-pr9",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -1246,15 +1246,15 @@ Merger {
                   "draw:text-box": Object {
                     "text:p": Object {
                       "#text": "Cost Analysis",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P9",
+                  "@_draw:text-style-name": "1-P9",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr5",
+                  "@_presentation:style-name": "1-pr5",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1266,10 +1266,10 @@ Merger {
                       "text:list-item": Array [
                         Object {
                           "text:p": Object {
-                            "@_text:style-name": "P4",
+                            "@_text:style-name": "1-P4",
                             "text:span": Object {
                               "#text": "Indicate the financial advantages for the customer",
-                              "@_text:style-name": "T2",
+                              "@_text:style-name": "1-T2",
                             },
                           },
                         },
@@ -1295,7 +1295,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1320,14 +1320,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Strengths and Advantages",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr10",
+                  "@_presentation:style-name": "1-pr10",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -1335,15 +1335,15 @@ Merger {
                   "draw:text-box": Object {
                     "text:p": Object {
                       "#text": "Strengths and Advantages",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P7",
+                  "@_draw:text-style-name": "1-P7",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr7",
+                  "@_presentation:style-name": "1-pr7",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1355,7 +1355,7 @@ Merger {
                       "text:list-item": Object {
                         "text:p": Object {
                           "#text": "Summarise the special features and advantages of the product being introduced",
-                          "@_text:style-name": "P6",
+                          "@_text:style-name": "1-P6",
                         },
                       },
                     },
@@ -1370,7 +1370,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1395,14 +1395,14 @@ Merger {
             Object {
               "@_draw:master-page-name": "prs-novelty",
               "@_draw:name": "Next Steps of Action",
-              "@_draw:style-name": "dp1",
+              "@_draw:style-name": "1-dp1",
               "@_presentation:presentation-page-layout-name": "AL2T1",
               "draw:frame": Array [
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P1",
+                  "@_draw:text-style-name": "1-P1",
                   "@_presentation:class": "title",
-                  "@_presentation:style-name": "pr11",
+                  "@_presentation:style-name": "1-pr11",
                   "@_svg:height": "3.506cm",
                   "@_svg:width": "23.911cm",
                   "@_svg:x": "2.058cm",
@@ -1410,15 +1410,15 @@ Merger {
                   "draw:text-box": Object {
                     "text:p": Object {
                       "#text": "Next Steps of Action",
-                      "@_text:style-name": "P1",
+                      "@_text:style-name": "1-P1",
                     },
                   },
                 },
                 Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P7",
+                  "@_draw:text-style-name": "1-P7",
                   "@_presentation:class": "outline",
-                  "@_presentation:style-name": "pr7",
+                  "@_presentation:style-name": "1-pr7",
                   "@_presentation:user-transformed": "true",
                   "@_svg:height": "13.231cm",
                   "@_svg:width": "23.384cm",
@@ -1430,7 +1430,7 @@ Merger {
                       "text:list-item": Object {
                         "text:p": Object {
                           "#text": "Explain the steps that now need to be taken",
-                          "@_text:style-name": "P6",
+                          "@_text:style-name": "1-P6",
                         },
                       },
                     },
@@ -1445,7 +1445,7 @@ Merger {
                 "@_draw:style-name": "dp2",
                 "draw:frame": Object {
                   "@_draw:layer": "layout",
-                  "@_draw:text-style-name": "P4",
+                  "@_draw:text-style-name": "1-P4",
                   "@_presentation:class": "notes",
                   "@_presentation:placeholder": "true",
                   "@_presentation:style-name": "pr3",
@@ -1477,11 +1477,11 @@ Merger {
     },
   },
   "manifest": undefined,
-  "office:document-content.office:automatic-styles.number:date-style": Set {},
-  "office:document-content.office:automatic-styles.style:style": Set {
+  "office:document-content.office:automatic-styles.number:date-style": Array [],
+  "office:document-content.office:automatic-styles.style:style": Array [
     Object {
       "@_style:family": "drawing-page",
-      "@_style:name": "dp1",
+      "@_style:name": "1-dp1",
       "style:drawing-page-properties": Object {
         "@_presentation:background-objects-visible": "true",
         "@_presentation:background-visible": "true",
@@ -1492,7 +1492,7 @@ Merger {
     },
     Object {
       "@_style:family": "drawing-page",
-      "@_style:name": "dp2",
+      "@_style:name": "1-dp2",
       "style:drawing-page-properties": Object {
         "@_presentation:display-date-time": "true",
         "@_presentation:display-footer": "true",
@@ -1502,7 +1502,7 @@ Merger {
     },
     Object {
       "@_style:family": "graphic",
-      "@_style:name": "gr1",
+      "@_style:name": "1-gr1",
       "style:graphic-properties": Object {
         "@_style:protect": "size",
       },
@@ -1510,7 +1510,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr1",
+      "@_style:name": "1-pr1",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1520,7 +1520,7 @@ Merger {
     },
     Object {
       "@_style:family": "presentation",
-      "@_style:name": "pr2",
+      "@_style:name": "1-pr2",
       "@_style:parent-style-name": "prs-novelty-subtitle",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1532,7 +1532,7 @@ Merger {
     },
     Object {
       "@_style:family": "presentation",
-      "@_style:name": "pr3",
+      "@_style:name": "1-pr3",
       "@_style:parent-style-name": "prs-novelty-notes",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1543,7 +1543,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr4",
+      "@_style:name": "1-pr4",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1553,7 +1553,7 @@ Merger {
     },
     Object {
       "@_style:family": "presentation",
-      "@_style:name": "pr5",
+      "@_style:name": "1-pr5",
       "@_style:parent-style-name": "prs-novelty-outline1",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1564,7 +1564,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr6",
+      "@_style:name": "1-pr6",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1574,7 +1574,7 @@ Merger {
     },
     Object {
       "@_style:family": "presentation",
-      "@_style:name": "pr7",
+      "@_style:name": "1-pr7",
       "@_style:parent-style-name": "prs-novelty-outline1",
       "style:graphic-properties": Object {
         "@_draw:fill-color": "#ffffff",
@@ -1584,7 +1584,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr8",
+      "@_style:name": "1-pr8",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1595,7 +1595,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr9",
+      "@_style:name": "1-pr9",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1606,7 +1606,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr10",
+      "@_style:name": "1-pr10",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1617,7 +1617,7 @@ Merger {
     Object {
       "@_style:family": "presentation",
       "@_style:list-style-name": "L4",
-      "@_style:name": "pr11",
+      "@_style:name": "1-pr11",
       "@_style:parent-style-name": "prs-novelty-title",
       "style:graphic-properties": Object {
         "@_draw:auto-grow-height": "true",
@@ -1627,7 +1627,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P1",
+      "@_style:name": "1-P1",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "0.6cm",
         "@_fo:margin-right": "0cm",
@@ -1636,7 +1636,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P2",
+      "@_style:name": "1-P2",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.2cm",
         "@_fo:margin-right": "0cm",
@@ -1646,7 +1646,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P3",
+      "@_style:name": "1-P3",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.2cm",
         "@_fo:margin-right": "0cm",
@@ -1659,7 +1659,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P4",
+      "@_style:name": "1-P4",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "0cm",
         "@_fo:margin-right": "0cm",
@@ -1668,7 +1668,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P5",
+      "@_style:name": "1-P5",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.4cm",
         "@_fo:margin-right": "0cm",
@@ -1677,7 +1677,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P6",
+      "@_style:name": "1-P6",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "0cm",
         "@_fo:margin-right": "0cm",
@@ -1689,7 +1689,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P7",
+      "@_style:name": "1-P7",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.4cm",
         "@_fo:margin-right": "0cm",
@@ -1701,7 +1701,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P8",
+      "@_style:name": "1-P8",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.4cm",
         "@_fo:margin-right": "0cm",
@@ -1715,7 +1715,7 @@ Merger {
     },
     Object {
       "@_style:family": "paragraph",
-      "@_style:name": "P9",
+      "@_style:name": "1-P9",
       "style:paragraph-properties": Object {
         "@_fo:margin-left": "1.4cm",
         "@_fo:margin-right": "0cm",
@@ -1728,21 +1728,21 @@ Merger {
     },
     Object {
       "@_style:family": "text",
-      "@_style:name": "T1",
+      "@_style:name": "1-T1",
       "style:text-properties": Object {
         "@_fo:font-size": "32pt",
       },
     },
     Object {
       "@_style:family": "text",
-      "@_style:name": "T2",
+      "@_style:name": "1-T2",
       "style:text-properties": Object {
         "@_style:font-size-asian": "24pt",
         "@_style:font-size-complex": "24pt",
       },
     },
-  },
-  "office:document-content.office:automatic-styles.text:list-style": Set {
+  ],
+  "office:document-content.office:automatic-styles.text:list-style": Array [
     Object {
       "@_style:name": "L1",
       "text:list-level-style-bullet": Array [
@@ -2308,19 +2308,19 @@ Merger {
         },
       ],
     },
-  },
-  "office:document-content.office:body.office:presentation.draw:page": Set {
+  ],
+  "office:document-content.office:body.office:presentation.draw:page": Array [
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Title",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL1T0",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr1",
+          "@_presentation:style-name": "1-pr1",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2328,15 +2328,15 @@ Merger {
           "draw:text-box": Object {
             "text:p": Object {
               "#text": "Introducing a New Product",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P3",
+          "@_draw:text-style-name": "1-P3",
           "@_presentation:class": "subtitle",
-          "@_presentation:style-name": "pr2",
+          "@_presentation:style-name": "1-pr2",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2344,10 +2344,10 @@ Merger {
           "@_svg:y": "5.938cm",
           "draw:text-box": Object {
             "text:p": Object {
-              "@_text:style-name": "P2",
+              "@_text:style-name": "1-P2",
               "text:span": Object {
                 "#text": "Title",
-                "@_text:style-name": "T1",
+                "@_text:style-name": "1-T1",
               },
             },
           },
@@ -2361,7 +2361,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2386,14 +2386,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Long-term Goal",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr4",
+          "@_presentation:style-name": "1-pr4",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2402,15 +2402,15 @@ Merger {
             "@_draw:corner-radius": "0.003cm",
             "text:p": Object {
               "#text": "Long-term Goal",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P5",
+          "@_draw:text-style-name": "1-P5",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr5",
+          "@_presentation:style-name": "1-pr5",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2423,7 +2423,7 @@ Merger {
               "text:list-item": Object {
                 "text:p": Object {
                   "#text": "State the intended goal",
-                  "@_text:style-name": "P4",
+                  "@_text:style-name": "1-P4",
                 },
               },
             },
@@ -2438,7 +2438,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2463,14 +2463,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Customer Wishes",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr6",
+          "@_presentation:style-name": "1-pr6",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2479,15 +2479,15 @@ Merger {
             "@_draw:corner-radius": "0.016cm",
             "text:p": Object {
               "#text": "Customer Wishes",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P7",
+          "@_draw:text-style-name": "1-P7",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr7",
+          "@_presentation:style-name": "1-pr7",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2501,7 +2501,7 @@ Merger {
                 Object {
                   "text:p": Object {
                     "#text": "Describe customer needs and wishes",
-                    "@_text:style-name": "P6",
+                    "@_text:style-name": "1-P6",
                   },
                 },
                 Object {
@@ -2523,7 +2523,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2548,14 +2548,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Fulfilling Customer Needs",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr8",
+          "@_presentation:style-name": "1-pr8",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2564,16 +2564,16 @@ Merger {
             "@_draw:corner-radius": "0.032cm",
             "text:p": Object {
               "#text": "FulfillingCustomer Needs",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
               "text:line-break": "",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P8",
+          "@_draw:text-style-name": "1-P8",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr7",
+          "@_presentation:style-name": "1-pr7",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2585,10 +2585,10 @@ Merger {
               "text:list-item": Array [
                 Object {
                   "text:p": Object {
-                    "@_text:style-name": "P6",
+                    "@_text:style-name": "1-P6",
                     "text:span": Object {
                       "#text": "Describe the main attributes of the product",
-                      "@_text:style-name": "T2",
+                      "@_text:style-name": "1-T2",
                     },
                   },
                 },
@@ -2614,7 +2614,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2639,14 +2639,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Cost Analysis",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr9",
+          "@_presentation:style-name": "1-pr9",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2654,15 +2654,15 @@ Merger {
           "draw:text-box": Object {
             "text:p": Object {
               "#text": "Cost Analysis",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P9",
+          "@_draw:text-style-name": "1-P9",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr5",
+          "@_presentation:style-name": "1-pr5",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2674,10 +2674,10 @@ Merger {
               "text:list-item": Array [
                 Object {
                   "text:p": Object {
-                    "@_text:style-name": "P4",
+                    "@_text:style-name": "1-P4",
                     "text:span": Object {
                       "#text": "Indicate the financial advantages for the customer",
-                      "@_text:style-name": "T2",
+                      "@_text:style-name": "1-T2",
                     },
                   },
                 },
@@ -2703,7 +2703,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2728,14 +2728,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Strengths and Advantages",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr10",
+          "@_presentation:style-name": "1-pr10",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2743,15 +2743,15 @@ Merger {
           "draw:text-box": Object {
             "text:p": Object {
               "#text": "Strengths and Advantages",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P7",
+          "@_draw:text-style-name": "1-P7",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr7",
+          "@_presentation:style-name": "1-pr7",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2763,7 +2763,7 @@ Merger {
               "text:list-item": Object {
                 "text:p": Object {
                   "#text": "Summarise the special features and advantages of the product being introduced",
-                  "@_text:style-name": "P6",
+                  "@_text:style-name": "1-P6",
                 },
               },
             },
@@ -2778,7 +2778,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2803,14 +2803,14 @@ Merger {
     Object {
       "@_draw:master-page-name": "prs-novelty",
       "@_draw:name": "Next Steps of Action",
-      "@_draw:style-name": "dp1",
+      "@_draw:style-name": "1-dp1",
       "@_presentation:presentation-page-layout-name": "AL2T1",
       "draw:frame": Array [
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P1",
+          "@_draw:text-style-name": "1-P1",
           "@_presentation:class": "title",
-          "@_presentation:style-name": "pr11",
+          "@_presentation:style-name": "1-pr11",
           "@_svg:height": "3.506cm",
           "@_svg:width": "23.911cm",
           "@_svg:x": "2.058cm",
@@ -2818,15 +2818,15 @@ Merger {
           "draw:text-box": Object {
             "text:p": Object {
               "#text": "Next Steps of Action",
-              "@_text:style-name": "P1",
+              "@_text:style-name": "1-P1",
             },
           },
         },
         Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P7",
+          "@_draw:text-style-name": "1-P7",
           "@_presentation:class": "outline",
-          "@_presentation:style-name": "pr7",
+          "@_presentation:style-name": "1-pr7",
           "@_presentation:user-transformed": "true",
           "@_svg:height": "13.231cm",
           "@_svg:width": "23.384cm",
@@ -2838,7 +2838,7 @@ Merger {
               "text:list-item": Object {
                 "text:p": Object {
                   "#text": "Explain the steps that now need to be taken",
-                  "@_text:style-name": "P6",
+                  "@_text:style-name": "1-P6",
                 },
               },
             },
@@ -2853,7 +2853,7 @@ Merger {
         "@_draw:style-name": "dp2",
         "draw:frame": Object {
           "@_draw:layer": "layout",
-          "@_draw:text-style-name": "P4",
+          "@_draw:text-style-name": "1-P4",
           "@_presentation:class": "notes",
           "@_presentation:placeholder": "true",
           "@_presentation:style-name": "pr3",
@@ -2875,9 +2875,9 @@ Merger {
         },
       },
     },
-  },
-  "office:document-content.office:font-face-decls.style:font-face": Set {},
-  "office:document-content.office:scripts": Set {},
+  ],
+  "office:document-content.office:font-face-decls.style:font-face": Array [],
+  "office:document-content.office:scripts": Array [],
   "type": "content",
 }
 `;
@@ -2918,6 +2918,44 @@ Merger {
       "@_xmlns:xhtml": "http://www.w3.org/1999/xhtml",
       "@_xmlns:xlink": "http://www.w3.org/1999/xlink",
       "office:automatic-styles": Object {
+        "style:page-layout": Array [
+          Object {
+            "@_style:name": "PM0",
+            "style:page-layout-properties": Object {
+              "@_fo:margin-bottom": "0cm",
+              "@_fo:margin-left": "0cm",
+              "@_fo:margin-right": "0cm",
+              "@_fo:margin-top": "0cm",
+              "@_fo:page-height": "21cm",
+              "@_fo:page-width": "29.7cm",
+              "@_style:print-orientation": "landscape",
+            },
+          },
+          Object {
+            "@_style:name": "PM1",
+            "style:page-layout-properties": Object {
+              "@_fo:margin-bottom": "0cm",
+              "@_fo:margin-left": "0cm",
+              "@_fo:margin-right": "0cm",
+              "@_fo:margin-top": "0cm",
+              "@_fo:page-height": "21cm",
+              "@_fo:page-width": "28cm",
+              "@_style:print-orientation": "landscape",
+            },
+          },
+          Object {
+            "@_style:name": "PM2",
+            "style:page-layout-properties": Object {
+              "@_fo:margin-bottom": "0cm",
+              "@_fo:margin-left": "0cm",
+              "@_fo:margin-right": "0cm",
+              "@_fo:margin-top": "0cm",
+              "@_fo:page-height": "29.7cm",
+              "@_fo:page-width": "21cm",
+              "@_style:print-orientation": "portrait",
+            },
+          },
+        ],
         "style:style": Array [
           Object {
             "@_style:family": "drawing-page",
@@ -2976,6 +3014,62 @@ Merger {
         "style:font-face": Array [],
       },
       "office:master-styles": Object {
+        "draw:layer-set": Object {
+          "draw:layer": Array [
+            Object {
+              "@_draw:name": "layout",
+            },
+            Object {
+              "@_draw:name": "background",
+            },
+            Object {
+              "@_draw:name": "backgroundobjects",
+            },
+            Object {
+              "@_draw:name": "controls",
+            },
+            Object {
+              "@_draw:name": "measurelines",
+            },
+          ],
+        },
+        "style:handout-master": Array [
+          Object {
+            "@_draw:style-name": "Mdp2",
+            "@_presentation:presentation-page-layout-name": "AL0T25",
+            "@_style:page-layout-name": "PM0",
+            "draw:page-thumbnail": Array [
+              Object {
+                "@_draw:layer": "backgroundobjects",
+                "@_svg:height": "7.949cm",
+                "@_svg:width": "10.599cm",
+                "@_svg:x": "2.375cm",
+                "@_svg:y": "2.05cm",
+              },
+              Object {
+                "@_draw:layer": "backgroundobjects",
+                "@_svg:height": "7.949cm",
+                "@_svg:width": "10.599cm",
+                "@_svg:x": "2.375cm",
+                "@_svg:y": "11cm",
+              },
+              Object {
+                "@_draw:layer": "backgroundobjects",
+                "@_svg:height": "7.949cm",
+                "@_svg:width": "10.599cm",
+                "@_svg:x": "16.725cm",
+                "@_svg:y": "2.05cm",
+              },
+              Object {
+                "@_draw:layer": "backgroundobjects",
+                "@_svg:height": "7.949cm",
+                "@_svg:width": "10.599cm",
+                "@_svg:x": "16.725cm",
+                "@_svg:y": "11cm",
+              },
+            ],
+          },
+        ],
         "style:master-page": Array [
           Object {
             "@_draw:style-name": "Mdp1",
@@ -6160,7 +6254,45 @@ Merger {
     },
   },
   "manifest": undefined,
-  "office:document-styles.office:automatic-styles.style:style": Set {
+  "office:document-styles.office:automatic-styles.style:page-layout": Array [
+    Object {
+      "@_style:name": "PM0",
+      "style:page-layout-properties": Object {
+        "@_fo:margin-bottom": "0cm",
+        "@_fo:margin-left": "0cm",
+        "@_fo:margin-right": "0cm",
+        "@_fo:margin-top": "0cm",
+        "@_fo:page-height": "21cm",
+        "@_fo:page-width": "29.7cm",
+        "@_style:print-orientation": "landscape",
+      },
+    },
+    Object {
+      "@_style:name": "PM1",
+      "style:page-layout-properties": Object {
+        "@_fo:margin-bottom": "0cm",
+        "@_fo:margin-left": "0cm",
+        "@_fo:margin-right": "0cm",
+        "@_fo:margin-top": "0cm",
+        "@_fo:page-height": "21cm",
+        "@_fo:page-width": "28cm",
+        "@_style:print-orientation": "landscape",
+      },
+    },
+    Object {
+      "@_style:name": "PM2",
+      "style:page-layout-properties": Object {
+        "@_fo:margin-bottom": "0cm",
+        "@_fo:margin-left": "0cm",
+        "@_fo:margin-right": "0cm",
+        "@_fo:margin-top": "0cm",
+        "@_fo:page-height": "29.7cm",
+        "@_fo:page-width": "21cm",
+        "@_style:print-orientation": "portrait",
+      },
+    },
+  ],
+  "office:document-styles.office:automatic-styles.style:style": Array [
     Object {
       "@_style:family": "drawing-page",
       "@_style:name": "Mdp1",
@@ -6211,10 +6343,64 @@ Merger {
         "@_fo:text-align": "center",
       },
     },
-  },
-  "office:document-styles.office:automatic-styles.text:list-style": Set {},
-  "office:document-styles.office:font-face-decls.style:font-face": Set {},
-  "office:document-styles.office:master-styles.style:master-page": Set {
+  ],
+  "office:document-styles.office:automatic-styles.text:list-style": Array [],
+  "office:document-styles.office:font-face-decls.style:font-face": Array [],
+  "office:document-styles.office:master-styles.draw:layer-set.draw:layer": Array [
+    Object {
+      "@_draw:name": "layout",
+    },
+    Object {
+      "@_draw:name": "background",
+    },
+    Object {
+      "@_draw:name": "backgroundobjects",
+    },
+    Object {
+      "@_draw:name": "controls",
+    },
+    Object {
+      "@_draw:name": "measurelines",
+    },
+  ],
+  "office:document-styles.office:master-styles.style:handout-master": Array [
+    Object {
+      "@_draw:style-name": "Mdp2",
+      "@_presentation:presentation-page-layout-name": "AL0T25",
+      "@_style:page-layout-name": "PM0",
+      "draw:page-thumbnail": Array [
+        Object {
+          "@_draw:layer": "backgroundobjects",
+          "@_svg:height": "7.949cm",
+          "@_svg:width": "10.599cm",
+          "@_svg:x": "2.375cm",
+          "@_svg:y": "2.05cm",
+        },
+        Object {
+          "@_draw:layer": "backgroundobjects",
+          "@_svg:height": "7.949cm",
+          "@_svg:width": "10.599cm",
+          "@_svg:x": "2.375cm",
+          "@_svg:y": "11cm",
+        },
+        Object {
+          "@_draw:layer": "backgroundobjects",
+          "@_svg:height": "7.949cm",
+          "@_svg:width": "10.599cm",
+          "@_svg:x": "16.725cm",
+          "@_svg:y": "2.05cm",
+        },
+        Object {
+          "@_draw:layer": "backgroundobjects",
+          "@_svg:height": "7.949cm",
+          "@_svg:width": "10.599cm",
+          "@_svg:x": "16.725cm",
+          "@_svg:y": "11cm",
+        },
+      ],
+    },
+  ],
+  "office:document-styles.office:master-styles.style:master-page": Array [
     Object {
       "@_draw:style-name": "Mdp1",
       "@_style:name": "prs-novelty",
@@ -6230,7 +6416,7 @@ Merger {
           "@_svg:y": "-0.001cm",
           "draw:image": Object {
             "@_xlink:actuate": "onLoad",
-            "@_xlink:href": "Pictures/100000000000032000000258E080B12F.jpg",
+            "@_xlink:href": "Presentation0-Pictures/100000000000032000000258E080B12F.jpg",
             "@_xlink:show": "embed",
             "@_xlink:type": "simple",
             "text:p": "",
@@ -6285,13 +6471,13 @@ Merger {
         },
       },
     },
-  },
-  "office:document-styles.office:styles.draw:fill-image": Set {
+  ],
+  "office:document-styles.office:styles.draw:fill-image": Array [
     Object {
       "@_draw:display-name": "Bitmape 1",
       "@_draw:name": "Bitmape_20_1",
       "@_xlink:actuate": "onLoad",
-      "@_xlink:href": "Pictures/1000000000000040000000400142E835.png",
+      "@_xlink:href": "Presentation0-Pictures/1000000000000040000000400142E835.png",
       "@_xlink:show": "embed",
       "@_xlink:type": "simple",
     },
@@ -6299,12 +6485,12 @@ Merger {
       "@_draw:display-name": "Bitmape 2",
       "@_draw:name": "Bitmape_20_2",
       "@_xlink:actuate": "onLoad",
-      "@_xlink:href": "Pictures/100002010000028200000040779DD47E.png",
+      "@_xlink:href": "Presentation0-Pictures/100002010000028200000040779DD47E.png",
       "@_xlink:show": "embed",
       "@_xlink:type": "simple",
     },
-  },
-  "office:document-styles.office:styles.draw:gradient": Set {
+  ],
+  "office:document-styles.office:styles.draw:gradient": Array [
     Object {
       "@_draw:angle": "0",
       "@_draw:border": "0%",
@@ -6327,8 +6513,8 @@ Merger {
       "@_draw:start-intensity": "100%",
       "@_draw:style": "axial",
     },
-  },
-  "office:document-styles.office:styles.draw:hatch": Set {
+  ],
+  "office:document-styles.office:styles.draw:hatch": Array [
     Object {
       "@_draw:color": "#000000",
       "@_draw:display-name": "Hatch 1",
@@ -6337,8 +6523,8 @@ Merger {
       "@_draw:rotation": "0",
       "@_draw:style": "single",
     },
-  },
-  "office:document-styles.office:styles.draw:marker": Set {
+  ],
+  "office:document-styles.office:styles.draw:marker": Array [
     Object {
       "@_draw:display-name": "Linienende 1",
       "@_draw:name": "Linienende_20_1",
@@ -6357,8 +6543,8 @@ Merger {
       "@_svg:d": "M100 0l100 400h-200z",
       "@_svg:viewBox": "0 0 200 400",
     },
-  },
-  "office:document-styles.office:styles.draw:stroke-dash": Set {
+  ],
+  "office:document-styles.office:styles.draw:stroke-dash": Array [
     Object {
       "@_draw:display-name": "Dash 1",
       "@_draw:distance": "0.02cm",
@@ -6369,8 +6555,8 @@ Merger {
       "@_draw:name": "Dash_20_1",
       "@_draw:style": "rect",
     },
-  },
-  "office:document-styles.office:styles.style:default-style": Set {
+  ],
+  "office:document-styles.office:styles.style:default-style": Array [
     Object {
       "@_style:family": "graphic",
       "style:graphic-properties": Object {
@@ -6404,8 +6590,8 @@ Merger {
         "@_style:language-complex": "zxx",
       },
     },
-  },
-  "office:document-styles.office:styles.style:style": Set {
+  ],
+  "office:document-styles.office:styles.style:style": Array [
     Object {
       "@_style:family": "graphic",
       "@_style:name": "standard",
@@ -9391,7 +9577,7 @@ Merger {
         "@_style:text-underline-style": "none",
       },
     },
-  },
+  ],
   "type": "styles",
 }
 `;

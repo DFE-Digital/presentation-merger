@@ -58,7 +58,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
 >
   <office:font-face-decls />
   <office:automatic-styles>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"1-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -67,7 +67,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"1-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -75,11 +75,11 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"1-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"1-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -91,7 +91,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"1-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-subtitle\\"
     >
@@ -104,7 +104,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"1-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-notes\\"
     >
@@ -115,7 +115,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"1-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -127,7 +127,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"1-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-outline1\\"
     >
@@ -138,7 +138,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr6\\"
+      style:name=\\"1-pr6\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -150,7 +150,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr7\\"
+      style:name=\\"1-pr7\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-outline1\\"
     >
@@ -160,7 +160,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr8\\"
+      style:name=\\"1-pr8\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -172,7 +172,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr9\\"
+      style:name=\\"1-pr9\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -184,7 +184,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr10\\"
+      style:name=\\"1-pr10\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -196,7 +196,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr11\\"
+      style:name=\\"1-pr11\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-novelty-title\\"
       style:list-style-name=\\"L4\\"
@@ -207,14 +207,14 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         fo:min-height=\\"3.506cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P1\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0.6cm\\"
         fo:margin-right=\\"0cm\\"
         fo:text-indent=\\"-1cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P2\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P2\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.2cm\\"
         fo:margin-right=\\"0cm\\"
@@ -222,7 +222,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         fo:text-indent=\\"-0.6cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P3\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P3\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.2cm\\"
         fo:margin-right=\\"0cm\\"
@@ -231,21 +231,21 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:font-size=\\"32pt\\" />
     </style:style>
-    <style:style style:name=\\"P4\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P4\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0cm\\"
         fo:margin-right=\\"0cm\\"
         fo:text-indent=\\"0cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P5\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P5\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.4cm\\"
         fo:margin-right=\\"0cm\\"
         fo:text-indent=\\"-1.2cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P6\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P6\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0cm\\"
         fo:margin-right=\\"0cm\\"
@@ -253,7 +253,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:hyphenate=\\"true\\" />
     </style:style>
-    <style:style style:name=\\"P7\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P7\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.4cm\\"
         fo:margin-right=\\"0cm\\"
@@ -261,7 +261,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:hyphenate=\\"true\\" />
     </style:style>
-    <style:style style:name=\\"P8\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P8\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.4cm\\"
         fo:margin-right=\\"0cm\\"
@@ -273,7 +273,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         fo:hyphenate=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"P9\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"1-P9\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.4cm\\"
         fo:margin-right=\\"0cm\\"
@@ -284,16 +284,16 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         style:font-size-complex=\\"24pt\\"
       />
     </style:style>
-    <style:style style:name=\\"T1\\" style:family=\\"text\\">
+    <style:style style:name=\\"1-T1\\" style:family=\\"text\\">
       <style:text-properties fo:font-size=\\"32pt\\" />
     </style:style>
-    <style:style style:name=\\"T2\\" style:family=\\"text\\">
+    <style:style style:name=\\"1-T2\\" style:family=\\"text\\">
       <style:text-properties
         style:font-size-asian=\\"24pt\\"
         style:font-size-complex=\\"24pt\\"
       />
     </style:style>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"3-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -306,7 +306,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"3-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -314,7 +314,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp3\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"3-dp3\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -323,11 +323,11 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"3-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"3-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -339,7 +339,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"3-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-subtitle\\"
     >
@@ -349,7 +349,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"3-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-notes\\"
     >
@@ -360,7 +360,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"3-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -372,7 +372,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"3-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-outline1\\"
     >
@@ -382,7 +382,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr6\\"
+      style:name=\\"3-pr6\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -394,7 +394,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr7\\"
+      style:name=\\"3-pr7\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -406,7 +406,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr8\\"
+      style:name=\\"3-pr8\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -418,7 +418,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr9\\"
+      style:name=\\"3-pr9\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -430,7 +430,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
     </style:style>
     <style:style
-      style:name=\\"pr10\\"
+      style:name=\\"3-pr10\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"prs-strategy-title\\"
       style:list-style-name=\\"L4\\"
@@ -441,14 +441,14 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         fo:min-height=\\"3.506cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P1\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0.6cm\\"
         fo:margin-right=\\"0cm\\"
         fo:text-indent=\\"-1cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P2\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P2\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0.6cm\\"
         fo:margin-right=\\"0cm\\"
@@ -456,7 +456,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:hyphenate=\\"false\\" />
     </style:style>
-    <style:style style:name=\\"P3\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P3\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0.6cm\\"
         fo:margin-right=\\"0cm\\"
@@ -464,14 +464,14 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:font-size=\\"32pt\\" fo:hyphenate=\\"false\\" />
     </style:style>
-    <style:style style:name=\\"P4\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P4\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0cm\\"
         fo:margin-right=\\"0cm\\"
         fo:text-indent=\\"0cm\\"
       />
     </style:style>
-    <style:style style:name=\\"P5\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P5\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"0cm\\"
         fo:margin-right=\\"0cm\\"
@@ -479,7 +479,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:hyphenate=\\"true\\" />
     </style:style>
-    <style:style style:name=\\"P6\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"3-P6\\" style:family=\\"paragraph\\">
       <style:paragraph-properties
         fo:margin-left=\\"1.4cm\\"
         fo:margin-right=\\"0cm\\"
@@ -487,7 +487,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       />
       <style:text-properties fo:hyphenate=\\"true\\" />
     </style:style>
-    <style:style style:name=\\"T1\\" style:family=\\"text\\">
+    <style:style style:name=\\"3-T1\\" style:family=\\"text\\">
       <style:text-properties fo:font-size=\\"32pt\\" />
     </style:style>
     <text:list-style style:name=\\"L1\\">
@@ -1406,7 +1406,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
     <office:presentation>
       <draw:page
         draw:name=\\"Title\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL1T0\\"
       >
@@ -1415,8 +1415,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr1\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr1\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1425,12 +1425,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Introducing a New Product</text:p>
+            <text:p text:style-name=\\"1-P1\\">Introducing a New Product</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr2\\"
-          draw:text-style-name=\\"P3\\"
+          presentation:style-name=\\"1-pr2\\"
+          draw:text-style-name=\\"1-P3\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1440,8 +1440,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:user-transformed=\\"true\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P2\\">
-              <text:span text:style-name=\\"T1\\">Title</text:span>
+            <text:p text:style-name=\\"1-P2\\">
+              <text:span text:style-name=\\"1-T1\\">Title</text:span>
             </text:p>
           </draw:text-box>
         </draw:frame>
@@ -1458,7 +1458,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1473,7 +1473,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Long-term Goal\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1482,8 +1482,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr4\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr4\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1492,12 +1492,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"0.003cm\\">
-            <text:p text:style-name=\\"P1\\">Long-term Goal</text:p>
+            <text:p text:style-name=\\"1-P1\\">Long-term Goal</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P5\\"
+          presentation:style-name=\\"1-pr5\\"
+          draw:text-style-name=\\"1-P5\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1509,7 +1509,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           <draw:text-box draw:corner-radius=\\"0.003cm\\">
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
-                <text:p text:style-name=\\"P4\\">State the intended goal</text:p>
+                <text:p text:style-name=\\"1-P4\\">State the intended goal</text:p>
               </text:list-item>
             </text:list>
           </draw:text-box>
@@ -1527,7 +1527,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1542,7 +1542,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Customer Wishes\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1551,8 +1551,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr6\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr6\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1561,12 +1561,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"0.016cm\\">
-            <text:p text:style-name=\\"P1\\">Customer Wishes</text:p>
+            <text:p text:style-name=\\"1-P1\\">Customer Wishes</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr7\\"
-          draw:text-style-name=\\"P7\\"
+          presentation:style-name=\\"1-pr7\\"
+          draw:text-style-name=\\"1-P7\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1579,7 +1579,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P6\\"
+                  text:style-name=\\"1-P6\\"
                 >Describe customer needs and wishes</text:p>
               </text:list-item>
               <text:list-item>
@@ -1601,7 +1601,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1616,7 +1616,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Fulfilling Customer Needs\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1625,8 +1625,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr8\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr8\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1636,13 +1636,13 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
         >
           <draw:text-box draw:corner-radius=\\"0.032cm\\">
             <text:p
-              text:style-name=\\"P1\\"
+              text:style-name=\\"1-P1\\"
             >FulfillingCustomer Needs<text:line-break /></text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr7\\"
-          draw:text-style-name=\\"P8\\"
+          presentation:style-name=\\"1-pr7\\"
+          draw:text-style-name=\\"1-P8\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1654,9 +1654,9 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           <draw:text-box>
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
-                <text:p text:style-name=\\"P6\\">
+                <text:p text:style-name=\\"1-P6\\">
                   <text:span
-                    text:style-name=\\"T2\\"
+                    text:style-name=\\"1-T2\\"
                   >Describe the main attributes of the product</text:span>
                 </text:p>
               </text:list-item>
@@ -1683,7 +1683,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1698,7 +1698,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Cost Analysis\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1707,8 +1707,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr9\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr9\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1717,12 +1717,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Cost Analysis</text:p>
+            <text:p text:style-name=\\"1-P1\\">Cost Analysis</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P9\\"
+          presentation:style-name=\\"1-pr5\\"
+          draw:text-style-name=\\"1-P9\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1734,9 +1734,9 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           <draw:text-box>
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
-                <text:p text:style-name=\\"P4\\">
+                <text:p text:style-name=\\"1-P4\\">
                   <text:span
-                    text:style-name=\\"T2\\"
+                    text:style-name=\\"1-T2\\"
                   >Indicate the financial advantages for the customer</text:span>
                 </text:p>
               </text:list-item>
@@ -1763,7 +1763,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1778,7 +1778,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Strengths and Advantages\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1787,8 +1787,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr10\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr10\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1797,12 +1797,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Strengths and Advantages</text:p>
+            <text:p text:style-name=\\"1-P1\\">Strengths and Advantages</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr7\\"
-          draw:text-style-name=\\"P7\\"
+          presentation:style-name=\\"1-pr7\\"
+          draw:text-style-name=\\"1-P7\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1815,7 +1815,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P6\\"
+                  text:style-name=\\"1-P6\\"
                 >Summarise the special features and advantages of the product being introduced</text:p>
               </text:list-item>
             </text:list>
@@ -1834,7 +1834,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1849,7 +1849,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Next Steps of Action\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"1-dp1\\"
         draw:master-page-name=\\"prs-novelty\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1858,8 +1858,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr11\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"1-pr11\\"
+          draw:text-style-name=\\"1-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1868,12 +1868,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Next Steps of Action</text:p>
+            <text:p text:style-name=\\"1-P1\\">Next Steps of Action</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr7\\"
-          draw:text-style-name=\\"P7\\"
+          presentation:style-name=\\"1-pr7\\"
+          draw:text-style-name=\\"1-P7\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.384cm\\"
           svg:height=\\"13.231cm\\"
@@ -1886,7 +1886,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P6\\"
+                  text:style-name=\\"1-P6\\"
                 >Explain the steps that now need to be taken</text:p>
               </text:list-item>
             </text:list>
@@ -1905,7 +1905,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"1-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1920,7 +1920,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Title\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"3-dp1\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL1T0\\"
       >
@@ -1929,8 +1929,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr1\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr1\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -1939,12 +1939,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Recommendation of a Strategy</text:p>
+            <text:p text:style-name=\\"3-P1\\">Recommendation of a Strategy</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr2\\"
-          draw:text-style-name=\\"P3\\"
+          presentation:style-name=\\"3-pr2\\"
+          draw:text-style-name=\\"3-P3\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -1954,8 +1954,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:user-transformed=\\"true\\"
         >
           <draw:text-box draw:corner-radius=\\"10.956cm\\">
-            <text:p text:style-name=\\"P2\\">
-              <text:span text:style-name=\\"T1\\">Title</text:span>
+            <text:p text:style-name=\\"3-P2\\">
+              <text:span text:style-name=\\"3-T1\\">Title</text:span>
             </text:p>
           </draw:text-box>
         </draw:frame>
@@ -1972,7 +1972,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -1987,7 +1987,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Overview\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -1996,8 +1996,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr4\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr4\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2006,12 +2006,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"0.024cm\\">
-            <text:p text:style-name=\\"P1\\">Overview</text:p>
+            <text:p text:style-name=\\"3-P1\\">Overview</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2023,7 +2023,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           <draw:text-box draw:corner-radius=\\"0.024cm\\">
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
-                <text:p text:style-name=\\"P5\\">Summarise the main plans</text:p>
+                <text:p text:style-name=\\"3-P5\\">Summarise the main plans</text:p>
               </text:list-item>
               <text:list-item>
                 <text:p
@@ -2046,7 +2046,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -2061,7 +2061,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Long-term goal\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -2070,8 +2070,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr6\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr6\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2080,12 +2080,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"0.032cm\\">
-            <text:p text:style-name=\\"P1\\">Long-term goal</text:p>
+            <text:p text:style-name=\\"3-P1\\">Long-term goal</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2097,7 +2097,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           <draw:text-box draw:corner-radius=\\"0.032cm\\">
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
-                <text:p text:style-name=\\"P5\\">State the desired goal</text:p>
+                <text:p text:style-name=\\"3-P5\\">State the desired goal</text:p>
               </text:list-item>
               <text:list-item>
                 <text:p
@@ -2120,7 +2120,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -2135,7 +2135,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"The Present Situation\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -2144,8 +2144,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr7\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr7\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2154,12 +2154,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"9.472cm\\">
-            <text:p text:style-name=\\"P1\\">The Present Situation</text:p>
+            <text:p text:style-name=\\"3-P1\\">The Present Situation</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2172,7 +2172,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P5\\"
+                  text:style-name=\\"3-P5\\"
                 >Give a summary of the current situation</text:p>
               </text:list-item>
             </text:list>
@@ -2191,7 +2191,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -2206,7 +2206,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Development up to present\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -2215,8 +2215,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr8\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr8\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2225,12 +2225,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"10.162cm\\">
-            <text:p text:style-name=\\"P1\\">Development up to present</text:p>
+            <text:p text:style-name=\\"3-P1\\">Development up to present</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2243,7 +2243,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P5\\"
+                  text:style-name=\\"3-P5\\"
                 >Development made up to the current situation</text:p>
               </text:list-item>
               <text:list-item>
@@ -2277,7 +2277,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -2292,7 +2292,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Potential Alternatives\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -2301,8 +2301,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr9\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr9\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2311,12 +2311,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box draw:corner-radius=\\"0.024cm\\">
-            <text:p text:style-name=\\"P1\\">Potential Alternatives</text:p>
+            <text:p text:style-name=\\"3-P1\\">Potential Alternatives</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2329,7 +2329,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P5\\"
+                  text:style-name=\\"3-P5\\"
                 >State the alternative strategies</text:p>
               </text:list-item>
               <text:list-item>
@@ -2356,7 +2356,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -2371,7 +2371,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"Recommendation\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"3-dp3\\"
         draw:master-page-name=\\"prs-strategy\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -2380,8 +2380,8 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr10\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"3-pr10\\"
+          draw:text-style-name=\\"3-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.911cm\\"
           svg:height=\\"3.506cm\\"
@@ -2390,12 +2390,12 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           presentation:class=\\"title\\"
         >
           <draw:text-box>
-            <text:p text:style-name=\\"P1\\">Recommendation</text:p>
+            <text:p text:style-name=\\"3-P1\\">Recommendation</text:p>
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
-          draw:text-style-name=\\"P6\\"
+          presentation:style-name=\\"3-pr5\\"
+          draw:text-style-name=\\"3-P6\\"
           draw:layer=\\"layout\\"
           svg:width=\\"23.548cm\\"
           svg:height=\\"13.231cm\\"
@@ -2408,7 +2408,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
             <text:list text:style-name=\\"L3\\">
               <text:list-item>
                 <text:p
-                  text:style-name=\\"P5\\"
+                  text:style-name=\\"3-P5\\"
                 >Recommend one or several strategies</text:p>
               </text:list-item>
               <text:list-item>
@@ -2440,7 +2440,7 @@ exports[`Integration merges "samples0/pres1.odp" and "samples0/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr3\\"
-            draw:text-style-name=\\"P4\\"
+            draw:text-style-name=\\"3-P4\\"
             draw:layer=\\"layout\\"
             svg:width=\\"14.517cm\\"
             svg:height=\\"11.409cm\\"
@@ -8279,7 +8279,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
     />
   </office:font-face-decls>
   <office:automatic-styles>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"5-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -8288,7 +8288,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
         presentation:display-date-time=\\"false\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"5-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -8296,7 +8296,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp3\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"5-dp3\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -8305,11 +8305,11 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
         presentation:display-date-time=\\"false\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"5-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"5-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin0-title\\"
     >
@@ -8317,7 +8317,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"5-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin0-subtitle\\"
     >
@@ -8328,7 +8328,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"5-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin0-notes\\"
     >
@@ -8339,7 +8339,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"5-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin-title\\"
     >
@@ -8347,7 +8347,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"5-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin-outline1\\"
     >
@@ -8355,7 +8355,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr6\\"
+      style:name=\\"5-pr6\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Alizarin-notes\\"
     >
@@ -8366,14 +8366,14 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"5-P1\\" style:family=\\"paragraph\\">
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P2\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"5-P2\\" style:family=\\"paragraph\\">
       <loext:graphic-properties draw:fill-color=\\"#ffffff\\" />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"7-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -8382,7 +8382,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"7-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -8390,11 +8390,11 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"7-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"7-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-title\\"
     >
@@ -8405,7 +8405,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"7-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-subtitle\\"
     >
@@ -8417,7 +8417,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"7-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-notes\\"
     >
@@ -8428,7 +8428,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"7-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-title\\"
     >
@@ -8439,7 +8439,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"7-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-outline1\\"
     >
@@ -8447,7 +8447,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr6\\"
+      style:name=\\"7-pr6\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-notes\\"
     >
@@ -8458,10 +8458,10 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"7-P1\\" style:family=\\"paragraph\\">
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P2\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"7-P2\\" style:family=\\"paragraph\\">
       <loext:graphic-properties draw:fill-color=\\"#ffffff\\" />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
@@ -8695,7 +8695,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
     <office:presentation>
       <draw:page
         draw:name=\\"page1\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"5-dp1\\"
         draw:master-page-name=\\"Alizarin0\\"
         presentation:presentation-page-layout-name=\\"AL1T0\\"
         presentation:use-date-time-name=\\"dtd1\\"
@@ -8705,8 +8705,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr1\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"5-pr1\\"
+          draw:text-style-name=\\"5-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"26cm\\"
           svg:height=\\"2.5cm\\"
@@ -8719,8 +8719,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr2\\"
-          draw:text-style-name=\\"P2\\"
+          presentation:style-name=\\"5-pr2\\"
+          draw:text-style-name=\\"5-P2\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.5cm\\"
           svg:height=\\"7cm\\"
@@ -8759,7 +8759,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page2\\"
-        draw:style-name=\\"dp3\\"
+        draw:style-name=\\"5-dp3\\"
         draw:master-page-name=\\"Alizarin\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
         presentation:use-date-time-name=\\"dtd1\\"
@@ -8769,8 +8769,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr4\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"5-pr4\\"
+          draw:text-style-name=\\"5-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"26cm\\"
           svg:height=\\"2.5cm\\"
@@ -8783,7 +8783,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
+          presentation:style-name=\\"5-pr5\\"
           draw:text-style-name=\\"P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.5cm\\"
@@ -8808,7 +8808,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr6\\"
-            draw:text-style-name=\\"P2\\"
+            draw:text-style-name=\\"5-P2\\"
             draw:layer=\\"layout\\"
             svg:width=\\"16.799cm\\"
             svg:height=\\"13.364cm\\"
@@ -8823,7 +8823,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page1\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"7-dp1\\"
         draw:master-page-name=\\"Beehive\\"
         presentation:presentation-page-layout-name=\\"AL1T0\\"
       >
@@ -8832,8 +8832,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr1\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"7-pr1\\"
+          draw:text-style-name=\\"7-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"4.506cm\\"
@@ -8847,8 +8847,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr2\\"
-          draw:text-style-name=\\"P2\\"
+          presentation:style-name=\\"7-pr2\\"
+          draw:text-style-name=\\"7-P2\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"3.2cm\\"
@@ -8888,7 +8888,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page2\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"7-dp1\\"
         draw:master-page-name=\\"Beehive1\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -8897,8 +8897,8 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr4\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"7-pr4\\"
+          draw:text-style-name=\\"7-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"3.506cm\\"
@@ -8912,7 +8912,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
+          presentation:style-name=\\"7-pr5\\"
           draw:text-style-name=\\"P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
@@ -8938,7 +8938,7 @@ exports[`Integration merges "samples1/pres1.odp" and "samples1/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr6\\"
-            draw:text-style-name=\\"P2\\"
+            draw:text-style-name=\\"7-P2\\"
             draw:layer=\\"layout\\"
             svg:width=\\"16.799cm\\"
             svg:height=\\"13.364cm\\"
@@ -15164,7 +15164,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
     />
   </office:font-face-decls>
   <office:automatic-styles>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"9-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -15173,7 +15173,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"9-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -15181,11 +15181,11 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"9-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"9-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-title\\"
     >
@@ -15196,7 +15196,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"9-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-subtitle\\"
     >
@@ -15208,7 +15208,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"9-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive-notes\\"
     >
@@ -15219,7 +15219,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"9-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-title\\"
     >
@@ -15230,7 +15230,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"9-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-outline1\\"
     >
@@ -15238,7 +15238,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr6\\"
+      style:name=\\"9-pr6\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Beehive1-notes\\"
     >
@@ -15249,10 +15249,10 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"9-P1\\" style:family=\\"paragraph\\">
       <loext:graphic-properties draw:fill-color=\\"#ffffff\\" />
     </style:style>
-    <style:style style:name=\\"dp1\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"11-dp1\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:background-visible=\\"true\\"
         presentation:background-objects-visible=\\"true\\"
@@ -15261,7 +15261,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"dp2\\" style:family=\\"drawing-page\\">
+    <style:style style:name=\\"11-dp2\\" style:family=\\"drawing-page\\">
       <style:drawing-page-properties
         presentation:display-header=\\"true\\"
         presentation:display-footer=\\"true\\"
@@ -15269,11 +15269,11 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
         presentation:display-date-time=\\"true\\"
       />
     </style:style>
-    <style:style style:name=\\"gr1\\" style:family=\\"graphic\\">
+    <style:style style:name=\\"11-gr1\\" style:family=\\"graphic\\">
       <style:graphic-properties style:protect=\\"size\\" />
     </style:style>
     <style:style
-      style:name=\\"pr1\\"
+      style:name=\\"11-pr1\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Blue_5f_Curve-title\\"
     >
@@ -15281,7 +15281,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr2\\"
+      style:name=\\"11-pr2\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Blue_5f_Curve-notes\\"
     >
@@ -15293,7 +15293,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr3\\"
+      style:name=\\"11-pr3\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Blue_5f_Curve1-title\\"
     >
@@ -15304,7 +15304,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr4\\"
+      style:name=\\"11-pr4\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Blue_5f_Curve1-outline1\\"
     >
@@ -15312,7 +15312,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
     <style:style
-      style:name=\\"pr5\\"
+      style:name=\\"11-pr5\\"
       style:family=\\"presentation\\"
       style:parent-style-name=\\"Blue_5f_Curve1-notes\\"
     >
@@ -15323,7 +15323,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       />
       <style:paragraph-properties style:writing-mode=\\"lr-tb\\" />
     </style:style>
-    <style:style style:name=\\"P1\\" style:family=\\"paragraph\\">
+    <style:style style:name=\\"11-P1\\" style:family=\\"paragraph\\">
       <loext:graphic-properties draw:fill-color=\\"#ffffff\\" />
     </style:style>
     <text:list-style style:name=\\"L1\\">
@@ -15549,7 +15549,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
     <office:presentation>
       <draw:page
         draw:name=\\"page1\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"9-dp1\\"
         draw:master-page-name=\\"Beehive\\"
         presentation:presentation-page-layout-name=\\"AL1T0\\"
       >
@@ -15558,7 +15558,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr1\\"
+          presentation:style-name=\\"9-pr1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"4.506cm\\"
@@ -15572,8 +15572,8 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           </draw:text-box>
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr2\\"
-          draw:text-style-name=\\"P1\\"
+          presentation:style-name=\\"9-pr2\\"
+          draw:text-style-name=\\"9-P1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"3.2cm\\"
@@ -15613,7 +15613,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page2\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"9-dp1\\"
         draw:master-page-name=\\"Beehive1\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
@@ -15622,7 +15622,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           form:apply-design-mode=\\"false\\"
         />
         <draw:frame
-          presentation:style-name=\\"pr4\\"
+          presentation:style-name=\\"9-pr4\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"3.506cm\\"
@@ -15635,7 +15635,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           <draw:text-box />
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr5\\"
+          presentation:style-name=\\"9-pr5\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"12.179cm\\"
@@ -15660,7 +15660,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr6\\"
-            draw:text-style-name=\\"P1\\"
+            draw:text-style-name=\\"9-P1\\"
             draw:layer=\\"layout\\"
             svg:width=\\"16.799cm\\"
             svg:height=\\"13.364cm\\"
@@ -15675,12 +15675,12 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page1\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"11-dp1\\"
         draw:master-page-name=\\"Blue_5f_Curve\\"
         presentation:presentation-page-layout-name=\\"AL1T19\\"
       >
         <draw:frame
-          presentation:style-name=\\"pr1\\"
+          presentation:style-name=\\"11-pr1\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"3.506cm\\"
@@ -15705,7 +15705,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr2\\"
-            draw:text-style-name=\\"P1\\"
+            draw:text-style-name=\\"11-P1\\"
             draw:layer=\\"layout\\"
             svg:width=\\"16.799cm\\"
             svg:height=\\"13.364cm\\"
@@ -15720,12 +15720,12 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
       </draw:page>
       <draw:page
         draw:name=\\"page2\\"
-        draw:style-name=\\"dp1\\"
+        draw:style-name=\\"11-dp1\\"
         draw:master-page-name=\\"Blue_5f_Curve1\\"
         presentation:presentation-page-layout-name=\\"AL2T1\\"
       >
         <draw:frame
-          presentation:style-name=\\"pr3\\"
+          presentation:style-name=\\"11-pr3\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"1.771cm\\"
@@ -15737,7 +15737,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           <draw:text-box />
         </draw:frame>
         <draw:frame
-          presentation:style-name=\\"pr4\\"
+          presentation:style-name=\\"11-pr4\\"
           draw:layer=\\"layout\\"
           svg:width=\\"25.199cm\\"
           svg:height=\\"12.179cm\\"
@@ -15761,7 +15761,7 @@ exports[`Integration merges "samples2/pres1.odp" and "samples2/pres2.odp" to a s
           />
           <draw:frame
             presentation:style-name=\\"pr5\\"
-            draw:text-style-name=\\"P1\\"
+            draw:text-style-name=\\"11-P1\\"
             draw:layer=\\"layout\\"
             svg:width=\\"16.799cm\\"
             svg:height=\\"13.364cm\\"

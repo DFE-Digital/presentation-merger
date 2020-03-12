@@ -18,8 +18,11 @@ describe('Style', () => {
           "office:document-styles.office:styles.draw:stroke-dash",
           "office:document-styles.office:styles.style:default-style",
           "office:document-styles.office:styles.style:style",
+          "office:document-styles.office:automatic-styles.style:page-layout",
           "office:document-styles.office:automatic-styles.style:style",
           "office:document-styles.office:automatic-styles.text:list-style",
+          "office:document-styles.office:master-styles.draw:layer-set.draw:layer",
+          "office:document-styles.office:master-styles.style:handout-master",
           "office:document-styles.office:master-styles.style:master-page",
         ]
       `);
