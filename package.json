@@ -10,7 +10,7 @@
     "lint:fix": "eslint --fix .",
     "docs": "jsdoc src --destination docs",
     "build": "BABEL_ENV=production babel src --out-dir lib",
-    "prepublish": "npm run lint && npm run test && npm run build"
+    "prepack": "npm run lint && npm run test && npm run build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

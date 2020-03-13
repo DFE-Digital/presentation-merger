@@ -11,9 +11,5 @@ export default async function mergeFile(stream, files) {
   for (let file of files) {
     await doc.mergeFile(file);
   }
-  doc.pipe(stream);
-  return new Promise((resolve, reject) => {
-    doc.on('end', resolve);
-    doc.on('error', reject);
-  });
+  return doc.pipe(stream);
 }

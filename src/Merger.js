@@ -1,9 +1,9 @@
 /** @module Merger */
 import { set } from 'shvl';
 import { format } from 'prettier';
-import { extractArray } from '../src/utils';
-import Presentation from '../src/Presentation';
-import Style from '../src/Style';
+import { extractArray } from './utils';
+import Presentation from './Presentation';
+import Style from './Style';
 
 import { j2xParser as Parser } from 'fast-xml-parser';
 
