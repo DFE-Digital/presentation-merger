@@ -34,19 +34,19 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
-    "@types/jest": "^24.0.24",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-jest": "^23.1.1",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@types/jest": "^25.1.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^3.1.0",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.5.0",
-    "jsdoc": "^3.6.3"
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "lint-staged": "^10.0.8"
   },
   "husky": {
     "hooks": {
@@ -62,7 +62,7 @@
   "dependencies": {
     "@prettier/plugin-xml": "^0.7.2",
     "chalk": "^3.0.0",
-    "commander": "^4.1.1",
+    "commander": "^5.0.0",
     "debug": "^4.1.1",
     "fast-xml-parser": "^3.16.0",
     "jszip": "^3.2.2",

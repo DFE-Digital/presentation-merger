@@ -64,7 +64,6 @@ describe('Document', () => {
       });
       return subject.pipe(stream).catch(e => {
         expect(e).toMatchInlineSnapshot(
-          Error,
           `[Error: Cannot call write after a stream was destroyed]`
         );
       });
