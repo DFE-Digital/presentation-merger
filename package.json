@@ -65,7 +65,7 @@
     "commander": "^5.0.0",
     "debug": "^4.1.1",
     "fast-xml-parser": "^3.16.0",
-    "jszip": "^3.2.2",
+    "jszip": "^3.7.0",
     "prettier": "^1.19.1",
     "shvl": "^2.0.0"
   },
